@@ -73,15 +73,15 @@ if ultraSuperT == True and activeSkillT == True:
     print(activeSkillEl)
     print('=======')
     # grabbing activation
-    activationConditionEl = rightTableEl.select("td")[14].text
+    activationConditionEl = rightTableEl.select("td")[13].text
     print(activationConditionEl)
     print('=======')
     # grabbing link skills
-    linkSkillsEl = rightTableEl.select("td")[16].text
+    linkSkillsEl = rightTableEl.select("td")[15].text
     print(linkSkillsEl)
     print('=======')
     # grabbing categories
-    categoriesEL = rightTableEl.select("td")[18].text
+    categoriesEL = rightTableEl.select("td")[17].text
     print(categoriesEL)
     print('=======')
 
