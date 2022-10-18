@@ -1,1 +1,58 @@
-
+; {{Characters
+; |name1 = Planet-Crushing Blow
+; |name2 = Cooler (Final Form)
+; |thumb = 
+; |thumb apng = https://static.wikia.nocookie.net/dbz-dokkanbattle/images/0/09/Card_1024830_thumb_apng.png/revision/latest?cb=20220828140039&format=original
+; |thumb link = File:Card 1024830 thumb apng.png
+; |max lv = LR
+; |max SA = LR
+; |rarity = LR
+; |type = ESTR
+; |cost = 77
+; |ID = 12483
+; |ref = yes
+; |artwork = 
+; |artwork apng = https://static.wikia.nocookie.net/dbz-dokkanbattle/images/6/6f/Card_1024830_artwork_apng.webp/revision/latest?cb=20220828140028
+; |artwork link = File:Card 1024830 artwork apng.webp
+; |Quotes = [[File:Card 1024830 sp phrase.png|200px]]
+; |Quotes2 = [[File:Card 1024830 sp02 phrase.png|200px]]
+; |Series = DBZ Movie
+; |disambig = Cooler
+; |LS description = "[[Terrifying Conquerors]]" or "[[Movie Bosses]]" Category Ki +3 and HP, ATK & DEF +170%; plus an additional HP, ATK & DEF +30% for characters who also belong to the "[[Transformation Boost]]" Category
+; |SA type = M |SA name = Death Drop
+; |SA description = Greatly raises DEF for 1 turn<ref>Raises DEF by 50% for 1 turn</ref>, causes colossal damage to enemy and lowers ATK<ref>Lowers enemy's ATK by 20% for 3 turns</ref>
+; |UltraSA name = Death Flash
+; |UltraSA description =  Raises ATK<ref>Raises ATK by 30% for 99 turns ([[Stack Attack|How does it work?]])</ref> and causes mega-colossal damage to enemy
+; |PS name = Endless Terror
+; |PS description = Activates the Entrance Animation (once only) and launches an additional attack that has a medium chance<ref>30% chance for additional attack to become a Super Attack</ref> of becoming a Super Attack for 3 turns when there is another "[[Terrifying Conquerors]]" Category ally on the team at start of character's attacking turn; Ki +5 and ATK & DEF +100%; plus an additional Ki +1 (up to +5) and ATK & DEF +10% (up to 100%) with each attack performed; launches 2 additional attacks, each of which has a medium chance<ref>30% chance for each additional attack to become a Super Attack</ref> of becoming a Super Attack; launches an additional Super Attack starting from the turn in which the character performs the 10th attack in battle
+; |Passive skill voice = yes
+; |Passive skill voice jap = LRSTRCoolerEntranceAnimationJP.ogg
+; |Passive skill voice glb = LRSTRCoolerEntranceAnimationEN.ogg
+; |Passive skill BGM = LRSTRCoolerEntranceAnimationBGM.ogg
+; |SA type Active = Ki |Active skill name = Supernova
+; |Active skill = Greatly raises ATK temporarily<ref>Raises "ultimate damage" multiplier by 50% during attack</ref> and causes ultimate damage to enemy; disables enemy's action once within the turn
+; |Active skill condition = Can be activated upon performing 8 attacks during battle (once only)
+; |Active skill voice jap = LRSTRCoolerActiveSkillJP.ogg
+; |Active skill voice glb = LRSTRCoolerActiveSkillEN.ogg
+; |Active skill BGM = LRSTRCoolerActiveSkillBGM.ogg
+; |Active Skill Ultimate = y
+; |Link skill = [[Metamorphosis]] - [[Big Bad Bosses]] - [[Universe's Most Malevolent]] - [[Strongest Clan in Space]] - [[Thirst for Conquest]] - [[Fierce Battle]] - [[Legendary Power]]
+; |Category = [[Movie Bosses]] - [[Transformation Boost]] - [[Wicked Bloodline]] - [[Terrifying Conquerors]] - [[Target: Goku]] - [[Final Trump Card]] - [[Space-Traveling Warriors]] - [[Planetary Destruction]]
+; |kiMeter LR = 3 Green
+; |Rank = A STR
+; |HP base = 5250
+; |ATK base = 4860
+; |DEF base = 2700
+; |HP max = 17325
+; |ATK max = 16040
+; |DEF max = 8913
+; |Undokkaned = [[File:Card 1024820 thumb.png|60px|link=Thorough Destruction Cooler (Final Form)]]
+; |12 ki =  150%|24 ki = 200%
+; |details = ► His additional boost with each attack performed is calculated separately, for a total of ATK & DEF +300% starting from the turn in which the character performs the 10th attack in battle
+; |Event skill = Saiyans Vs. Wicked Bloodline
+; |Skills = yes
+; |Boost Category = y |Raise Ki = y |Raise HP = y |Raise ATK = y |Raise DEF = y |Stack Attack = y |Entrance Animation = y |Lower ATK = y |Disable Action = y |Additional Attack = y
+; |origin = Dawn of Hell Cooler (Final Form).jpg
+; |JPdate = 28 Aug 2022
+; |GLBdate = 28 Aug 2022
+; }}

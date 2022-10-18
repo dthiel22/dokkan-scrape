@@ -4,9 +4,20 @@ import requests
 from bs4 import BeautifulSoup
 
 # universal variables =======
-activeSkillTransformationClasses = ['transformation', 'fusion', 'awakening', 'activation', 'exchange']
+activeSkillTransformationClasses = [
+    'transformation', 'fusion', 'awakening', 'activation', 'exchange']
 
-URL = "https://dbz-dokkanbattle.fandom.com/wiki/Reclaim_the_Summit_Super_Saiyan_Vegeta#Extreme_Z-Awakened"
+# list of URLS
+# Base =
+# Base EZA =
+# Ultra Super =
+# Ultra Super EZA =
+# Active =
+# Active EZA =
+# Ultra Super Active = https://dbz-dokkanbattle.fandom.com/wiki/Planet-Crushing_Blow_Cooler_(Final_Form)
+# Ultra Super Active EZA =
+
+URL = "https://dbz-dokkanbattle.fandom.com/wiki/Planet-Crushing_Blow_Cooler_(Final_Form)"
 page = requests.get(URL)
 
 # grabbing main part of dokkan page ========
@@ -70,33 +81,32 @@ else:
 
 print('')
 
+leaderSkillEl = rightTableEl.select("td")[1].text
+print(leaderSkillEl)
+print("===============")
+# grabbing super attack
+superAttackEl = rightTableEl.select("td")[4].text
+print(superAttackEl)
+print("===============")
+
 # ultra super and active skill are present
 if ultraSuperT == True and activeSkillT == True:
-    # checks for transformation
+    ultraSuperAttackEl = rightTableEl.select("td")[7].text
+    print(ultraSuperAttackEl)
+    print("===============")
+    # grabbing passive skill
+    passiveSkillEl = rightTableEl.select("td")[10].text
+    print(passiveSkillEl)
+    print("===============")
+    # grabbing active skill
+    activeSkillEl = rightTableEl.select("strong")[3].text
+    print(activeSkillEl)
+    print("===============")
+    # checks for transformation class
     if str.lower(rightTableEl.select("strong")[3].text) in activeSkillTransformationClasses:
         print(">>>Ultra Super and Transformation<<<")
         print("-----------")
         # THIS IS FOR GRABBING ALL INDIVIDUAL SLOTS
-        # grabbing leader skill
-        leaderSkillEl = rightTableEl.select("td")[1].text
-        print(leaderSkillEl)
-        print("===============")
-        # grabbing super attack
-        superAttackEl = rightTableEl.select("td")[4].text
-        print(superAttackEl)
-        print("===============")
-        # grabbing ultra super attack
-        ultraSuperAttackEl = rightTableEl.select("td")[7].text
-        print(ultraSuperAttackEl)
-        print("===============")
-        # grabbing passive skill
-        passiveSkillEl = rightTableEl.select("td")[10].text
-        print(passiveSkillEl)
-        print("===============")
-        # grabbing active skill
-        activeSkillEl = rightTableEl.select("strong")[3].text
-        print(activeSkillEl)
-        print("===============")
         # grabbing activation
         activationConditionEl = rightTableEl.select("td")[14].text
         print(activationConditionEl)
@@ -109,31 +119,11 @@ if ultraSuperT == True and activeSkillT == True:
         categoriesEL = rightTableEl.select("td")[18].text
         print(categoriesEL)
         print("===============")
-    # ultra 
+    # if active skill is super or skill boost
     else:
         print(">>>Ultra Super and Active Skill<<<")
         print("-----------")
         # THIS IS FOR GRABBING ALL INDIVIDUAL SLOTS
-        # grabbing leader skill
-        leaderSkillEl = rightTableEl.select("td")[1].text
-        print(leaderSkillEl)
-        print("===============")
-        # grabbing super attack
-        superAttackEl = rightTableEl.select("td")[4].text
-        print(superAttackEl)
-        print("===============")
-        # grabbing ultra super attack
-        ultraSuperAttackEl = rightTableEl.select("td")[7].text
-        print(ultraSuperAttackEl)
-        print("===============")
-        # grabbing passive skill
-        passiveSkillEl = rightTableEl.select("td")[10].text
-        print(passiveSkillEl)
-        print("===============")
-        # grabbing active skill
-        activeSkillNameEl = rightTableEl.select("strong")[3].text
-        print(activeSkillNameEl)
-        print("===============")
         # active skill
         activeSkillEl = rightTableEl.select("td")[13].text
         print(activeSkillEl)
@@ -153,13 +143,6 @@ if ultraSuperT == True and activeSkillT == True:
 if ultraSuperT == True and activeSkillT == False:
     print(">>>Ultra Super<<<")
     print("-----------")
-    leaderSkillEl = rightTableEl.select("td")[1].text
-    print(leaderSkillEl)
-    print("===============")
-    # grabbing super attack
-    superAttackEl = rightTableEl.select("td")[4].text
-    print(superAttackEl)
-    print("===============")
     # grabbing ultra super attack
     ultraSuperAttackEl = rightTableEl.select("td")[7].text
     print(ultraSuperAttackEl)
@@ -178,15 +161,8 @@ if ultraSuperT == True and activeSkillT == False:
     print("===============")
 if ultraSuperT == False and activeSkillT == True:
     if (str.lower(rightTableEl.select("strong")[2].text)) in activeSkillTransformationClasses:
-        print(">>>Transformation<<<")
+        print(">>> Transformation <<<")
         print("-----------")
-        leaderSkillEl = rightTableEl.select("td")[1].text
-        print(leaderSkillEl)
-        print("===============")
-        # grabbing super attack
-        superAttackEl = rightTableEl.select("td")[4].text
-        print(superAttackEl)
-        print("===============")
         # grabbing passive skill
         passiveSkillEl = rightTableEl.select("td")[7].text
         print(passiveSkillEl)
@@ -207,22 +183,10 @@ if ultraSuperT == False and activeSkillT == True:
         categoriesEL = rightTableEl.select("td")[15].text
         print(categoriesEL)
         print("===============")
-    else: 
+    else:
         print(">>>Active Skill<<<")
         print("-----------")
         # THIS IS FOR GRABBING ALL INDIVIDUAL SLOTS
-        # grabbing leader skill
-        leaderSkillEl = rightTableEl.select("td")[1].text
-        print(leaderSkillEl)
-        print("===============")
-        # grabbing super attack
-        superAttackEl = rightTableEl.select("td")[4].text
-        print(superAttackEl)
-        print("===============")
-        # grabbing ultra super attack
-        ultraSuperAttackEl = rightTableEl.select("td")[7].text
-        print(ultraSuperAttackEl)
-        print("===============")
         # grabbing passive skill
         passiveSkillEl = rightTableEl.select("td")[10].text
         print(passiveSkillEl)
@@ -250,13 +214,6 @@ if ultraSuperT == False and activeSkillT == True:
 if ultraSuperT == False and activeSkillT == False:
     print('>>>NO Ultra Super or Active Skill<<<')
     print("-----------")
-    leaderSkillEl = rightTableEl.select("td")[1].text
-    print(leaderSkillEl)
-    print("===============")
-    # grabbing super attack
-    superAttackEl = rightTableEl.select("td")[4].text
-    print(superAttackEl)
-    print("===============")
     # grabbing passive skill
     passiveSkillEl = rightTableEl.select("td")[7].text
     print(passiveSkillEl)

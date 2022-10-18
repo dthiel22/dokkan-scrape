@@ -3,7 +3,9 @@ import requests
 from bs4 import BeautifulSoup
 
 # universal variables =======
-activeSkillTransformationClasses = ['transformation', 'fusion', 'awakening', 'activation', 'exchange']
+activeSkillTransformationClasses = [
+    'transformation', 'fusion', 'awakening', 'activation', 'exchange']
+
 
 def listCardAttributes():
     URL = linkUsed
@@ -46,7 +48,6 @@ def listCardAttributes():
         if 'Active' in selectAttr:
             activeSkillT = True
             print('yes Active Skill')
-
         i += 1
 
     if ultraSuperT == True and activeSkillT == True:
@@ -179,7 +180,7 @@ def listCardAttributes():
             categoriesEL = rightTableEl.select("td")[15].text
             print(categoriesEL)
             print("===============")
-        else: 
+        else:
             print(">>>Ultra Super and Active Skill<<<")
             print("-----------")
             # THIS IS FOR GRABBING ALL INDIVIDUAL SLOTS
