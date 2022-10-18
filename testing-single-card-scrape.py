@@ -61,7 +61,6 @@ while i < len(allImgEl):
         print('yes Active Skill')
 
     i += 1
-print('')
 
 if ezaTabsEl == None:
     print('No EZA Present')
