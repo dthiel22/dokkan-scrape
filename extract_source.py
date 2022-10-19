@@ -4,6 +4,7 @@ from turtle import right
 import requests
 from bs4 import BeautifulSoup
 import io
+import json
 
 # test and check io
 # msg = "Bob Smith\nJane Doe\nJane,\nPlease order more widgets\nThanks,\nBob\n"
@@ -13,7 +14,7 @@ import io
 
 # UNIVERSAL VAR
 charHolding = []
-class CharAttrs:
+class CharAttrs():
     def __init__(self, name1, name2, rarity, cType, ID, LS, SaType, SaDesc, Ultra, UltraDesc, PSName, PSDesc, ASName, AS, ASCond, TransformType, TransformCond, Links, Categories):
         self.name1 = name1
         self.name2 = name2
@@ -34,27 +35,45 @@ class CharAttrs:
         self.TransformCond = TransformCond
         self.Links = Links
         self.Categories = Categories
-
-charName1 = "None"
-charName2 = "None"
-charRarity = "None"
-charType = "None"
-charID = "None"
-charLS = "None"
-charSaType = "None"
-charSaDesc = "None"
-charUltra = "None"
-charUltraDesc = "None"
-charPsName = "None"
-charPsDesc = "None"
-charASName = "None"
-charAS = "None"
-charASCond = "None"
-charTransformType = "None"
-charTransformCond = "None"
-charLinkkills = "None"
-charCategories = "None"
-n = 0
+    def __str__(self):
+        print(self.name1)
+        print(self.name2)
+        print(self.rarity) 
+        print(self.cType)
+        print(self.ID) 
+        print(self.LS) 
+        print(self.SaType)
+        print(self.SaDesc)
+        print(self.Ultra)
+        print(self.UltraDesc)
+        print(self.PSName)
+        print(self.PSDesc)
+        print(self.ASName)
+        print(self.AS)
+        print(self.ASCond)
+        print(self.TransformType)
+        print(self.TransformCond)
+        print(self.Links)
+        return self.Categories
+charName1 = "None,"
+charName2 = "None,"
+charRarity = "None,"
+charType = "None,"
+charID = "None,"
+charLS = "None,"
+charSaType = "None,"
+charSaDesc = "None,"
+charUltra = "None,"
+charUltraDesc = "None,"
+charPsName = "None,"
+charPsDesc = "None,"
+charASName = "None,"
+charAS = "None,"
+charASCond = "None,"
+charTransformType = "None,"
+charTransformCond = "None,"
+charLinkSkills = "None,"
+charCategories = "None,"
 
 # loops through pages of cards x < 2600 ========
 x = 1
@@ -95,10 +114,9 @@ while x < 100:
         textBoxEl = content.find(id='wpTextbox1').text
         addLine = textBoxEl.replace("{{", "----\n{{")
         # print(addLine)
-        scanText = addLine
-        # print(scanText)
-        test = io.StringIO(scanText)
-        readThis = test.readline()
+        print(addLine)
+        test = io.StringIO(addLine)
+        # readThis = test.readline()
 
         # start attribute grabbing from cards
         myline = test.readline()
@@ -162,17 +180,26 @@ while x < 100:
             if '|Category =' in myline:
                 # print(">>Link skills found<<")
                 charCategories = myline
-
         print('+++++++++++end attribute check+++++++++++')
         print('')
 
-
         # assign attributes to CharAttrs object
         c = CharAttrs(charName1, charName2, charRarity, charType, charID, charLS, charSaType, charSaDesc, charUltra, charUltraDesc, charPsName, charPsDesc, charASName, charAS, charASCond, charTransformType, charTransformCond, charLinkSkills, charCategories)
+
         # checks
-        print(c.name1)
-        print(c.name2)
-        print("ultra? " + c.Ultra)
-        print('')
-        charHolding.append(c)
-        print(charHolding[0])
+        stringC = str(c)
+        print(stringC.replace('\n',""))
+        with open('out.txt', 'w', encoding='utf-8') as output:
+            output.writelines(stringC)
+        # print(type(c))
+        # charHolding.append(c)
+        
+        
+
+
+# n=0
+# with open('out.txt', 'w') as output:
+#     print(len(charHolding))
+#     if n < 10:
+#         output.write(str(charHolding[n]))
+#         n+=1
