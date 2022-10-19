@@ -54,7 +54,9 @@ charTransformType = "None"
 charTransformCond = "None"
 charLinkkills = "None"
 charCategories = "None"
+n = 0
 
+# loops through pages of cards x < 2600 ========
 x = 1
 while x < 100:
     x += 100
@@ -63,8 +65,8 @@ while x < 100:
     print(cardPage)
     print("=========")
     i = 0
-    # needs to be <= 99 in order to loop through all of it
-    while i <= 3:
+    # iteration needs to be i <= 99 in order to loop through all of it
+    while i <= 0:
         i += 1
         URL = cardPage
         page = requests.get(URL)
@@ -79,6 +81,7 @@ while x < 100:
         characterSelectEl = (characterTdEl).select("a")[1]["href"]
         linkUsed = (f"https://dbz-dokkanbattle.fandom.com{characterSelectEl}?action=edit")
         print(linkUsed)
+        print("main card page ======================")
         
         page = requests.get(linkUsed)
 
@@ -96,7 +99,6 @@ while x < 100:
         # print(scanText)
         test = io.StringIO(scanText)
         readThis = test.readline()
-        print('--------------')
 
         # start attribute grabbing from cards
         myline = test.readline()
@@ -164,39 +166,13 @@ while x < 100:
         print('+++++++++++end attribute check+++++++++++')
         print('')
 
-        
+
         # assign attributes to CharAttrs object
-        c1 = CharAttrs(charName1, charName2, charRarity, charType, charID, charLS, charSaType, charSaDesc, charUltra, charUltraDesc, charPsName, charPsDesc, charASName, charAS, charASCond, charTransformType, charTransformCond, charLinkSkills, charCategories)
-
+        c = CharAttrs(charName1, charName2, charRarity, charType, charID, charLS, charSaType, charSaDesc, charUltra, charUltraDesc, charPsName, charPsDesc, charASName, charAS, charASCond, charTransformType, charTransformCond, charLinkSkills, charCategories)
         # checks
-        print(c1.name1)
-        print(c1.name2)
-        print(c1.Ultra)
+        print(c.name1)
+        print(c.name2)
+        print("ultra? " + c.Ultra)
         print('')
-        charHolding.append(c1)
-        print(charHolding)
-        print(charHolding[0].name1)
-
-
-        # if charName1 == "":
-        #     print('no name found')
-        # print(charName2)
-        # print(charRarity)
-        # print(charType)
-        # print(charID)
-        # print(charLS)
-        # print(charSaType)
-        # print(charSaDesc)
-        # print(charUltra)
-        # print(charUltraDesc)
-        # print(charPsName)
-        # print(charPsDesc)
-        # if charActiveSkillName == "":
-        #     print('no active skill found')
-        # print(charActiveSkillName)
-        # print(charActiveSkill)
-        # print(charActiveSkillCond)
-        # print(charTransformType)
-        # print(charTransformCond)
-        # print(charLinkSkills)
-        # print(charCategories)
+        charHolding.append(c)
+        print(charHolding[0])
