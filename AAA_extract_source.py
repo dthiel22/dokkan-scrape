@@ -5,29 +5,7 @@ from turtle import right
 import requests
 from bs4 import BeautifulSoup
 import io
-
-# UNIVERSAL VAR
-extraSpace1 = '{\n'
-charName1 = "|None \n"
-charName2 = "|None \n"
-charRarity = "|None \n"
-charType = "|None \n"
-charID = "|None \n"
-charLS = "|None \n"
-charSaType = "|None \n"
-charSaDesc = "|None \n"
-charUltra = "|None \n"
-charUltraDesc = "|None \n"
-charPsName = "|None \n"
-charPsDesc = "|None \n"
-charASName = "|None \n"
-charAS = "|None \n"
-charASCond = "|None \n"
-charTransformType = "|None \n"
-charTransformCond = "|None \n"
-charLinkSkills = "|None \n"
-charCategories = "|None \n"
-extraSpace2 = '},\n'
+import json
 
 # loops through pages of cards x < 2600 ========
 x = 1
@@ -39,7 +17,7 @@ while x < 100:
     print("=========")
     i = 0
     # iteration needs to be i <= 99 in order to loop through all of it
-    while i <= 3:
+    while i <= 1:
         i += 1
         URL = cardPage
         page = requests.get(URL)
@@ -126,6 +104,27 @@ while x < 100:
         myline = test.readline()
 
         # start attribute grabbing from cards
+        extraSpace1 = '{\n'
+        charName1 = "|None \n"
+        charName2 = "|None \n"
+        charRarity = "|None \n"
+        charType = "|None \n"
+        charID = "|None \n"
+        charLS = "|None \n"
+        charSaType = "|None \n"
+        charSaDesc = "|None \n"
+        charUltra = "|None \n"
+        charUltraDesc = "|None \n"
+        charPsName = "|None \n"
+        charPsDesc = "|None \n"
+        charASName = "|None \n"
+        charAS = "|None \n"
+        charASCond = "|None \n"
+        charTransformType = "|None \n"
+        charTransformCond = "|None \n"
+        charLinkSkills = "|None \n"
+        charCategories = "|None \n"
+        extraSpace2 = '},\n'
         while myline:
             # print(myline)
             myline = test.readline()
@@ -186,11 +185,57 @@ while x < 100:
             if '|Category:' in myline:
                 # print(">>Link skills found<<")
                 charCategories = myline
-
-        print('+++++++++++end attribute check+++++++++++')
+            
+            results = [extraSpace1, charName1, charName2, charRarity, charType, charID, charLS, charSaType, charSaDesc, charUltra, charUltraDesc, charPsName, charPsDesc, charASName, charAS, charASCond, charTransformType, charTransformCond, charLinkSkills, charCategories, extraSpace2]
+        print(results)
         print('')
-
-        results = [extraSpace1, charName1, charName2, charRarity, charType, charID, charLS, charSaType, charSaDesc, charUltra, charUltraDesc, charPsName, charPsDesc, charASName, charAS, charASCond, charTransformType, charTransformCond, charLinkSkills, charCategories, extraSpace2]
 
         with open('out.txt', 'a', encoding='utf-8') as output:
             output.writelines(results)
+
+def buildJSON():
+    # the file to be converted
+    filename = 'data.txt'
+    
+    # resultant dictionary
+    dict1 = {}
+    
+    # fields in the sample file
+    fields =['name', 'designation', 'age', 'salary']
+    
+    with open(filename) as fh:
+        # count variable for employee id creation
+        l = 1
+        for line in fh:
+            
+            # reading line by line from the text file
+            description = list( line.strip().split(None, 4))
+            
+            # for output see below
+            print(description)
+            
+            # for automatic creation of id for each employee
+            sno ='emp'+str(l)
+        
+            # loop variable
+            i = 0
+            # intermediate dictionary
+            dict2 = {}
+            while i<len(fields):
+                
+                    # creating dictionary for each employee
+                    dict2[fields[i]]= description[i]
+                    i = i + 1
+                    
+            # appending the record of each employee to
+            # the main dictionary
+            dict1[sno]= dict2
+            l = l + 1
+    
+    
+    # creating json file       
+    out_file = open("test2.json", "w")
+    json.dump(dict1, out_file, indent = 4)
+    out_file.close()
+
+buildJSON()
