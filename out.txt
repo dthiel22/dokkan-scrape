@@ -1,1 +1,189 @@
-|Category = [[Androids]] - [[Artificial Life Forms]] - [[Androids-Cell Saga|Androids/Cell Saga]] - [[Target: Goku]] - [[Saviors]]
+{
+|name1: The Warrior Awakens
+|name2: Android #16
+|rarity: SR
+|type: STR-E
+|ID: 1101
+|LS description: ATK +15% when HP is 50% or above
+|None 
+|SA description: Causes huge damage to enemy
+|None 
+|None 
+|PS name: The Mission
+|PS description: ATK +50% for first ATK only
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Android Assault
+|Category: Androids
+},
+{
+|name1: Martial Guidance
+|name2: Master Roshi
+|rarity: SR
+|type: AGL-S
+|ID: 1102
+|LS description: File:AGL icon.png|30px|link=Category:AGL Type ATK +25%
+|SA type: Ki |SA name:  Kamehameha
+|SA description: Causes huge damage to enemy
+|None 
+|None 
+|PS name: Masters Teachings
+|PS description: Ki +1 for all allies when HP is 50% or above
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Respect
+|Category: DB Saga
+},
+{
+|name1: Professional Tactician
+|name2: Mercenary Tao
+|rarity: R
+|type: AGL-E
+|ID: 1103
+|LS description: File:AGL icon.png|30px|link=Category: AGL and File:INT icon.png|30px|link=Category: INT Type ATK +15%
+|SA type: Ki |SA name: Dodon Ray
+|SA description: Huge damage and rare chance to stun the enemy 10% chance to stun the enemy for 2 turns
+|None 
+|None 
+|PS name: Adversity
+|PS description: ATK +1500 when HP is 30% or below
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Crane School
+|Category: Dragon Ball Seekers
+},
+{
+|name1: Heart of Innocence
+|name2: Chi-Chi
+|rarity: SR
+|type: STR-S
+|ID: 1104
+|LS description: File:STR icon.png|30px|link=Category:STR Type ATK +25%
+|SA type: Ki |SA name: Dodon Ray
+|SA description: Causes huge damage to enemy
+|None 
+|None 
+|PS name: Pinky Swear
+|PS description: File:PHY icon.png|30px|link=Category:PHY Type enemy's ATK -30%
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: All in the Family
+|Category: Peppy Gals
+},
+{
+|name1: Reckless Rage
+|name2: Dodoria
+|rarity: SR
+|type: PHY-E
+|ID: 1105
+|LS description: , File:STR icon.png|30px|link=Category: STR and File:PHY icon.png|30px|link=Category: PHY Type HP +20%
+|SA type: Ki |SA name: Maximum Buster
+|SA description: Causes huge damage to enemy
+|None 
+|None 
+|PS name: Eliminate Them!
+|PS description: Ki +2 when facing two or more enemies
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Coward
+|Category: Planet Namek Saga
+},
+{
+|name1: Never-Ending Assault
+|name2: Recoome
+|rarity: SR
+|type: PHY-E
+|ID: 1106
+|LS description: File:PHY icon.png|30px|link=Category: PHY Type ATK +30%
+|SA type: Ki |SA name: Recoome Eraser Gun
+|SA description: Causes extreme damage to enemy
+|None 
+|None 
+|PS name: Full Power
+|PS description: ATK +2500 when HP is 10% or below
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: The Ginyu Force
+|Category: Planet Namek Saga
+},
+{
+|name1: Power Awakened
+|name2: Ultimate Gohan
+|rarity: SSR
+|type: PHY-S
+|ID: 1202
+|LS description: All Types Ki +2
+|SA type: Ki |SA name: Super Kamehameha
+|SA description: Causes supreme damage and raises ATK for 3 turns Raises ATK by 50% for 3 turns (Stack Attack|How does it work?)
+|None 
+|None 
+|PS name: Perfected Prowess
+|PS description: ATK +70% when HP is 50% or above
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: All in the Family
+|Category: Hybrid Saiyans
+},
+{
+|name1: Infinite Potential
+|name2: Uub (Youth)
+|rarity: SR
+|type: STR-S
+|ID: 1203
+|LS description: ATK +15% for all Types
+|SA type: Ki |SA name: Ki Blast Cannon
+|SA description: Causes damage and may stun the enemy 20% chance to stun the enemy for 2 turns
+|None 
+|None 
+|PS name: Transmigration
+|PS description: ATK and DEF +25% when HP is 80% or below
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Infighter
+|Category: Resurrected Warriors
+},
+{
+|name1: Bursting with Power
+|name2: Pan (Kid)
+|rarity: R
+|type: PHY-S
+|ID: 1204
+|LS description: HP +15%
+|SA type: Ki|SA name: Maiden Flash
+|SA description: Causes huge damage to enemy
+|None 
+|None 
+|PS name: Inherited Taste
+|PS description: Rare chance of stunning all enemies 2% chance of stunning all enemies for 1 turn
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: All in the Family
+|Category: Hybrid Saiyans
+},

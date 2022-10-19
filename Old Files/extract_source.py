@@ -14,66 +14,67 @@ import json
 
 # UNIVERSAL VAR
 charHolding = []
-class CharAttrs():
-    def __init__(self, name1, name2, rarity, cType, ID, LS, SaType, SaDesc, Ultra, UltraDesc, PSName, PSDesc, ASName, AS, ASCond, TransformType, TransformCond, Links, Categories):
-        self.name1 = name1
-        self.name2 = name2
-        self.rarity = rarity
-        self.cType = cType
-        self.ID = ID
-        self.LS = LS
-        self.SaType = SaType
-        self.SaDesc = SaDesc
-        self.Ultra = Ultra
-        self.UltraDesc = UltraDesc
-        self.PSName = PSName
-        self.PSDesc = PSDesc
-        self.ASName = ASName
-        self.AS = AS
-        self.ASCond = ASCond
-        self.TransformType = TransformType
-        self.TransformCond = TransformCond
-        self.Links = Links
-        self.Categories = Categories
-    def __str__(self):
-        print(self.name1)
-        print(self.name2)
-        print(self.rarity) 
-        print(self.cType)
-        print(self.ID) 
-        print(self.LS) 
-        print(self.SaType)
-        print(self.SaDesc)
-        print(self.Ultra)
-        print(self.UltraDesc)
-        print(self.PSName)
-        print(self.PSDesc)
-        print(self.ASName)
-        print(self.AS)
-        print(self.ASCond)
-        print(self.TransformType)
-        print(self.TransformCond)
-        print(self.Links)
-        return self.Categories
-charName1 = "None,"
-charName2 = "None,"
-charRarity = "None,"
-charType = "None,"
-charID = "None,"
-charLS = "None,"
-charSaType = "None,"
-charSaDesc = "None,"
-charUltra = "None,"
-charUltraDesc = "None,"
-charPsName = "None,"
-charPsDesc = "None,"
-charASName = "None,"
-charAS = "None,"
-charASCond = "None,"
-charTransformType = "None,"
-charTransformCond = "None,"
-charLinkSkills = "None,"
-charCategories = "None,"
+# class CharAttrs():
+#     def __init__(self, name1, name2, rarity, cType, ID, LS, SaType, SaDesc, Ultra, UltraDesc, PSName, PSDesc, ASName, AS, ASCond, TransformType, TransformCond, Links, Categories):
+#         self.name1 = name1
+#         self.name2 = name2
+#         self.rarity = rarity
+#         self.cType = cType
+#         self.ID = ID
+#         self.LS = LS
+#         self.SaType = SaType
+#         self.SaDesc = SaDesc
+#         self.Ultra = Ultra
+#         self.UltraDesc = UltraDesc
+#         self.PSName = PSName
+#         self.PSDesc = PSDesc
+#         self.ASName = ASName
+#         self.AS = AS
+#         self.ASCond = ASCond
+#         self.TransformType = TransformType
+#         self.TransformCond = TransformCond
+#         self.Links = Links
+#         self.Categories = Categories
+#     def __str__(self):
+#         print(self.name1)
+#         print(self.name2)
+#         print(self.rarity) 
+#         print(self.cType)
+#         print(self.ID) 
+#         print(self.LS) 
+#         print(self.SaType)
+#         print(self.SaDesc)
+#         print(self.Ultra)
+#         print(self.UltraDesc)
+#         print(self.PSName)
+#         print(self.PSDesc)
+#         print(self.ASName)
+#         print(self.AS)
+#         print(self.ASCond)
+#         print(self.TransformType)
+#         print(self.TransformCond)
+#         print(self.Links)
+#         return self.Categories
+charName1 = "None \n"
+charName2 = "None \n"
+charRarity = "None \n"
+charType = "None \n"
+charID = "None \n"
+charLS = "None \n"
+charSaType = "None \n"
+charSaDesc = "None \n"
+charUltra = "None \n"
+charUltraDesc = "None \n"
+charPsName = "None \n"
+charPsDesc = "None \n"
+charASName = "None \n"
+charAS = "None \n"
+charASCond = "None \n"
+charTransformType = "None \n"
+charTransformCond = "None \n"
+charLinkSkills = "None \n"
+charCategories = "None \n"
+extraSpace = '\n'
 
 # loops through pages of cards x < 2600 ========
 x = 1
@@ -85,7 +86,7 @@ while x < 100:
     print("=========")
     i = 0
     # iteration needs to be i <= 99 in order to loop through all of it
-    while i <= 0:
+    while i <= 2:
         i += 1
         URL = cardPage
         page = requests.get(URL)
@@ -112,10 +113,11 @@ while x < 100:
         # grabbing text box =====================
         print('')
         textBoxEl = content.find(id='wpTextbox1').text
-        addLine = textBoxEl.replace("{{", "----\n{{")
+        addLineToTop = textBoxEl.replace("{{", "----\n{{")
+        replaceEqualSign = addLineToTop.replace("=",":")
         # print(addLine)
-        print(addLine)
-        test = io.StringIO(addLine)
+        print(replaceEqualSign)
+        test = io.StringIO(replaceEqualSign)
         # readThis = test.readline()
 
         # start attribute grabbing from cards
@@ -129,68 +131,66 @@ while x < 100:
             if '|name2' in myline:
                 # print(">>nametwo found<<")
                 charName2 = myline
-            if '|rarity =' in myline:
+            if '|rarity :' in myline:
                 # print(">>rarity found<<")
                 charRarity = myline
-            if '|type =' in myline:
+            if '|type :' in myline:
                 # print(">>type found<<")
                 charType = myline
-            if '|ID =' in myline:
+            if '|ID :' in myline:
                 # print(">>ID found<<")
                 charID = myline
-            if '|LS description =' in myline:
+            if '|LS description :' in myline:
                 # print(">>LS found<<")
                 charLS = myline
-            if '|SA type =' in myline:
+            if '|SA type :' in myline:
                 # print(">>SA type found<<")
                 charSaType = myline
-            if '|SA description =' in myline:
+            if '|SA description :' in myline:
                 # print(">>SA description found<<")
                 charSaDesc = myline
-            if '|UltraSA name =' in myline:
+            if '|UltraSA name :' in myline:
                 # print(">>UltraSA found<<")
                 charUltra = myline
-            if '|UltraSA description =' in myline:
+            if '|UltraSA description :' in myline:
                 # print(">>UltraSa Description found<<")
                 charUltraDesc = myline
-            if '|PS name =' in myline:
+            if '|PS name :' in myline:
                 # print(">>PS name found<<")
                 charPsName = myline
-            if '|PS description =' in myline:
+            if '|PS description :' in myline:
                 # print(">>PS descriotion found<<")
                 charPsDesc = myline
-            if '|Active Skill name =' in myline:
+            if '|Active Skill name :' in myline:
                 # print(">>Active Skill name found<<")
                 charASName = myline
-            if '|Active Skill =' in myline:
+            if '|Active Skill :' in myline:
                 # print(">>Active Skill found<<")
                 charAS = myline
-            if '|Active Skill condition =' in myline:
+            if '|Active Skill condition :' in myline:
                 # print(">>Active Skill condition found<<")
                 charASCond = myline
-            if '|Transform type =' in myline:
+            if '|Transform type :' in myline:
                 # print(">>Transform type found<<")
                 charTransformType = myline
-            if '|Transform condition =' in myline:
+            if '|Transform condition :' in myline:
                 # print(">>Transform description found<<")
                 charTransformCond = myline
-            if '|Link skill =' in myline:
+            if '|Link skill :' in myline:
                 # print(">>Link skills found<<")
                 charLinkSkills = myline
-            if '|Category =' in myline:
+            if '|Category :' in myline:
                 # print(">>Link skills found<<")
                 charCategories = myline
         print('+++++++++++end attribute check+++++++++++')
         print('')
 
-        # assign attributes to CharAttrs object
-        c = CharAttrs(charName1, charName2, charRarity, charType, charID, charLS, charSaType, charSaDesc, charUltra, charUltraDesc, charPsName, charPsDesc, charASName, charAS, charASCond, charTransformType, charTransformCond, charLinkSkills, charCategories)
+        # assign attributes to CharAttrs object =====================================
+        # c = CharAttrs(charName1, charName2, charRarity, charType, charID, charLS, charSaType, charSaDesc, charUltra, charUltraDesc, charPsName, charPsDesc, charASName, charAS, charASCond, charTransformType, charTransformCond, charLinkSkills, charCategories)
+        results = [charName1, charName2, charRarity, charType, charID, charLS, charSaType, charSaDesc, charUltra, charUltraDesc, charPsName, charPsDesc, charASName, charAS, charASCond, charTransformType, charTransformCond, charLinkSkills, charCategories, extraSpace]
 
-        # checks
-        stringC = str(c)
-        print(stringC.replace('\n',""))
-        with open('out.txt', 'w', encoding='utf-8') as output:
-            output.writelines(stringC)
+        with open('out.txt', 'a', encoding='utf-8') as output:
+            output.writelines(results)
         # print(type(c))
         # charHolding.append(c)
         
