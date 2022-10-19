@@ -1,189 +1,672 @@
 {
-|name1: The Warrior Awakens
-|name2: Android #16
+|None 
+|None 
 |rarity: SR
-|type: STR-E
-|ID: 1101
-|LS description: ATK +15% when HP is 50% or above
-|None 
-|SA description: Causes huge damage to enemy
-|None 
-|None 
-|PS name: The Mission
-|PS description: ATK +50% for first ATK only
+|type: AGL
+|ID: 1301
 |None 
 |None 
 |None 
 |None 
 |None 
-|Link skill: Android Assault
-|Category: Androids
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
 },
 {
-|name1: Martial Guidance
-|name2: Master Roshi
-|rarity: SR
+|name1: Dashing Light
+|name2: Super Saiyan Goku (GT)
+|rarity: SSR
 |type: AGL-S
-|ID: 1102
-|LS description: File:AGL icon.png|30px|link=Category:AGL Type ATK +25%
-|SA type: Ki |SA name:  Kamehameha
-|SA description: Causes huge damage to enemy
-|None 
-|None 
-|PS name: Masters Teachings
-|PS description: Ki +1 for all allies when HP is 50% or above
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Respect
-|Category: DB Saga
-},
-{
-|name1: Professional Tactician
-|name2: Mercenary Tao
-|rarity: R
-|type: AGL-E
-|ID: 1103
-|LS description: File:AGL icon.png|30px|link=Category: AGL and File:INT icon.png|30px|link=Category: INT Type ATK +15%
-|SA type: Ki |SA name: Dodon Ray
-|SA description: Huge damage and rare chance to stun the enemy 10% chance to stun the enemy for 2 turns
-|None 
-|None 
-|PS name: Adversity
-|PS description: ATK +1500 when HP is 30% or below
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Crane School
-|Category: Dragon Ball Seekers
-},
-{
-|name1: Heart of Innocence
-|name2: Chi-Chi
-|rarity: SR
-|type: STR-S
-|ID: 1104
-|LS description: File:STR icon.png|30px|link=Category:STR Type ATK +25%
-|SA type: Ki |SA name: Dodon Ray
-|SA description: Causes huge damage to enemy
-|None 
-|None 
-|PS name: Pinky Swear
-|PS description: File:PHY icon.png|30px|link=Category:PHY Type enemy's ATK -30%
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: All in the Family
-|Category: Peppy Gals
-},
-{
-|name1: Reckless Rage
-|name2: Dodoria
-|rarity: SR
-|type: PHY-E
-|ID: 1105
-|LS description: , File:STR icon.png|30px|link=Category: STR and File:PHY icon.png|30px|link=Category: PHY Type HP +20%
-|SA type: Ki |SA name: Maximum Buster
-|SA description: Causes huge damage to enemy
-|None 
-|None 
-|PS name: Eliminate Them!
-|PS description: Ki +2 when facing two or more enemies
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Coward
-|Category: Planet Namek Saga
-},
-{
-|name1: Never-Ending Assault
-|name2: Recoome
-|rarity: SR
-|type: PHY-E
-|ID: 1106
-|LS description: File:PHY icon.png|30px|link=Category: PHY Type ATK +30%
-|SA type: Ki |SA name: Recoome Eraser Gun
+|ID: 1302
+|LS description: All Types HP & ATK +20%
+|SA type: Ki |SA name: Kamehameha
 |SA description: Causes extreme damage to enemy
 |None 
 |None 
-|PS name: Full Power
-|PS description: ATK +2500 when HP is 10% or below
+|PS name: Meeting the Enemy
+|PS description: ATK +40% at start of turn
 |None 
 |None 
 |None 
 |None 
 |None 
-|Link skill: The Ginyu Force
-|Category: Planet Namek Saga
+|Link skill: All in the Family, The Saiyan Lineage, Super Saiyan, Kamehameha, GT
+|Category: Pure Saiyans, Goku's Family, Turtle School, GT Heroes, Bond of Friendship, Bond of Parent and Child
 },
 {
-|name1: Power Awakened
-|name2: Ultimate Gohan
+|name1: Quintessential Saiyan
+|name2: Super Saiyan 2 Goku (GT)
 |rarity: SSR
 |type: PHY-S
-|ID: 1202
-|LS description: All Types Ki +2
+|ID: 1303
+|LS description: All Types HP and ATK +20%
+|SA type: Ki |SA name: Kamehameha
+|SA description: Causes supreme damage to enemy
+|None 
+|None 
+|PS name: Maxed-Out Power
+|PS description: Ki +3 & ATK +7000 when Ki is 9 or above
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Golden Warrior, The Saiyan Lineage, Super Saiyan, All in the Family, GT, Prepared for Battle
+|Category: Pure Saiyans, Goku's Family, Super Saiyan 2, Turtle School, GT Heroes, Bond of Friendship, Accelerated Battle, Power Beyond Super Saiyan, Bond of Parent and Child
+},
+{
+|name1: Focused on Victory
+|name2: Super Saiyan 3 Goku (GT)
+|rarity: SSR
+|type: AGL-S
+|ID: 1304
+|LS description: All Types HP, ATK & DEF +20%
 |SA type: Ki |SA name: Super Kamehameha
-|SA description: Causes supreme damage and raises ATK for 3 turns Raises ATK by 50% for 3 turns (Stack Attack|How does it work?)
+|SA description: Causes supreme damage to enemy
 |None 
 |None 
-|PS name: Perfected Prowess
+|PS name: Battlefield Concentration
+|PS description: ATK +70% when facing 3 or less enemies
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Golden Warrior, Super Saiyan, Limit-Breaking Form, Kamehameha, Over in a Flash, GT
+|Category: Super Saiyan 3, Pure Saiyans, Goku's Family, Kamehameha, Turtle School, GT Heroes, Bond of Friendship, Accelerated Battle, Power Beyond Super Saiyan, Bond of Parent and Child
+},
+{
+|name1: Dreadful Fusion
+|name2: Baby Vegeta
+|rarity: SSR
+|type: EAGL
+|ID: 1601
+|LS description: All Types HP and ATK +15%
+|SA type: Ki |SA name: Galick Gun
+|SA description: Causes extreme damage to enemy
+|None 
+|None 
+|PS name: Surprise Offensive
+|PS description: ATK & DEF +3500 as the 1st attacker in a turn
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Thirst for Conquest, Metamorphosis, Coward, GT, Hatred of Saiyans, The Saiyan Lineage
+|Category: Transformation Boost, Artificial Life Forms, Terrifying Conquerors, Target: Goku, Revenge, Inhuman Deeds, Space-Traveling Warriors, Corroded Body and Mind, GT Bosses
+},
+{
+|name1: Corroding Menace
+|name2: Super Baby 1
+|rarity: UR
+|type: EAGL
+|ID: 1602
+|LS description: All Types HP, ATK & DEF +30%
+|SA type: Ki |SA name: Final Flash
+|SA description: Causes supreme damage to enemy
+|None 
+|None 
+|PS name: A New Dominator
+|PS description: ATK & DEF +5000 at start of turn
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Thirst for Conquest, Metamorphosis, Coward, GT, Hatred of Saiyans, Nightmare, Shattering the Limit
+|Category: Transformation Boost, Artificial Life Forms, Terrifying Conquerors, Target: Goku, Revenge, Inhuman Deeds, Space-Traveling Warriors, Corroded Body and Mind, GT Bosses
+},
+{
+|name1: Revenge Exacted
+|name2: Super Baby 2
+|rarity: SSR
+|type: INT-E
+|ID: 1603
+|LS description: INT allies ATK +30% for every INT Ki obtained
+|SA type: Ki |SA name: Revenge Death Ball
+|SA description: Supreme damage to enemy and lowers ATK Lowers enemy's ATK by 20% for 3 turns
+|None 
+|None 
+|PS name: Tuffle Wrath
 |PS description: ATK +70% when HP is 50% or above
 |None 
 |None 
 |None 
 |None 
 |None 
-|Link skill: All in the Family
-|Category: Hybrid Saiyans
+|Link skill: Thirst for Conquest, Metamorphosis, Coward, GT, Hatred of Saiyans, Big Bad Bosses
+|Category: Transformation Boost, Artificial Life Forms, Terrifying Conquerors, Target: Goku, Revenge, Inhuman Deeds, Space-Traveling Warriors, Corroded Body and Mind, GT Bosses, Battle of Fate
 },
 {
-|name1: Infinite Potential
-|name2: Uub (Youth)
+|name1: Revenge Exacted
+|name2: Super Baby 2
 |rarity: SR
-|type: STR-S
-|ID: 1203
-|LS description: ATK +15% for all Types
-|SA type: Ki |SA name: Ki Blast Cannon
-|SA description: Causes damage and may stun the enemy 20% chance to stun the enemy for 2 turns
+|type: INT
+|ID: 1604
+|LS description: INT allies ATK +30% for every INT Ki obtained
+|SA type: Ki |SA name: Revenge Death Ball
+|SA description: Supreme damage to enemy and lowers ATK Lowers enemy's ATK by 20% for 3 turns
 |None 
 |None 
-|PS name: Transmigration
-|PS description: ATK and DEF +25% when HP is 80% or below
+|PS name: Tuffle Wrath
+|PS description: ATK +70% when HP is 50% or above
 |None 
 |None 
 |None 
 |None 
 |None 
-|Link skill: Infighter
-|Category: Resurrected Warriors
+|Link skill: Thirst for Conquest, Metamorphosis, Coward, GT, Hatred of Saiyans, Big Bad Bosses
+|Category: Transformation Boost, Artificial Life Forms, Terrifying Conquerors, Target: Goku, Revenge, Inhuman Deeds, Space-Traveling Warriors, Corroded Body and Mind, GT Bosses, Battle of Fate
 },
 {
-|name1: Bursting with Power
-|name2: Pan (Kid)
-|rarity: R
-|type: PHY-S
-|ID: 1204
-|LS description: HP +15%
-|SA type: Ki|SA name: Maiden Flash
+|name1: Child's Play
+|name2: Arale Norimaki
+|rarity: SSR
+|type: TEQ-S
+|ID: 1901
+|LS description: TEQ Type HP +50%
+|SA type: Ki |SA name: Kamehameha Cannon
 |SA description: Causes huge damage to enemy
 |None 
 |None 
-|PS name: Inherited Taste
-|PS description: Rare chance of stunning all enemies 2% chance of stunning all enemies for 1 turn
+|PS name: Mark of a Good Kid
+|PS description: When HP is 30% or above, Ki +3 and ATK +3000
 |None 
 |None 
 |None 
 |None 
 |None 
-|Link skill: All in the Family
-|Category: Hybrid Saiyans
+|Link skill: Mechanical Menaces, The Innocents, Shocking Speed, Revival, Battlefield Diva, Penguin Village Adventure
+|Category: Artificial Life Forms, Youth, Crossover
+},
+{
+|name1: Penguin Village Adventure
+|name2: Goku (Youth)
+|rarity: SSR
+|type: STR-S
+|ID: 1902
+|LS description: STR Type HP +50%
+|SA type: Ki |SA name: Kamehameha Cannon
+|SA description: Causes huge damage to enemy
+|None 
+|None 
+|PS name: Bundle of Energy
+|PS description: ATK +5000 as the 1st attacker in a turn
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: All in the Family, The Innocents, Turtle School (Link Skill)|Turtle School, Guidance of the Dragon Balls, The Incredible Adventure, Penguin Village Adventure
+|Category: Pure Saiyans, Goku's Family, Youth, DB Saga, Crossover, Turtle School, Bond of Friendship, Bond of Parent and Child
+},
+{
+|name1: Hero of Penguin Village
+|name2: Sourman
+|rarity: SSR
+|type: PHY-S
+|ID: 1903
+|LS description:  PHY Type HP & DEF +60%
+|SA type: Ki |SA name: Kamehameha Cannon
+|SA description: Causes supreme damage to enemy while sacrificing 7% HP
+|None 
+|None 
+|PS name: The Bravest Finger
+|PS description: When HP is 50% or above, Ki +5 and all enemies' ATK & DEF -20%
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Coward, Hero, Patrol, Flee, Signature Pose, Penguin Village Adventure
+|Category: DB Saga, Special Pose, Crossover, Defenders of Justice
+},
+{
+|name1: Innocent Pokes
+|name2: Arale Norimaki
+|rarity: SSR
+|type: INT-S
+|ID: 1904
+|LS description: Damage received reduced by 15%
+|SA type: Ki |SA name: Kamehameha Cannon
+|SA description: Causes huge damage to enemy
+|None 
+|None 
+|PS name: Unexpected Action
+|PS description: Attacked enemy's ATK -10% for 3 turns
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Mechanical Menaces -The Innocents, Shocking Speed, Revival, Battlefield Diva, Penguin Village Adventure
+|Category: Artificial Life Forms, Youth, DB Saga, Crossover
+},
+{
+|name1: Renewed Determination
+|name2: Ultimate Gohan
+|rarity: SR
+|type: AGL-S
+|ID: 11201
+|LS description: AGL Type Ki +1; Super AGL Type HP, ATK & DEF +20%
+|SA type: Ki |SA name: Super Kamehameha
+|SA description: Raises ATK Raises ATK by 30% for 99 turns (Stack Attack|How does it work?) and causes extreme damage to enemy
+|None 
+|None 
+|PS name: See The Wall That Must Be Passed
+|PS description: ATK +40%; Ki +3 when HP is 50% or above
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Saiyan Warrior Race, Infighter, Shocking Speed, Power Bestowed by God, Kamehameha, Tournament of Power
+|Category: Hybrid Saiyans, Universe Survival Saga, Representatives of Universe 7, Goku's Family, Siblings' Bond, Kamehameha, Bond of Master and Disciple, Battle of Wits, Mastered Evolution, Bond of Parent and Child
+},
+{
+|name1: Revived Emperor
+|name2: Golden Frieza (Angel)
+|rarity: SSR
+|type: INT-E
+|ID: 11202
+|LS description: Resurrected Warriors Category Ki +2, HP +100% and ATK & DEF +140%; or   INT Type Ki +2 and HP, ATK & DEF +40%
+|SA type: Ki |SA name: Emperor's Death Beam
+|SA description: Causes immense damage to enemy and greatly lowers DEF Lowers enemy's DEF by 50% for 3 turns
+|None 
+|None 
+|PS name: Unwavering Evil
+|PS description: ATK +120% and DEF +40%; Super Class allies' and enemies' ATK -10%
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Prodigies, Universe's Most Malevolent, Revival, Strongest Clan in Space, Brutal Beatdown, Tournament of Power
+|Category: Resurrected Warriors, Universe Survival Saga, Full Power, Representatives of Universe 7, Transformation Boost, Wicked Bloodline, Otherworld Warriors, Gifted Warriors, Time Limit, Mastered Evolution, Sworn Enemies
+},
+{
+|name1: Emperor's True Splendor
+|name2: Golden Frieza (Angel)
+|rarity: UR
+|type: EINT
+|ID: 11203
+|LS description: Resurrected Warriors Category Ki +3, HP +130% and ATK & DEF +170%; or   INT Type Ki +3 and HP, ATK & DEF +50%
+|SA type: Ki |SA name: Great Death Beam
+|SA description: Causes immense damage to enemy and greatly lowers DEF<>Lowers enemy's DEF by 50% for 3 turns
+|None 
+|None 
+|PS name: Proof of True Evil
+|PS description: ATK +150% and DEF +50%; Super Class allies' and enemies' ATK -15%
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Prodigies, Universe's Most Malevolent, Revival, Strongest Clan in Space, Brutal Beatdown, Tournament of Power, Fierce Battle
+|Category: Resurrected Warriors, Universe Survival Saga, Full Power, Representatives of Universe 7, Transformation Boost, Wicked Bloodline, Otherworld Warriors, Gifted Warriors, Time Limit, Mastered Evolution, Sworn Enemies
+},
+{
+|name1: Defeat Is Not an Option
+|name2: Android #18
+|rarity: SSR
+|type: TEQ-S
+|ID: 11204
+|LS description:  TEQ Type Ki +2 and HP, ATK & DEF +50%
+|SA type: Ki |SA name: Destructo Disc
+|SA description: Causes supreme damage and raises DEF by 30% for 6 turns
+|None 
+|None 
+|PS name: Loving Wife and Mom
+|PS description: ATK & DEF +50%; changes  PHY Ki Spheres to  TEQ Ki Spheres; additional ATK +12% per Rainbow icon.png|30px|link=Rainbow Ki Ki Sphere obtained
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Android Assault, Twin Terrors, The Innocents, Battlefield Diva, Infinite Energy, Tournament of Power
+|Category: Peppy Gals, Universe Survival Saga, Androids, Representatives of Universe 7, Siblings' Bond, Worthy Rivals, Battle of Wits, Bond of Parent and Child
+},
+{
+|name1: Rigorous Training
+|name2: Vegeta
+|rarity: SSR
+|type: INT-E
+|ID: 11501
+|LS description: Pure Saiyans Category Ki +2 and HP, ATK & DEF +30%
+|SA type: Ki |SA name: Final Burst Cannon
+|SA description: Causes supreme damage to enemy
+|None 
+|None 
+|PS name: Kakarot Knockdown
+|PS description: ATK +5000 and DEF +10000; plus an additional ATK +10000 and launches an additional attack for 3 turns after receiving attack
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Saiyan Warrior Race, Prepared for Battle, Prodigies, Saiyan Pride, Royal Lineage
+|Category: Pure Saiyans, Vegeta's Family, Androids-Cell Saga, Gifted Warriors
+},
+{
+|name1: Confident Deployment
+|name2: Vegeta
+|rarity: UR
+|type: EINT
+|ID: 11502
+|LS description: Pure Saiyans Category Ki +2 and HP, ATK & DEF +40%
+|SA type: Ki |SA name: Final Burst Cannon
+|SA description: Causes supreme damage to enemy
+|None 
+|None 
+|PS name: Pure and Calm Evil
+|PS description: ATK +8000 and DEF +15000; plus an additional ATK +12000 and launches an additional attack for 3 turns after receiving attack
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Saiyan Warrior Race, Prepared for Battle, Prodigies, Saiyan Pride, Royal Lineage, Shattering the Limit
+|Category: Pure Saiyans, Vegeta's Family, Androids-Cell Saga, Gifted Warriors
+},
+{
+|name1: Awakened Saiyan Blood
+|name2: Super Saiyan Vegeta
+|rarity: LR
+|type: EINT
+|ID: 11503
+|LS description: Pure Saiyans Category Ki +3 and HP, ATK & DEF +70%
+|SA type: Ki |SA name: Photon Bomber
+|SA description: Causes colossal damage to enemy
+|UltraSA name: Big Bang Attack
+|UltraSA description: Greatly raises ATK for 1 turn Raises SA Multiplier by 50% for 1 turn and causes mega-colossal damage to enemy
+|PS name: Prince of the Saiyans Returns
+|PS description: ATK +15000 and DEF +20000; plus an additional ATK +15000 and launches 2 additional attacks for 4 turns after receiving attack
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Golden Warrior, Super Saiyan, Prodigies, Saiyan Pride, Royal Lineage, Shattering the Limit, Legendary Power
+|Category: Pure Saiyans, Vegeta's Family, Super Saiyans, Androids-Cell Saga, Battle of Wits, Gifted Warriors, Mastered Evolution
+},
+{
+|name1: Evil Majin's Emergence
+|name2: Buu (Super)
+|rarity: SSR
+|type: STR-E
+|ID: 11504
+|LS description: Transformation Boost Category Ki +2 and HP, ATK & DEF +120%; or Extreme STR Type Ki +2 and HP, ATK & DEF +70%
+|SA type: Ki |SA name: Photon Bomber
+|SA description: Causes immense damage to enemy and lowers ATK & DEF Lowers enemy's ATK & DEF by 20% for 3 turns
+|UltraSA name: Big Bang Attack
+|UltraSA description: Greatly raises ATK for 1 turn Raises SA Multiplier by 50% for 1 turn and causes mega-colossal damage to enemy
+|PS name: Battle Form Transformation
+|PS description: ATK & DEF +70%
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Majin, Brutal Beatdown, Metamorphosis, Infinite Regeneration, Fear and Faith, The Wall Standing Tall
+|Category: Majin Buu Saga, Transformation Boost, Artificial Life Forms, Majin Power, Power Absorption, Heavenly Events, Sworn Enemies, Worldwide Chaos
+},
+{
+|name1: Bloodcurdling Activation
+|name2: Androids #17 & #18
+|rarity: SSR
+|type: PHY-E
+|ID: 11801
+|LS description: Androids Category Ki +2 and HP, ATK & DEF +100%; or Extreme PHY Type Ki +2 and HP, ATK & DEF +70%
+|SA type: Ki |SA name: Photon Bomber
+|SA description: Causes supreme damage to enemy and lowers ATK & DEF Lowers enemy's ATK & DEF by 20% for 3 turns
+|UltraSA name: Big Bang Attack
+|UltraSA description: Greatly raises ATK for 1 turn Raises SA Multiplier by 50% for 1 turn and causes mega-colossal damage to enemy
+|PS name: The Androids' Game
+|PS description: Ki +1 and ATK & DEF +60%; Androids Category allies' ATK +20%
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Infinite Energy, Android Assault, Solid Support, Shocking Speed, Soul vs Soul
+|Category: Androids, Joined Forces, Siblings' Bond, Androids-Cell Saga, Target: Goku
+},
+{
+|name1: Infinite Energy Assault
+|name2: Androids #17 & #18
+|rarity: UR
+|type: EPHY
+|ID: 11802
+|LS description: Androids Category Ki +3 and HP, ATK & DEF +120%; or Extreme PHY Type Ki +3 and HP, ATK & DEF +90%
+|SA type: Ki |SA name: Photon Bomber
+|SA description: Causes supreme damage to enemy and lowers ATK & DEF Lowers enemy's ATK & DEF by 20% for 3 turns
+|UltraSA name: Big Bang Attack
+|UltraSA description: Greatly raises ATK for 1 turn Raises SA Multiplier by 50% for 1 turn and causes mega-colossal damage to enemy
+|PS name: The Androids' Strength
+|PS description: Ki +1 and ATK & DEF +70%; rare chance 15% chance to evade enemy's attack of evading enemy's attack (including Super Attack) when HP is 66% or more; Androids Category allies' Ki +1 and ATK +30%
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Infinite Energy, Android Assault, Solid Support, Shocking Speed, Soul vs Soul, Fierce Battle
+|Category: Androids, Joined Forces, Siblings' Bond, Androids-Cell Saga, Target: Goku
+},
+{
+|name1: The Androids' Journey
+|name2: Android #16
+|rarity: LR
+|type: EPHY
+|ID: 41804
+|LS description: Androids Category Ki +4 and HP, ATK & DEF +150%; or Extreme PHY Type Ki +4 and HP, ATK & DEF +100%
+|SA type: M |SA name: Bloody Crash
+|SA description: Greatly raises DEF for 1 turn Raises DEF by 50% for 1 turn, causes colossal damage to enemy and lowers ATK & DEF Lowers enemy's ATK & DEF by 20% for 3 turns
+|UltraSA type: M |UltraSA name: Triple Annihilation Max
+|UltraSA description: Greatly raises ATK for 1 turn Raises SA Multiplier by 50% for 1 turn and causes mega-colossal damage to enemy while sacrificing 6% HP
+|PS name: Mysterious Power Revealed
+|PS description: Ki +6 and ATK & DEF +200%; high chance 50% chance to perform a critical hit of performing a critical hit; launches an additional Super Attack when there is an Androids-Cell Saga Category enemy
+|None 
+|None 
+|None 
+|Transform type: Exchange
+|None 
+|Link skill: Infinite Energy, Android Assault, Solid Support, <i>Tough as Nails</i>, Soul vs Soul, Fierce Battle, Legendary Power
+|Category: Androids, Joined Forces, Siblings' Bond, Androids-Cell Saga, Target: Goku
+},
+{
+|name1: Exceptional Ability
+|name2: Thouser
+|rarity: SSR
+|type: PHY-E
+|ID: 11805
+|LS description: Terrifying Conquerors Category Ki +2 and HP, ATK & DEF +100%
+|SA type: M |SA name: Bloody Crash
+|SA description: Causes supreme damage to enemy and lowers ATK Lowers enemy's ATK by 20% for 3 turns
+|UltraSA type: M |UltraSA name: Triple Annihilation Max
+|UltraSA description: Greatly raises ATK for 1 turn Raises SA Multiplier by 50% for 1 turn and causes mega-colossal damage to enemy while sacrificing 6% HP
+|PS name: Armored Squad's Skill
+|PS description: ATK & DEF +20% per Terrifying Conquerors Category ally on the team; launches an additional attack that has a chance 10% chance for additional attack to become a Super Attack of becoming a Super Attack when there is an ally whose name includes Cooler (disambiguation)|Cooler (Cooler's Armored Squad excluded) on the team
+|None 
+|None 
+|None 
+|Transform type: Exchange
+|None 
+|Link skill: Cooler's Armored Squad, Cooler's Underling, Loyalty, Cold Judgment, Shocking Speed, Brainiacs
+|Category: Terrifying Conquerors, Target: Goku, Special Pose, Space-Traveling Warriors
+},
+{
+|name1: Worldwide Terror
+|name2: Babidi & Majin Buu (Good)
+|rarity: LR
+|type: EPHY
+|ID: 12101
+|LS description: Majin Buu Saga Category Ki +4 and HP, ATK & DEF +130%
+|SA type: Ki |SA name: Babidi and Buu's Wanton Destruction
+|SA description: Causes colossal damage with a medium chance<>30% chance to seal Super Attack for 2 turns of sealing Super Attack and a medium chance<>30% chance to stun the enemy for 2 turns of stunning the enemy
+|UltraSA name: Babidi and Buu's Campaign of Vengeance
+|UltraSA description: Causes mega-colossal damage with a medium chance<> of sealing Super Attack and a medium chance<> of stunning the enemy
+|PS name: Second Wave of Terror
+|PS description: Ki +3 and ATK & DEF +40000; plus an additional Ki +3 and ATK & DEF +30000 when the target enemy is in ATK Down status, in DEF Down status, stunned, or the target enemy's Super Attack is sealed; launches an additional attack that has a medium chance 30% chance for additional attack to become a Super Attack of becoming a Super Attack; recovers 5% HP at the end of the turn in which an attack was received
+|None 
+|None 
+|None 
+|Transform type: Exchange
+|None 
+|Link skill: Master of Magic, Thirst for Conquest, Brutal Beatdown, Nightmare, Fear and Faith, Shattering the Limit, Legendary Power
+|Category: Majin Buu Saga, Joined Forces, Terrifying Conquerors, Inhuman Deeds, Worldwide Chaos
+},
+{
+|name1: Galactic Warrior's Ambush
+|name2: Zangya
+|rarity: SSR
+|type: TEQ-E
+|ID: 12102
+|LS description: Space-Traveling Warriors Category Ki +2 and HP, ATK & DEF +100%
+|SA type: Ki |SA name: Babidi and Buu's Wanton Destruction
+|SA description: Causes supreme damage to enemy and lowers ATK Lowers enemy's ATK by 20% for 3 turns
+|UltraSA name: Babidi and Buu's Campaign of Vengeance
+|UltraSA description: Causes mega-colossal damage with a medium chance<> of sealing Super Attack and a medium chance<> of stunning the enemy
+|PS name: Galactic Warrior's Declaration of War
+|PS description: ATK & DEF +20% per Space-Traveling Warriors Category ally on the team; launches an additional attack that has a medium chance 30% chance for additional attack to become a Super Attack of becoming a Super Attack when there is an ally whose name includes Boujack (disambiguation)|Boujack attacking in the same turn; recovers 5% HP at start of turn
+|None 
+|None 
+|None 
+|Transform type: Exchange
+|None 
+|Link skill: The Hera Clan, Galactic Warriors, Battlefield Diva, Brutal Beatdown, Revival, Shocking Speed
+|Category: Peppy Gals, Resurrected Warriors, Time Travelers, Terrifying Conquerors, Space-Traveling Warriors, Storied Figures
+},
+{
+|name1: Evil Paralysis
+|name2: Zangya
+|rarity: UR
+|type: ETEQ
+|ID: 12103
+|LS description: Space-Traveling Warriors Category Ki +3 and HP, ATK & DEF +120%
+|SA type: Ki |SA name: Babidi and Buu's Wanton Destruction
+|SA description: Causes supreme damage to enemy and lowers ATK & DEF Lowers enemy's ATK & DEF by 20% for 3 turns
+|UltraSA name: Babidi and Buu's Campaign of Vengeance
+|UltraSA description: Causes mega-colossal damage with a medium chance<> of sealing Super Attack and a medium chance<> of stunning the enemy
+|PS name: Galactic Warrior's Loyalty
+|PS description: ATK & DEF +30% per Space-Traveling Warriors Category ally on the team; launches an additional attack that has a medium chance 30% chance for additional attack to become a Super Attack of becoming a Super Attack when there is an ally whose name includes Boujack (disambiguation)|Boujack attacking in the same turn; attacked enemy's ATK & DEF -20%; recovers 10% HP at start of turn
+|None 
+|None 
+|None 
+|Transform type: Exchange
+|None 
+|Link skill: The Hera Clan, Galactic Warriors, Battlefield Diva, Brutal Beatdown, Revival, Shocking Speed, Fierce Battle
+|Category: Peppy Gals, Resurrected Warriors, Time Travelers, Terrifying Conquerors, Space-Traveling Warriors, Storied Figures
+},
+{
+|name1: Galaxy-Rocking Wave
+|name2: Boujack
+|rarity: SSR
+|type: STR-E
+|ID: 12104
+|LS description: Space-Traveling Warriors Category Ki +2 and HP, ATK & DEF +140%; or Time Travelers Category Ki +2 and HP, ATK & DEF +120%
+|SA type: Ki |SA name: Babidi and Buu's Wanton Destruction
+|SA description: Raises DEF for 1 turn Raises DEF by 30% for 1 turn and causes immense damage to enemy
+|UltraSA name: Babidi and Buu's Campaign of Vengeance
+|UltraSA description: Causes mega-colossal damage with a medium chance<> of sealing Super Attack and a medium chance<> of stunning the enemy
+|PS name: Bloodthirsty Devil
+|PS description: ATK & DEF +80%; Space-Traveling Warriors Category allies' ATK & DEF +20% when facing 1 or more enemies, plus an additional ATK & DEF +5% when facing 2 or more enemies, plus an additional ATK & DEF +5% when facing 3 or more enemies
+|None 
+|None 
+|None 
+|Transform type: Exchange
+|None 
+|Link skill: The Hera Clan, Galactic Warriors, Big Bad Bosses, Thirst for Conquest, Coward, Revival
+|Category: Resurrected Warriors, Movie Bosses, Time Travelers, Terrifying Conquerors, Space-Traveling Warriors, Storied Figures, Legendary Existence
+},
+{
+|name1: Formidable Reputation
+|name2: Vegeta (Kid)
+|rarity: UR
+|type: EAGL
+|ID: 12401
+|LS description: AGL Type Ki +3 and HP, ATK & DEF +30%
+|SA type: Ki |SA name: Babidi and Buu's Wanton Destruction
+|SA description: Causes supreme damage with a medium chance to stun the enemy 30% chance to stun the enemy for 2 turns
+|UltraSA name: Babidi and Buu's Campaign of Vengeance
+|UltraSA description: Causes mega-colossal damage with a medium chance<> of sealing Super Attack and a medium chance<> of stunning the enemy
+|PS name: Proven Prodigy
+|PS description: ATK & DEF +60% when performing a Super Attack; plus an additional ATK & DEF +20% with each attack performed (up to 60%); plus an additional ATK +20% with each Super Attack performed (up to 60%); plus an additional DEF +30% when there is another Youth Category ally attacking in the same turn; plus an additional DEF +30% when there is another Gifted Warriors Category ally attacking in the same turn
+|None 
+|None 
+|None 
+|Transform type: Exchange
+|None 
+|Link skill: Saiyan Warrior Race, Prodigies, The Saiyan Lineage, Royal Lineage, Super Strike, Bombardment, Shattering the Limit
+|Category: Pure Saiyans, Vegeta's Family, Youth, Terrifying Conquerors, Space-Traveling Warriors, Gifted Warriors
+},
+{
+|name1: Treasured Battle Device
+|name2: Android #16
+|rarity: UR
+|type: EINT
+|ID: 12402
+|LS description: INT Type Ki +3 and HP, ATK & DEF +30%
+|SA type: |SA name: Hell Flash
+|SA description: Causes supreme damage to enemy and lowers ATK<>Lowers enemy's ATK by 20% for 3 turns
+|UltraSA name: Babidi and Buu's Campaign of Vengeance
+|UltraSA description: Causes mega-colossal damage with a medium chance<> of sealing Super Attack and a medium chance<> of stunning the enemy
+|PS name: Robotic Body
+|PS description: ATK & DEF +120%; medium chance of guarding all attacks 30% chance to receive all attacks with Type advantage when all allies attacking in the same turn are Androids-Cell Saga characters; reduces damage received by 55% when guard is activated
+|None 
+|None 
+|None 
+|Transform type: Exchange
+|None 
+|Link skill: Android Assault, Mechanical Menaces, Gentleman, Tough as Nails, Soul vs Soul, Super Strike, Shattering the Limit
+|Category: Androids, Artificial Life Forms, Androids-Cell Saga, Target: Goku, Saviors, Connected Hope
+},
+{
+|name1: Dignity of the Strongest Clan
+|name2: King Cold
+|rarity: UR
+|type: EPHY
+|ID: 12404
+|LS description:  PHY & STR Type Ki +3 and HP, ATK & DEF +30%
+|SA type: Ki |SA name: Full Power Death Beam
+|SA description: Causes supreme damage to enemy and lowers ATK & DEF<>Lowers enemy's ATK & DEF by 20% for 3 turns
+|UltraSA name: Babidi and Buu's Campaign of Vengeance
+|UltraSA description: Causes mega-colossal damage with a medium chance<> of sealing Super Attack and a medium chance<> of stunning the enemy
+|PS name: The Power to Subdue
+|PS description: ATK & DEF +80%; plus an additional ATK & DEF +40% and Wicked Bloodline Category allies' ATK +20% when HP is 50% or more; all enemies ATK -25%
+|None 
+|None 
+|None 
+|Transform type: Exchange
+|None 
+|Link skill: Brutal Beatdown, Tough as Nails, Bombardment, Strongest Clan in Space, Universe's Most Malevolent,  Super Strike, Shattering the Limit
+|Category: Wicked Bloodline, Androids-Cell Saga, Terrifying Conquerors, Target: Goku
+},
+{
+|name1: Cunning Threat
+|name2: Raditz
+|rarity: SSR
+|type: PHY-E
+|ID: 12405
+|LS description: Saiyan Saga or Pure Saiyans Category Ki +2 and HP, ATK & DEF +130%; plus an additional HP, ATK & DEF +10% for characters who also belong to the Space-Traveling Warriors Category
+|SA type: Ki|SA name: Weekend
+|SA description: Raises ATK & DEF for 1 turn Raises SA Multiplier & DEF by 30% for 1 turn and causes supreme damage to enemy
+|UltraSA name: Babidi and Buu's Campaign of Vengeance
+|UltraSA description: Causes mega-colossal damage with a medium chance<> of sealing Super Attack and a medium chance<> of stunning the enemy
+|PS name: Raditz's Demand
+|PS description: ATK & DEF +100%; plus an additional ATK & DEF +50% when performing a Super Attack if facing only 1 enemy and if that enemy's HP is 50% or less when the character performs a Super Attack, plus an additional ATK +50% and medium chance 30% chance to perform a critical hit of performing a critical hit; plus an additional DEF +100% when facing 2 or more enemies
+|None 
+|None 
+|None 
+|Transform type: Exchange
+|None 
+|Link skill: The Saiyan Lineage, Saiyan Warrior Race, Coward, Brutal Beatdown, Nightmare, Prepared for Battle
+|Category: Low-Class Warrior, Pure Saiyans, Goku's Family, Terrifying Conquerors, Space-Traveling Warriors, Saiyan Saga
 },

@@ -32,14 +32,14 @@ extraSpace2 = '},\n'
 # loops through pages of cards x < 2600 ========
 x = 1
 while x < 2600:
-    x += 100
+    x += 300
     print()
     cardPage = f"https://dbz-dokkanbattle.fandom.com/wiki/All_Cards:_(1){x}_to_(1){x+99}"
     print(cardPage)
     print("=========")
     i = 0
     # iteration needs to be i <= 99 in order to loop through all of it
-    while i <= 5:
+    while i <= 3:
         i += 1
         URL = cardPage
         page = requests.get(URL)
@@ -66,26 +66,63 @@ while x < 2600:
         # adding top line for formatting (doesn't cut character name when iterating later) and = => + for formating =====================
         print('')
         addLineToTop = textBoxEl.replace("{{", "----\n{{")
-        replaceEqualSign = addLineToTop.replace(" =",":")
-        rR = replaceEqualSign.replace("[[file:Rainbow icon.png|30px|link=Rainbow Ki","")
-        rA = rR.replace("[[file:AGL icon.png|30px|link=Category: AGL","")
-        rT = rA.replace("[[File:TEQ icon.png|30px|link=Category: TEQ","")
-        rI = rT.replace("[[file:INT icon.png|30px|link=Category: INT","")
-        rS = rI.replace("[[file:STR icon.png|30px|link=Category: STR","")
-        rP = rS.replace("[[file:PHY icon.png|30px|link=Category: PHY","")
-        rSAM = rP.replace("[[Super Attack Multipliers|","")
-        rQLB = rSAM.replace('"[[',"")
+        moveSAName = addLineToTop.replace("|SA name:","\n")
+        rEqualSign = moveSAName.replace(" =",":")
+        rR1 = rEqualSign.replace("file:Rainbow icon.png|30px|link=Rainbow Ki","Rainbow")
+        rA1 = rR1.replace("File:AGL ","")
+        rT1 = rA1.replace("File:TEQ ","")
+        rI1 = rT1.replace("File:INT ","")
+        rS1 = rI1.replace("File:STR ","")
+        rP1 = rS1.replace("File:PHY ","")
+        rA2 = rP1.replace("File:EAGL ","")
+        rT2 = rA2.replace("File:ETEQ ","")
+        rI2 = rT2.replace("File:EINT ","")
+        rS2 = rI2.replace("File:ESTR ","")
+        rP2 = rS2.replace("File:EPHY ","")
+        rA3 = rP2.replace("File:SAGL ","")
+        rT3 = rA3.replace("File:STEQ ","")
+        rI3 = rT3.replace("File:SINT ","")
+        rS3 = rI3.replace("File:SSTR ","")
+        rP3 = rS3.replace("File:SPHY ","")
+        rFile = rS3.replace("File:","")
+        rIcon = rFile.replace("icon.png|30px|link=Category:","")
+        rQLB = rIcon.replace('"[[',"")
         rQRB = rQLB.replace('"]]',"")
         rLB = rQRB.replace('[[',"")
         rRB = rLB.replace(']]',"")
-        rDash = rRB.replace(' - ',"\n")
+        rDash = rRB.replace(' - ',", ")
         rBr = rDash.replace('<br>'," ")
         rRef = rBr.replace('<ref>'," ")
         rRef2 = rRef.replace('</ref>',"")
-        rName = rRef2.replace('name="[1]"',"")
+        rRef3 = rRef2.replace('ref ',"")
+        rRef4 = rRef3.replace('<>',"+")
+        rQuote = rRef4.replace('"',"")
+        rName1 = rQuote.replace('name="[1]"',"")
+        rName2 = rName1.replace('name="[2]"',"")
+        rName3 = rName2.replace('name="[3]"',"")
+        rName4 = rName3.replace('name="[4]"',"")
+        rName5 = rName4.replace('name="[5]"',"")
+        rName6 = rName5.replace('name="[6]"',"")
+        rName7 = rName6.replace('name="[7]"',"")
+        rName8 = rName7.replace('name="[8]"',"")
+        rName9 = rName8.replace('name="[9]"',"")
+        rName10 = rName9.replace('name=[10]',"")
+        rName11 = rName10.replace('name=[1]',"")
+        rName12 = rName11.replace('name=[2]',"")
+        rName13 = rName12.replace('name=[3]',"")
+        rName14 = rName13.replace('name=[4]',"")
+        rName15 = rName14.replace('name=[5]',"")
+        rName16 = rName15.replace('name=[6]',"")
+        rName17 = rName16.replace('name=[7]',"")
+        rName18 = rName17.replace('name=[8]',"")
+        rName19 = rName18.replace('name=[9]',"")
+        rName20 = rName19.replace('name=[10]',"")
+        rSAM = rName20.replace("Super Attack Multipliers|","")
+        rKCat = rSAM.replace('Kamehameha (Category)|', "")
+        rACat = rKCat.replace('|Androids/Cell Saga', "")
 
 
-        test = io.StringIO(rName)
+        test = io.StringIO(rACat)
         # readThis = test.readline()
 
         # start attribute grabbing from cards
@@ -119,6 +156,7 @@ while x < 2600:
                 charSaDesc = myline
             if '|UltraSA name:' in myline:
                 # print(">>UltraSA found<<")
+                charUltra = ""
                 charUltra = myline
             if '|UltraSA description:' in myline:
                 # print(">>UltraSa Description found<<")
