@@ -40,6 +40,7 @@ while x < 200:
         characterSelectEl = (characterTdEl).select("a")[1]["href"]
         linkUsed = (f"https://dbz-dokkanbattle.fandom.com{characterSelectEl}")
         print(linkUsed)
+        
 
 
 # loop through page selecting character links ===========
