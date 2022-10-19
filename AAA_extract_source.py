@@ -31,8 +31,8 @@ extraSpace2 = '},\n'
 
 # loops through pages of cards x < 2600 ========
 x = 1
-while x < 2600:
-    x += 300
+while x < 100:
+    x += 100
     print()
     cardPage = f"https://dbz-dokkanbattle.fandom.com/wiki/All_Cards:_(1){x}_to_(1){x+99}"
     print(cardPage)
@@ -123,10 +123,9 @@ while x < 2600:
 
 
         test = io.StringIO(rACat)
-        # readThis = test.readline()
+        myline = test.readline()
 
         # start attribute grabbing from cards
-        myline = test.readline()
         while myline:
             # print(myline)
             myline = test.readline()
@@ -156,7 +155,6 @@ while x < 2600:
                 charSaDesc = myline
             if '|UltraSA name:' in myline:
                 # print(">>UltraSA found<<")
-                charUltra = ""
                 charUltra = myline
             if '|UltraSA description:' in myline:
                 # print(">>UltraSa Description found<<")
@@ -188,6 +186,7 @@ while x < 2600:
             if '|Category:' in myline:
                 # print(">>Link skills found<<")
                 charCategories = myline
+
         print('+++++++++++end attribute check+++++++++++')
         print('')
 
