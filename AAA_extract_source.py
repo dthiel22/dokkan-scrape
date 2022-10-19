@@ -9,7 +9,7 @@ import json
 
 # loops through pages of cards x < 2600 ========
 x = 1
-while x < 100:
+while x < 300:
     x += 100
     print()
     cardPage = f"https://dbz-dokkanbattle.fandom.com/wiki/All_Cards:_(1){x}_to_(1){x+99}"
@@ -17,7 +17,7 @@ while x < 100:
     print("=========")
     i = 0
     # iteration needs to be i <= 99 in order to loop through all of it
-    while i <= 1:
+    while i <= 10:
         i += 1
         URL = cardPage
         page = requests.get(URL)
@@ -95,12 +95,14 @@ while x < 100:
         rName18 = rName17.replace('name=[8]',"")
         rName19 = rName18.replace('name=[9]',"")
         rName20 = rName19.replace('name=[10]',"")
-        rSAM = rName20.replace("Super Attack Multipliers|","")
+        rTS = rName20.replace(' (Link Skill)|Turtle School,',"")
+        rSAM = rTS.replace("Super Attack Multipliers|","")
         rKCat = rSAM.replace('Kamehameha (Category)|', "")
         rACat = rKCat.replace('|Androids/Cell Saga', "")
+        rSAT = rACat.replace('|SA type: Ki ',"")
 
 
-        test = io.StringIO(rACat)
+        test = io.StringIO(rSAT)
         myline = test.readline()
 
         # start attribute grabbing from cards
@@ -146,7 +148,7 @@ while x < 100:
             if '|LS description:' in myline:
                 # print(">>LS found<<")
                 charLS = myline
-            if '|SA type:' in myline:
+            if '|SA name:' in myline:
                 # print(">>SA type found<<")
                 charSaType = myline
             if '|SA description:' in myline:
@@ -192,50 +194,3 @@ while x < 100:
 
         with open('out.txt', 'a', encoding='utf-8') as output:
             output.writelines(results)
-
-def buildJSON():
-    # the file to be converted
-    filename = 'data.txt'
-    
-    # resultant dictionary
-    dict1 = {}
-    
-    # fields in the sample file
-    fields =['name', 'designation', 'age', 'salary']
-    
-    with open(filename) as fh:
-        # count variable for employee id creation
-        l = 1
-        for line in fh:
-            
-            # reading line by line from the text file
-            description = list( line.strip().split(None, 4))
-            
-            # for output see below
-            print(description)
-            
-            # for automatic creation of id for each employee
-            sno ='emp'+str(l)
-        
-            # loop variable
-            i = 0
-            # intermediate dictionary
-            dict2 = {}
-            while i<len(fields):
-                
-                    # creating dictionary for each employee
-                    dict2[fields[i]]= description[i]
-                    i = i + 1
-                    
-            # appending the record of each employee to
-            # the main dictionary
-            dict1[sno]= dict2
-            l = l + 1
-    
-    
-    # creating json file       
-    out_file = open("test2.json", "w")
-    json.dump(dict1, out_file, indent = 4)
-    out_file.close()
-
-buildJSON()

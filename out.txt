@@ -1,0 +1,588 @@
+{
+|name1: The Warrior Awakens
+|name2: Android #16
+|rarity: SR
+|type: STR-E
+|ID: 1101
+|LS description: ATK +15% when HP is 50% or above
+|SA name: Rocket Punch
+|SA description: Causes huge damage to enemy
+|UltraSA 
+|None 
+|PS name: The Mission
+|PS description: ATK +50% for first ATK only
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Android Assault, Mechanical Menaces, Gentleman
+|Category: Androids, Artificial Life Forms, Androids-Cell Saga, Target: Goku, Saviors
+},
+{
+|name1: Martial Guidance
+|name2: Master Roshi
+|rarity: SR
+|type: AGL-S
+|ID: 1102
+|LS description: AGL Type ATK +25%
+|SA name:  Kamehameha
+|SA description: Causes huge damage to enemy
+|UltraSA 
+|None 
+|PS name: Masters Teachings
+|PS description: Ki +1 for all allies when HP is 50% or above
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Respect, World Tournament Champion, Turtle School Kamehameha, Supreme Warrior
+|Category: DB Saga, Kamehameha, Bond of Master and Disciple, Earthlings, Battle of Wits, Turtle School
+},
+{
+|name1: Professional Tactician
+|name2: Mercenary Tao
+|rarity: R
+|type: AGL-E
+|ID: 1103
+|LS description:  AGL and  INT Type ATK +15%
+|SA name: Dodon Ray
+|SA description: Huge damage and rare chance to stun the enemy 10% chance to stun the enemy for 2 turns
+|UltraSA 
+|None 
+|PS name: Adversity
+|PS description: ATK +1500 when HP is 30% or below
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Crane School, Supreme Warrior, Brutal Beatdown, Coward, Dodon Ray
+|Category: Dragon Ball Seekers, DB Saga, Siblings' Bond, Target: Goku, Earthlings, Sworn Enemies
+},
+{
+|name1: Heart of Innocence
+|name2: Chi-Chi
+|rarity: SR
+|type: STR-S
+|ID: 1104
+|LS description: STR Type ATK +25%
+|SA name: No Forgiveness!
+|SA description: Causes huge damage to enemy
+|UltraSA 
+|None 
+|PS name: Pinky Swear
+|PS description: PHY Type enemy's ATK -30%
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: All in the Family, Battlefield Diva
+|Category: Peppy Gals, World Tournament, Goku's Family, Earthlings, Bond of Parent and Child
+},
+{
+|name1: Reckless Rage
+|name2: Dodoria
+|rarity: SR
+|type: PHY-E
+|ID: 1105
+|LS description:  TEQ,  STR and  PHY Type HP +20%
+|SA name: Maximum Buster
+|SA description: Causes huge damage to enemy
+|UltraSA 
+|None 
+|PS name: Eliminate Them!
+|PS description: Ki +2 when facing two or more enemies
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Coward, Frieza's Army, Frieza's Minion, Loyalty
+|Category: Planet Namek Saga, Dragon Ball Seekers, Terrifying Conquerors, Inhuman Deeds, Space-Traveling Warriors
+},
+{
+|name1: Never-Ending Assault
+|name2: Recoome
+|rarity: SR
+|type: PHY-E
+|ID: 1106
+|LS description:  PHY Type ATK +30%
+|SA name: Recoome Eraser Gun
+|SA description: Causes extreme damage to enemy
+|UltraSA 
+|None 
+|PS name: Full Power
+|PS description: ATK +2500 when HP is 10% or below
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: The Ginyu Force, Brutal Beatdown, Tough as Nails, Infighter, Signature Pose
+|Category: Planet Namek Saga, Ginyu Force, Dragon Ball Seekers, Terrifying Conquerors, Special Pose, Space-Traveling Warriors
+},
+{
+|name1: Master of Magic
+|name2: Guldo
+|rarity: SR
+|type: TEQ-E
+|ID: 1107
+|LS description: Enemy DEF -25%
+|SA name: Psycho Javelin
+|SA description: Causes huge damage to enemy
+|UltraSA 
+|None 
+|PS name: Paralysis
+|PS description: Briefly lower all enemies' DEF to 0 upon being attacked All enemies' DEF reduced to 0 for 3 turns after being attacked
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: The Ginyu Force, Telekinesis, Brutal Beatdown, Brainiacs, Signature Pose
+|Category: Planet Namek Saga, Ginyu Force, Dragon Ball Seekers, Terrifying Conquerors, Special Pose, Space-Traveling Warriors
+},
+{
+|name1: Speed Tactics
+|name2: Burter
+|rarity: SR
+|type: AGL-E
+|ID: 1108
+|LS description: All Type Ki +1
+|SA name: Blue Impulse
+|SA description: Causes huge damage to enemy
+|UltraSA 
+|None 
+|PS name: Fastest Thing Alive
+|PS description: Ki +2 when 1st to attack
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: The Ginyu Force, Speedy Retribution, Tag Team of Terror, Signature Pose
+|Category: Planet Namek Saga, Ginyu Force, Dragon Ball Seekers, Terrifying Conquerors, Special Pose, Space-Traveling Warriors, Accelerated Battle
+},
+{
+|name1: Maximum Firepower
+|name2: Jeice
+|rarity: SR
+|type: STR-E
+|ID: 1109
+|LS description:  PHY Type enemy ATK -25%
+|SA name: Crusher Ball
+|SA description: Causes huge damage to enemy
+|UltraSA 
+|None 
+|PS name: Teamwork
+|PS description: Allies ATK +1000 when 2nd to attack
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: The Ginyu Force, Tag Team of Terror, Signature Pose
+|Category: Planet Namek Saga, Ginyu Force, Dragon Ball Seekers, Terrifying Conquerors, Special Pose, Space-Traveling Warriors
+},
+{
+|name1: Call of Duty
+|name2: Nail
+|rarity: SR
+|type: INT-S
+|ID: 1110
+|LS description: Prevents negative status effects
+|SA name: Assault Flash
+|SA description: Causes huge damage to enemy
+|UltraSA 
+|None 
+|PS name: Buying Time
+|PS description: Recovers 10% HP when HP is 50% or below
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Namekians (Link Skill)|Namekians, Cold Judgment, Hero
+|Category: Planet Namek Saga, Namekians, Connected Hope
+},
+{
+|name1: Imminent Showdown
+|name2: Cui
+|rarity: SR
+|type: STR-E
+|ID: 1111
+|LS description:  STR Type ATK +25%
+|SA name: Dastard Impact
+|SA description: Causes huge damage to enemy
+|UltraSA 
+|None 
+|PS name: Unexpected Attack
+|PS description: With a chance 5% chance to reduce enemies' DEF by 50% for 1 turn that all enemies' DEF -50%
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Coward, Frieza's Minion
+|Category: Planet Namek Saga, Terrifying Conquerors, Space-Traveling Warriors
+},
+{
+|name1: Power Awakened
+|name2: Ultimate Gohan
+|rarity: SSR
+|type: PHY-S
+|ID: 1202
+|LS description: All Types Ki +2
+|SA name: Super Kamehameha
+|SA description: Causes supreme damage and raises ATK for 3 turns Raises ATK by 50% for 3 turns (Stack Attack|How does it work?)
+|UltraSA 
+|None 
+|PS name: Perfected Prowess
+|PS description: ATK +70% when HP is 50% or above
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: All in the Family, Kamehameha, The Saiyan Lineage, Shocking Speed, Power Bestowed by God, Supreme Power
+|Category: Hybrid Saiyans, Majin Buu Saga, Goku's Family, Siblings' Bond, Kamehameha, Revenge, Rapid Growth, Saviors, Powerful Comeback, Entrusted Will, Bond of Parent and Child
+},
+{
+|name1: Infinite Potential
+|name2: Uub (Youth)
+|rarity: SR
+|type: STR-S
+|ID: 1203
+|LS description: ATK +15% for all Types
+|SA name: Ki Blast Cannon
+|SA description: Causes damage and may stun the enemy 20% chance to stun the enemy for 2 turns
+|UltraSA 
+|None 
+|PS name: Transmigration
+|PS description: ATK and DEF +25% when HP is 80% or below
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Infighter, Tough as Nails, World Tournament Reborn, Revival, Berserker
+|Category: Resurrected Warriors, World Tournament, Majin Buu Saga, Youth, Bond of Master and Disciple, Earthlings
+},
+{
+|name1: Bursting with Power
+|name2: Pan (Kid)
+|rarity: R
+|type: PHY-S
+|ID: 1204
+|LS description: HP +15%
+|SA type: Ki|SA name: Maiden Flash
+|SA description: Causes huge damage to enemy
+|UltraSA 
+|None 
+|PS name: Inherited Taste
+|PS description: Rare chance of stunning all enemies 2% chance of stunning all enemies for 1 turn
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: All in the Family, The Saiyan Lineage, Battlefield Diva, Supreme Power
+|Category: Hybrid Saiyans, World Tournament, Majin Buu Saga, Goku's Family, Youth, Bond of Parent and Child
+},
+{
+|name1: Malevolent Magician
+|name2: Babidi
+|rarity: SR
+|type: INT-E
+|ID: 1205
+|LS description: AGL, INT & PHY Ki +1
+|SA name: Demon Eye
+|SA description: Huge damage and high chance to stun the enemy 50% chance to stun the enemy for 2 turns
+|UltraSA 
+|None 
+|PS name: Sorcery
+|PS description: ATK +10% for all allies when HP is 50% or above
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Brutal Beatdown, Master of Magic, Majin Resurrection Plan
+|Category: Majin Buu Saga, Terrifying Conquerors, Inhuman Deeds, Worldwide Chaos
+},
+{
+|name1: Twin-Clawed Terror
+|name2: Yakon
+|rarity: R
+|type: STR-E
+|ID: 1206
+|LS description: Damage received reduced by 10%
+|SA name: Light Absorber
+|SA description: Causes huge damage to enemy
+|UltraSA 
+|None 
+|PS name: Perfect Guard
+|PS description: Damage received -30% when guard is activated 
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Evil Autocrats, Loyalty, Shocking Speed, Majin Resurrection Plan
+|Category: Majin Buu Saga, Terrifying Conquerors, Corroded Body and Mind
+},
+{
+|name1: Confident Sentry 
+|name2: Pui Pui
+|rarity: R
+|type: AGL-E
+|ID: 1207
+|LS description:  AGL Type Ki +1
+|SA name: Snipe Shot
+|SA description: Causes huge damage to enemy
+|UltraSA 
+|None 
+|PS name: First Attack
+|PS description: ATK +50% for first attack only
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Evil Autocrats, Loyalty, Majin Resurrection Plan
+|Category: Majin Buu Saga, Terrifying Conquerors, Inhuman Deeds, Corroded Body and Mind
+},
+{
+|name1: A God Evolved
+|name2: Super Saiyan God SS Goku
+|rarity: SSR
+|type: AGL-S
+|ID: 1208
+|LS description: AGL, STR and PHY Type ATK + 30%
+|SA name: Kamehameha
+|SA description: Causes supreme damage to enemy
+|UltraSA 
+|None 
+|PS name: Divine Strength
+|PS description: ATK +80% when performing a Super Attack
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Super Saiyan, Warrior Gods, Kamehameha, Super-God Combat, Resurrection 'F'
+|Category: Realm of Gods, Pure Saiyans, Movie Heroes, Goku's Family, Kamehameha, Bond of Master and Disciple, Turtle School, Mastered Evolution, Bond of Friendship, Accelerated Battle, Battle of Fate, Power Beyond Super Saiyan, Bond of Parent and Child
+},
+{
+|name1: To Greater Heights
+|name2: Super Saiyan God SS Vegeta
+|rarity: SSR
+|type: STR-S
+|ID: 1209
+|LS description: AGL, STR, PHY Type ATK & DEF +25%
+|SA name: Big Bang Attack
+|SA description: Causes extreme damage to enemy
+|UltraSA 
+|None 
+|PS name: Ultimate Power
+|PS description: ATK +80% when performing a Super Attack
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Super Saiyan, Warrior Gods, Prodigies, Super-God Combat, Resurrection 'F'
+|Category: Realm of Gods, Pure Saiyans, Movie Heroes, Vegeta's Family, Siblings' Bond, Worthy Rivals, Bond of Master and Disciple, Gifted Warriors, Mastered Evolution, Battle of Fate, Power Beyond Super Saiyan, Bond of Parent and Child
+},
+{
+|name1: Fear's Ultimate Form
+|name2: Golden Frieza
+|rarity: SSR
+|type: INT-E
+|ID: 1210
+|LS description: TEQ, INT & STR Type HP & ATK +20%
+|SA name: Earth Breaker
+|SA description: Causes supreme damage to enemy
+|UltraSA 
+|None 
+|PS name: Supreme Evolution
+|PS description: ATK +40% at start of turn
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Prodigies, Universe's Most Malevolent, Revival, Super-God Combat, Resurrection 'F'
+|Category: Resurrected Warriors, Movie Bosses, Full Power, Transformation Boost, Wicked Bloodline, Terrifying Conquerors, Target: Goku, Revenge, Inhuman Deeds, Gifted Warriors, Planetary Destruction, Mastered Evolution, Sworn Enemies, Battle of Fate
+},
+{
+|None 
+|None 
+|rarity: R
+|type: TEQ
+|ID: 1211
+|None 
+|None 
+|None 
+|UltraSA 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+},
+{
+|None 
+|None 
+|rarity: R
+|type: TEQ
+|ID: 1212
+|None 
+|None 
+|None 
+|UltraSA 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+},
+{
+|None 
+|None 
+|rarity: SR
+|type: AGL
+|ID: 1301
+|None 
+|None 
+|None 
+|UltraSA 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+|None 
+},
+{
+|name1: Dashing Light
+|name2: Super Saiyan Goku (GT)
+|rarity: SSR
+|type: AGL-S
+|ID: 1302
+|LS description: All Types HP & ATK +20%
+|SA name: Kamehameha
+|SA description: Causes extreme damage to enemy
+|UltraSA 
+|None 
+|PS name: Meeting the Enemy
+|PS description: ATK +40% at start of turn
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: All in the Family, The Saiyan Lineage, Super Saiyan, Kamehameha, GT
+|Category: Pure Saiyans, Goku's Family, Turtle School, GT Heroes, Bond of Friendship, Bond of Parent and Child
+},
+{
+|name1: Quintessential Saiyan
+|name2: Super Saiyan 2 Goku (GT)
+|rarity: SSR
+|type: PHY-S
+|ID: 1303
+|LS description: All Types HP and ATK +20%
+|SA name: Super Dragon Fist
+|SA description: Causes supreme damage to enemy
+|UltraSA 
+|None 
+|PS name: Maxed-Out Power
+|PS description: Ki +3 & ATK +7000 when Ki is 9 or above
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Golden Warrior, The Saiyan Lineage, Super Saiyan, All in the Family, GT, Prepared for Battle
+|Category: Pure Saiyans, Goku's Family, Super Saiyan 2, Turtle School, GT Heroes, Bond of Friendship, Accelerated Battle, Power Beyond Super Saiyan, Bond of Parent and Child
+},
+{
+|name1: Focused on Victory
+|name2: Super Saiyan 3 Goku (GT)
+|rarity: SSR
+|type: AGL-S
+|ID: 1304
+|LS description: All Types HP, ATK & DEF +20%
+|SA name: Super Kamehameha
+|SA description: Causes supreme damage to enemy
+|UltraSA 
+|None 
+|PS name: Battlefield Concentration
+|PS description: ATK +70% when facing 3 or less enemies
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Golden Warrior, Super Saiyan, Limit-Breaking Form, Kamehameha, Over in a Flash, GT
+|Category: Super Saiyan 3, Pure Saiyans, Goku's Family, Kamehameha, Turtle School, GT Heroes, Bond of Friendship, Accelerated Battle, Power Beyond Super Saiyan, Bond of Parent and Child
+},
+{
+|name1: Symbol of Peace
+|name2: Hercule (GT)
+|rarity: R
+|type: PHY-S
+|ID: 1306
+|LS description: Damage received reduced by 10%
+|SA name: Rolling Hercule Punch
+|SA description: Causes huge damage to enemy and lowers DEF Lowers enemy's DEF by 20% for 3 turns
+|UltraSA 
+|None 
+|PS name: Perfect Guard
+|PS description: Damage reduced by 30% upon successful guard
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: World Tournament Champion, Champion's Strength, Hero, Money Money Money, GT
+|Category: World Tournament, Earthlings, GT Heroes, Bond of Friendship, Bond of Parent and Child
+},
+{
+|name1: New Evolution
+|name2: Super Saiyan 3 Vegeta
+|rarity: SSR
+|type: STR-S
+|ID: 1307
+|LS description: STR Type ATK +60%
+|SA name: Final Flash
+|SA description: Supreme damage, high chance to stun the enemy 50% chance to stun the enemy for 2 turns
+|UltraSA 
+|None 
+|PS name: Aura of the Mighty
+|PS description: Reduce received damage by 60% for 5 turns from start of turn
+|None 
+|None 
+|None 
+|None 
+|None 
+|Link skill: Golden Warrior, Saiyan Warrior Race, Super Saiyan, Prodigies, Over in a Flash, Limit-Breaking Form
+|Category: Super Saiyan 3, Pure Saiyans, Vegeta's Family, Worthy Rivals, Crossover, Gifted Warriors, Power Beyond Super Saiyan, Bond of Parent and Child
+},
