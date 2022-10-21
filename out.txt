@@ -1,588 +1,924 @@
 {
-|name1: The Warrior Awakens
-|name2: Android #16
-|rarity: SR
-|type: STR-E
-|ID: 1101
-|LS description: ATK +15% when HP is 50% or above
-|SA name: Rocket Punch
-|SA description: Causes huge damage to enemy
-|UltraSA 
-|None 
-|PS name: The Mission
-|PS description: ATK +50% for first ATK only
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Android Assault, Mechanical Menaces, Gentleman
-|Category: Androids, Artificial Life Forms, Androids-Cell Saga, Target: Goku, Saviors
+"name1": Fury Unleashed
+"name2": Super Saiyan 2 Gohan (Youth)
+"rarity": SSR
+"type": TEQ-S
+"ID": 1401
+"LS description": [[AGL]], [[TEQ]] and [[PHY]] Type HP & ATK +25%
+ "SA name": Father-Son Kamehameha
+"SA description": Causes supreme damage to enemy
+"PS name": Raging Fury
+"PS description": [[AGL]] and [[TEQ]] Type Ki +2
+"Link skill": [[Golden Warrior]] - [[Super Saiyan]] - [[Saiyan Warrior Race]] - [[Kamehameha]] - [[Soul vs Soul]]
+"Category": [[Hybrid Saiyans]] - [[Full Power]] - [[Goku's Family]] - [[Youth]] - [[Androids/Cell Saga]] - [[Kamehameha]] - [[Bond of Master and Disciple]] - [[Super Saiyan 2]] - [[Exploding Rage]] - [[All-Out Struggle]] - [[Miraculous Awakening]] - [[Entrusted Will]] - [[Battle of Fate]] - [[Power Beyond Super Saiyan]] - [[Bond of Parent and Child]]
 },
 {
-|name1: Martial Guidance
-|name2: Master Roshi
-|rarity: SR
-|type: AGL-S
-|ID: 1102
-|LS description: AGL Type ATK +25%
-|SA name:  Kamehameha
-|SA description: Causes huge damage to enemy
-|UltraSA 
-|None 
-|PS name: Masters Teachings
-|PS description: Ki +1 for all allies when HP is 50% or above
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Respect, World Tournament Champion, Turtle School Kamehameha, Supreme Warrior
-|Category: DB Saga, Kamehameha, Bond of Master and Disciple, Earthlings, Battle of Wits, Turtle School
+"name1": Time to Get Serious
+"name2": Goten (GT)
+"rarity": SR
+"type": STR-S
+"ID": 1402
+"LS description": [[STR]] and [[AGL]] Ki +2
+ "SA name": Kamehameha
+"SA description": Causes extreme damage to enemy
+"PS name": Fighter's Pose
+"PS description": ATK +2500 at start of turn
+"Link skill": [[Saiyan Warrior Race]] - [[The Saiyan Lineage]] - [[GT]] - [[Kamehameha]]
+"Category": [[Hybrid Saiyans]] - [[Goku's Family]] - [[Siblings' Bond]] - [[Kamehameha]] - [[GT Heroes]] - [[Bond of Friendship]] - [[Bond of Parent and Child]]
 },
 {
-|name1: Professional Tactician
-|name2: Mercenary Tao
-|rarity: R
-|type: AGL-E
-|ID: 1103
-|LS description:  AGL and  INT Type ATK +15%
-|SA name: Dodon Ray
-|SA description: Huge damage and rare chance to stun the enemy 10% chance to stun the enemy for 2 turns
-|UltraSA 
-|None 
-|PS name: Adversity
-|PS description: ATK +1500 when HP is 30% or below
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Crane School, Supreme Warrior, Brutal Beatdown, Coward, Dodon Ray
-|Category: Dragon Ball Seekers, DB Saga, Siblings' Bond, Target: Goku, Earthlings, Sworn Enemies
+"name1": Eternal Rival
+"name2": Super Saiyan Vegeta (GT)
+"rarity": SSR
+"type": TEQ-S
+"ID": 1404
+"LS description": All Types ATK +20%
+ "SA name": Final Flash
+"SA description": Causes extreme damage to enemy
+"PS name": Analysis of Strength
+"PS description": ATK +40% when HP is 99% or below
+"Link skill": [[Golden Warrior]] - [[Prodigies]] - [[The Saiyan Lineage]] - [[Royal Lineage]] - [[GT]] - [[Super Saiyan]]
+"Category": [[Shadow Dragon Saga]] - [[Pure Saiyans]] - [[Vegeta's Family]] - [[Super Saiyans]] - [[Worthy Rivals]] - [[Gifted Warriors]] - [[GT Heroes]] - [[Bond of Parent and Child]]
 },
 {
-|name1: Heart of Innocence
-|name2: Chi-Chi
-|rarity: SR
-|type: STR-S
-|ID: 1104
-|LS description: STR Type ATK +25%
-|SA name: No Forgiveness!
-|SA description: Causes huge damage to enemy
-|UltraSA 
-|None 
-|PS name: Pinky Swear
-|PS description: PHY Type enemy's ATK -30%
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: All in the Family, Battlefield Diva
-|Category: Peppy Gals, World Tournament, Goku's Family, Earthlings, Bond of Parent and Child
+"name1": Crusher of Evil
+"name2": Super Saiyan God SS Goku
+"rarity": SSR
+"type": TEQ-S
+"ID": 1407
+"LS description": [[TEQ]] allies' ATK +30% per [[TEQ]] Ki Sphere obtained
+ "SA name": God Kamehameha
+"SA description": Causes supreme damage to enemy
+"PS name": Burning Battle Cry
+"PS description": Change [[Rainbow Ki]] Ki Sphere to [[TEQ]] Ki Sphere
+"Link skill": [[Super Saiyan]] - [[Warrior Gods]] - [[Kamehameha]] - [[Super-God Combat]] - [[Resurrection 'F']] - [[Prepared for Battle]]
+"Category": [[Realm of Gods]] - [[Pure Saiyans]] - [[Movie Heroes]] - [[Goku's Family]] - [[Kamehameha]] - [[Bond of Master and Disciple]] - [[Turtle School]] - [[Mastered Evolution]] - [[Bond of Friendship]] - [[Accelerated Battle]] - [[Battle of Fate]] - [[Power Beyond Super Saiyan]] - [[Bond of Parent and Child]]
 },
 {
-|name1: Reckless Rage
-|name2: Dodoria
-|rarity: SR
-|type: PHY-E
-|ID: 1105
-|LS description:  TEQ,  STR and  PHY Type HP +20%
-|SA name: Maximum Buster
-|SA description: Causes huge damage to enemy
-|UltraSA 
-|None 
-|PS name: Eliminate Them!
-|PS description: Ki +2 when facing two or more enemies
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Coward, Frieza's Army, Frieza's Minion, Loyalty
-|Category: Planet Namek Saga, Dragon Ball Seekers, Terrifying Conquerors, Inhuman Deeds, Space-Traveling Warriors
+"name1": Burning Fury
+"name2": Super Saiyan God SS Vegeta
+"rarity": SSR
+"type": PHY-S
+"ID": 1408
+"LS description": [[PHY]] allies' ATK +30% per [[PHY]] Ki Sphere obtained
+ "SA name": God Final Flash
+"SA description": Causes supreme damage to enemy
+"PS name": Overwhelming Barrage
+"PS description": Change [[Rainbow Ki]] Ki Sphere to [[PHY]] Ki Sphere
+"Link skill": [[Super Saiyan]] - [[Warrior Gods]] - [[Prodigies]] - [[Super-God Combat]] - [[Resurrection 'F']] - [[Prepared for Battle]]
+"Category": [[Realm of Gods]] - [[Pure Saiyans]] - [[Movie Heroes]] - [[Vegeta's Family]] - [[Siblings' Bond]] - [[Worthy Rivals]] - [[Bond of Master and Disciple]] - [[Gifted Warriors]] - [[Mastered Evolution]] - [[Bond of Friendship]] - [[Battle of Fate]] - [[Power Beyond Super Saiyan]] - [[Bond of Parent and Child]]
 },
 {
-|name1: Never-Ending Assault
-|name2: Recoome
-|rarity: SR
-|type: PHY-E
-|ID: 1106
-|LS description:  PHY Type ATK +30%
-|SA name: Recoome Eraser Gun
-|SA description: Causes extreme damage to enemy
-|UltraSA 
-|None 
-|PS name: Full Power
-|PS description: ATK +2500 when HP is 10% or below
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: The Ginyu Force, Brutal Beatdown, Tough as Nails, Infighter, Signature Pose
-|Category: Planet Namek Saga, Ginyu Force, Dragon Ball Seekers, Terrifying Conquerors, Special Pose, Space-Traveling Warriors
+"name1": Golden Emperor
+"name2": Golden Frieza
+"rarity": SSR
+"type": AGL-E
+"ID": 1409
+"LS description": [[AGL]] Type ATK +30% per [[AGL]] Ki Sphere obtained
+ "SA name": Golden Death Ball
+"SA description": Causes supreme damage to enemy
+"PS name": Bubbling Malice
+"PS description": Reduces damage received by 80% when HP is 50% or above
+"Link skill": [[Prodigies]] - [[Universe's Most Malevolent]] - [[Revival]] - [[Super-God Combat]] - [[Resurrection 'F']] - [[Strongest Clan in Space]]
+"Category": [[Resurrected Warriors]] - [[Movie Bosses]] - [[Full Power]] - [[Transformation Boost]] - [[Wicked Bloodline]] - [[Terrifying Conquerors]] - [[Target: Goku]] - [[Revenge]] - [[Inhuman Deeds]] - [[Gifted Warriors]] - [[Planetary Destruction]] - [[Mastered Evolution]] - [[Sworn Enemies]] - [[Battle of Fate]]
 },
 {
-|name1: Master of Magic
-|name2: Guldo
-|rarity: SR
-|type: TEQ-E
-|ID: 1107
-|LS description: Enemy DEF -25%
-|SA name: Psycho Javelin
-|SA description: Causes huge damage to enemy
-|UltraSA 
-|None 
-|PS name: Paralysis
-|PS description: Briefly lower all enemies' DEF to 0 upon being attacked All enemies' DEF reduced to 0 for 3 turns after being attacked
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: The Ginyu Force, Telekinesis, Brutal Beatdown, Brainiacs, Signature Pose
-|Category: Planet Namek Saga, Ginyu Force, Dragon Ball Seekers, Terrifying Conquerors, Special Pose, Space-Traveling Warriors
+"name1": Glorious Radiance
+"name2": Hercule
+"rarity": SSR
+"type": AGL-S
+"ID": 1410
+"LS description": Super Class Ki +3
+ "SA name": Dynamite Kick  <Super Attack can be launched at 9 Ki starting from SA Lv.7>  
+"SA description": Causes low damage to enemy and recovers 7000 HP 
+"PS name": Master of the Bluff
+"PS description": Great chance  <70% chance of ATK -80% at start of turn>   of ATK -80%
+"Link skill": [[World Tournament Champion]] - [[Champion's Strength]] - [[Money Money Money]] - [[World Tournament Reborn]] - [[Hero]]
+"Category": [[Earthlings]]
 },
 {
-|name1: Speed Tactics
-|name2: Burter
-|rarity: SR
-|type: AGL-E
-|ID: 1108
-|LS description: All Type Ki +1
-|SA name: Blue Impulse
-|SA description: Causes huge damage to enemy
-|UltraSA 
-|None 
-|PS name: Fastest Thing Alive
-|PS description: Ki +2 when 1st to attack
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: The Ginyu Force, Speedy Retribution, Tag Team of Terror, Signature Pose
-|Category: Planet Namek Saga, Ginyu Force, Dragon Ball Seekers, Terrifying Conquerors, Special Pose, Space-Traveling Warriors, Accelerated Battle
+"name1": Martial Artist's Pride
+"name2": Jackie Chun
+"rarity": SSR
+"type": STEQ
+"ID": 1417
+"LS description": [[TEQ]] and [[INT]] Type Ki +3
+ "SA name": Bankoku-Bikkuri-Shou
+"SA description": Causes huge damage and seals super attack
+"PS name": Hope for the New Age
+"PS description": [[TEQ]] Type ATK & DEF +25%
+"Link skill": [[World Tournament Champion]] - [[Supreme Warrior]] - [[The Incredible Adventure]] - [[Guidance of the Dragon Balls]] - [[Bombardment]] - [[Super Strike]]
+"Category": [[World Tournament]] - [[DB Saga]] - [[Earthlings]] - [[Battle of Wits]] - [[Planetary Destruction]] - [[Accelerated Battle]]
 },
 {
-|name1: Maximum Firepower
-|name2: Jeice
-|rarity: SR
-|type: STR-E
-|ID: 1109
-|LS description:  PHY Type enemy ATK -25%
-|SA name: Crusher Ball
-|SA description: Causes huge damage to enemy
-|UltraSA 
-|None 
-|PS name: Teamwork
-|PS description: Allies ATK +1000 when 2nd to attack
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: The Ginyu Force, Tag Team of Terror, Signature Pose
-|Category: Planet Namek Saga, Ginyu Force, Dragon Ball Seekers, Terrifying Conquerors, Special Pose, Space-Traveling Warriors
+"name1": Stimulating Beauty
+"name2": Bulma (Bunny)
+"rarity": SR
+"type": TEQ-S
+"ID": 1418
+"LS description": ATK +15% for all Types
+"SA name": Rocket Launcher
+"SA description": Causes damage and seals Super Attack
+"PS name": Oolong's Approval
+"PS description": All Types ATK +2000
+"Link skill": [[Money Money Money]] - [[Solid Support]] - [[Brainiacs]] - [[The Incredible Adventure]] - [[Guidance of the Dragon Balls]] - [[Scientist]]
+"Category": [[Peppy Gals]] - [[Dragon Ball Seekers]] - [[DB Saga]] - [[Earthlings]]
 },
 {
-|name1: Call of Duty
-|name2: Nail
-|rarity: SR
-|type: INT-S
-|ID: 1110
-|LS description: Prevents negative status effects
-|SA name: Assault Flash
-|SA description: Causes huge damage to enemy
-|UltraSA 
-|None 
-|PS name: Buying Time
-|PS description: Recovers 10% HP when HP is 50% or below
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Namekians (Link Skill)|Namekians, Cold Judgment, Hero
-|Category: Planet Namek Saga, Namekians, Connected Hope
+"name1": Dual Personality
+"name2": Launch
+"rarity": SR
+"type": STR-S
+"ID": 1419
+"LS description": [[STR]] Type ATK +30%
+"SA name": Achoo!
+"SA description": Causes huge damage to enemy and lowers DEF  <Lowers enemy's DEF by 20% for 3 turns>  
+"PS name": Billowing Smoke
+"PS description": Ki +2 for all allies when HP is 50% or above
+"Link skill": [[Guidance of the Dragon Balls]] - [[The Incredible Adventure]] - [[Flee]]
+"Category": [[Peppy Gals]] - [[DB Saga]] - [[Earthlings]]
 },
 {
-|name1: Imminent Showdown
-|name2: Cui
-|rarity: SR
-|type: STR-E
-|ID: 1111
-|LS description:  STR Type ATK +25%
-|SA name: Dastard Impact
-|SA description: Causes huge damage to enemy
-|UltraSA 
-|None 
-|PS name: Unexpected Attack
-|PS description: With a chance 5% chance to reduce enemies' DEF by 50% for 1 turn that all enemies' DEF -50%
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Coward, Frieza's Minion
-|Category: Planet Namek Saga, Terrifying Conquerors, Space-Traveling Warriors
+"name1": Legendary Super Saiyan
+"name2": Super Saiyan Goku
+"rarity": SR
+"type": STEQ
+"ID": 1420
+"LS description": [[ TEQ]] Type HP, ATK and DEF +20%
+ "SA name": Kamehameha
+"SA description": Causes huge damage to enemy
+"PS name": Pinnacle of Anger
+"PS description": Rare chance  <2% chance of ATK +150%>   of ATK +150%
+"Link skill": [[Golden Warrior]] - [[Saiyan Warrior Race]] - [[Super Saiyan]] - [[Kamehameha]] - [[All in the Family]] - [[Blazing Battle]]
+"Category": [[Pure Saiyans]] - [[Goku's Family]] - [[Kamehameha]] - [[Turtle School]] - [[Bond of Friendship]] - [[Bond of Parent and Child]]
 },
 {
-|name1: Power Awakened
-|name2: Ultimate Gohan
-|rarity: SSR
-|type: PHY-S
-|ID: 1202
-|LS description: All Types Ki +2
-|SA name: Super Kamehameha
-|SA description: Causes supreme damage and raises ATK for 3 turns Raises ATK by 50% for 3 turns (Stack Attack|How does it work?)
-|UltraSA 
-|None 
-|PS name: Perfected Prowess
-|PS description: ATK +70% when HP is 50% or above
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: All in the Family, Kamehameha, The Saiyan Lineage, Shocking Speed, Power Bestowed by God, Supreme Power
-|Category: Hybrid Saiyans, Majin Buu Saga, Goku's Family, Siblings' Bond, Kamehameha, Revenge, Rapid Growth, Saviors, Powerful Comeback, Entrusted Will, Bond of Parent and Child
+"name1": Vengeful Monster
+"name2": Bio-Broly
+"rarity": SSR
+"type": TEQ-E
+"ID": 1801
+"LS description": [[ TEQ]] Type ATK +50% when HP is 50% or above
+ "SA name": Bio-Hyper Beam
+"SA description": Causes extreme damage to enemy
+"PS name": Mindless Combat
+"PS description": DEF +70% & ATK -50% when facing only 1 enemy; ATK +70% & DEF -50% when facing 2 or more enemies
+"Link skill": [[Super Saiyan]] - [[The Saiyan Lineage]] - [[Berserker]] - [[Revival]] - [[Nightmare]]
+"Category": [[Resurrected Warriors]] - [[Movie Bosses]] - [[Artificial Life Forms]]
 },
 {
-|name1: Infinite Potential
-|name2: Uub (Youth)
-|rarity: SR
-|type: STR-S
-|ID: 1203
-|LS description: ATK +15% for all Types
-|SA name: Ki Blast Cannon
-|SA description: Causes damage and may stun the enemy 20% chance to stun the enemy for 2 turns
-|UltraSA 
-|None 
-|PS name: Transmigration
-|PS description: ATK and DEF +25% when HP is 80% or below
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Infighter, Tough as Nails, World Tournament Reborn, Revival, Berserker
-|Category: Resurrected Warriors, World Tournament, Majin Buu Saga, Youth, Bond of Master and Disciple, Earthlings
+"name1": Unwavering Spirit
+"name2": Vegeta (GT)
+"rarity": SR
+"type": AGL-S
+"ID": 1802
+"LS description": All Types HP & ATK +10%
+ "SA name":  Galick Gun
+"SA description": Causes huge damage to enemy
+"PS name": Steady Aim
+"PS description": ATK & DEF +2000 as the 1st attacker in a turn
+"Link skill": [[Saiyan Warrior Race]] - [[Prodigies]] - [[The Saiyan Lineage]] - [[Royal Lineage]] - [[GT]]
 },
 {
-|name1: Bursting with Power
-|name2: Pan (Kid)
-|rarity: R
-|type: PHY-S
-|ID: 1204
-|LS description: HP +15%
-|SA type: Ki|SA name: Maiden Flash
-|SA description: Causes huge damage to enemy
-|UltraSA 
-|None 
-|PS name: Inherited Taste
-|PS description: Rare chance of stunning all enemies 2% chance of stunning all enemies for 1 turn
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: All in the Family, The Saiyan Lineage, Battlefield Diva, Supreme Power
-|Category: Hybrid Saiyans, World Tournament, Majin Buu Saga, Goku's Family, Youth, Bond of Parent and Child
+"name1": Battle in Another World
+"name2": Trunks (Xeno)
+"rarity": UR
+"type": SPHY
+"ID": 1803
+"LS description": All Types HP & ATK +30%
+"SA name": Heat Dome Attack
+"SA description": Causes mass damage to all enemies, ATK +20% for all allies for 1 turn
+"PS name": History's Consolidator
+"PS description": Ki +4 and ATK +5000 when HP is 80% or below
+"Link skill": [[Royal Lineage]] - [[Cold Judgment]] - [[Messenger from the Future]] - [[Xenoverse]] - [[Shattering the Limit]] - [[Prepared for Battle]]
+"Category": [[Hybrid Saiyans]] - [[Time Travelers]] - [[Vegeta's Family]] - [[Bond of Master and Disciple]] - [[Battle of Wits]] - [[Crossover]] - [[Defenders of Justice]] - [[Entrusted Will]] - [[Bond of Parent and Child]]
 },
 {
-|name1: Malevolent Magician
-|name2: Babidi
-|rarity: SR
-|type: INT-E
-|ID: 1205
-|LS description: AGL, INT & PHY Ki +1
-|SA name: Demon Eye
-|SA description: Huge damage and high chance to stun the enemy 50% chance to stun the enemy for 2 turns
-|UltraSA 
-|None 
-|PS name: Sorcery
-|PS description: ATK +10% for all allies when HP is 50% or above
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Brutal Beatdown, Master of Magic, Majin Resurrection Plan
-|Category: Majin Buu Saga, Terrifying Conquerors, Inhuman Deeds, Worldwide Chaos
+"name1": Clever Tactics
+"name2": Android #18
+"rarity": UR
+"type": SSTR
+"ID": 1807
+"LS description": [[STR]] and [[PHY]] Type Ki +3 and HP, ATK & DEF +30%
+ "SA name": Power Blitz
+"SA description": Causes supreme damage to enemy and raises ATK for 6 turns  <Raises ATK by 50% for 6 turns >  
+"PS name": Extra Rewards
+"PS description": ATK +50% at start of turn; plus an additional ATK & DEF +50% when HP is 50% or above
+"Link skill": [[Money Money Money]] - [[Android Assault]] - [[Twin Terrors]] - [[Shocking Speed]] - [[Battlefield Diva]] - [[Infinite Energy]] - [[Shattering the Limit]]
+"Category": [[Peppy Gals]] - [[Majin Buu Saga]] - [[Androids]] - [[Movie Heroes]] - [[Siblings' Bond]] - [[Worthy Rivals]] - [[Battle of Wits]]
 },
 {
-|name1: Twin-Clawed Terror
-|name2: Yakon
-|rarity: R
-|type: STR-E
-|ID: 1206
-|LS description: Damage received reduced by 10%
-|SA name: Light Absorber
-|SA description: Causes huge damage to enemy
-|UltraSA 
-|None 
-|PS name: Perfect Guard
-|PS description: Damage received -30% when guard is activated 
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Evil Autocrats, Loyalty, Shocking Speed, Majin Resurrection Plan
-|Category: Majin Buu Saga, Terrifying Conquerors, Corroded Body and Mind
+"name1": Game-Reversing Technique
+"name2": Goku (Kaioken)
+"rarity": UR
+"type": SPHY
+"ID": 1808
+"LS description": [[AGL]], [[PHY]] and [[TEQ]] Type Ki +2 and HP & ATK +30%
+ "SA name": 4x Kaioken Kamehameha
+"SA description": Causes supreme damage and greatly raises ATK  <Raises ATK by 50% for 99 turns >  
+"PS name": Technical Mastery
+"PS description": Change [[STR]] Ki to [[Rainbow Ki]] Ki; ATK +40%
+"Link skill": [[All in the Family]] - [[The Saiyan Lineage]] - [[Kamehameha]] - [[Shocking Speed]] - [[Over in a Flash]] - [[Shattering the Limit]]
+"Category": [[Pure Saiyans]] - [[Full Power]] - [[Goku's Family]] - [[Kamehameha]] - [[Final Trump Card]] - [[All-Out Struggle]] - [[Turtle School]] - [[Bond of Friendship]] - [[Accelerated Battle]] - [[Battle of Fate]] - [[Saiyan Saga]] - [[Bond of Parent and Child]]
 },
 {
-|name1: Confident Sentry 
-|name2: Pui Pui
-|rarity: R
-|type: AGL-E
-|ID: 1207
-|LS description:  AGL Type Ki +1
-|SA name: Snipe Shot
-|SA description: Causes huge damage to enemy
-|UltraSA 
-|None 
-|PS name: First Attack
-|PS description: ATK +50% for first attack only
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Evil Autocrats, Loyalty, Majin Resurrection Plan
-|Category: Majin Buu Saga, Terrifying Conquerors, Inhuman Deeds, Corroded Body and Mind
+"name1": Countdown to Despair
+"name2": Majin Buu (Ultimate Gohan)
+"rarity": UR
+"type": EINT
+"ID": 1809
+"LS description": [[INT]] Type Ki +3 and HP, ATK & DEF +70%
+ "SA name": Super Kamehameha (SA Lv.1-4)
+"SA description": Causes immense damage to enemyCauses immense damage to enemy and lowers ATK & DEF  <Lowers enemy's ATK & DEF by 20% for 3 turns>  Causes immense damage to enemy with greater power  <Raises  by 60% during Super Attack (does not stack)>   and lowers ATK & DEF
+"PS name": Winning is Everything
+"PS description": For every Ki obtained, ATK +12% and recover 3000 HP
+"Link skill": [[Majin]] - [[Big Bad Bosses]] - [[Metamorphosis]] - [[Shocking Speed]] - [[Kamehameha]] - [[The Wall Standing Tall]] - [[Fierce Battle]]
+"Category": [[Majin Buu Saga]] - [[Transformation Boost]] - [[Artificial Life Forms]] - [[Kamehameha]] - [[Final Trump Card]] - [[Majin Power]] - [[Power Absorption]] - [[Sworn Enemies]] - [[Worldwide Chaos]]
 },
 {
-|name1: A God Evolved
-|name2: Super Saiyan God SS Goku
-|rarity: SSR
-|type: AGL-S
-|ID: 1208
-|LS description: AGL, STR and PHY Type ATK + 30%
-|SA name: Kamehameha
-|SA description: Causes supreme damage to enemy
-|UltraSA 
-|None 
-|PS name: Divine Strength
-|PS description: ATK +80% when performing a Super Attack
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Super Saiyan, Warrior Gods, Kamehameha, Super-God Combat, Resurrection 'F'
-|Category: Realm of Gods, Pure Saiyans, Movie Heroes, Goku's Family, Kamehameha, Bond of Master and Disciple, Turtle School, Mastered Evolution, Bond of Friendship, Accelerated Battle, Battle of Fate, Power Beyond Super Saiyan, Bond of Parent and Child
+"name1": Ultimate Majin Menace
+"name2": Majin Buu (Ultimate Gohan)
+"rarity": SSR
+"type": INT-E
+"ID": 1810
+"LS description": [[ INT]] Type Ki +2 and HP, ATK & DEF +50%
+ "SA name": Super Kamehameha (SA Lv. 1)
+"SA description": Causes immense damage to enemyCauses immense damage to enemy and lowers ATK & DEF  <Lowers enemy's ATK & DEF by 20% for 3 turns>  Causes immense damage to enemy with greater power  <Raises  by 60% during Super Attack (does not stack)>   and lowers ATK & DEF
+"PS name": All for Victory
+"PS description": For every Ki obtained, ATK +10% and recover 2500 HP
+"Link skill": [[Big Bad Bosses]] - [[Kamehameha]] - [[Metamorphosis]] - [[Shocking Speed]] - [[The Wall Standing Tall]] - [[Majin]]
+"Category": [[Majin Buu Saga]] - [[Transformation Boost]] - [[Artificial Life Forms]] - [[Kamehameha]] - [[Final Trump Card]] - [[Majin Power]] - [[Power Absorption]] - [[Sworn Enemies]] - [[Worldwide Chaos]]
 },
 {
-|name1: To Greater Heights
-|name2: Super Saiyan God SS Vegeta
-|rarity: SSR
-|type: STR-S
-|ID: 1209
-|LS description: AGL, STR, PHY Type ATK & DEF +25%
-|SA name: Big Bang Attack
-|SA description: Causes extreme damage to enemy
-|UltraSA 
-|None 
-|PS name: Ultimate Power
-|PS description: ATK +80% when performing a Super Attack
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Super Saiyan, Warrior Gods, Prodigies, Super-God Combat, Resurrection 'F'
-|Category: Realm of Gods, Pure Saiyans, Movie Heroes, Vegeta's Family, Siblings' Bond, Worthy Rivals, Bond of Master and Disciple, Gifted Warriors, Mastered Evolution, Battle of Fate, Power Beyond Super Saiyan, Bond of Parent and Child
+"name1": Tactics Evolved
+"name2": Majin Buu (Gotenks)
+"rarity": SSR
+"type": ESTR
+"ID": 1811
+"LS description": ATK +5% for every Ki Sphere obtained
+ "SA name": Super Donut Chain
+"SA description": Causes extreme damage and seals Super Attack
+"PS name": A Brand-new Ability
+"PS description": ATK +12% per [[STR]] Ki Sphere obtained
+"Link skill": [[The Wall Standing Tall]] - [[Nightmare]] - [[Majin]] - [[Over in a Flash]] - [[Metamorphosis]] - [[Formidable Enemy]] - [[Demonic Ways]]
+"Category": [[Majin Buu Saga]] - [[Transformation Boost]] - [[Artificial Life Forms]] - [[Final Trump Card]] - [[Majin Power]] - [[Power Absorption]] - [[Time Limit]] - [[Sworn Enemies]] - [[Worldwide Chaos]]
 },
 {
-|name1: Fear's Ultimate Form
-|name2: Golden Frieza
-|rarity: SSR
-|type: INT-E
-|ID: 1210
-|LS description: TEQ, INT & STR Type HP & ATK +20%
-|SA name: Earth Breaker
-|SA description: Causes supreme damage to enemy
-|UltraSA 
-|None 
-|PS name: Supreme Evolution
-|PS description: ATK +40% at start of turn
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Prodigies, Universe's Most Malevolent, Revival, Super-God Combat, Resurrection 'F'
-|Category: Resurrected Warriors, Movie Bosses, Full Power, Transformation Boost, Wicked Bloodline, Terrifying Conquerors, Target: Goku, Revenge, Inhuman Deeds, Gifted Warriors, Planetary Destruction, Mastered Evolution, Sworn Enemies, Battle of Fate
+"name1": Strategic Extermination
+"name2": Majin Buu (Piccolo)
+"rarity": SSR
+"type": EINT
+"ID": 1812
+"LS description": [[ TEQ]] Type enemy ATK -30%
+ "SA name": Light Grenade
+"SA description": Causes extreme damage to enemy and lowers ATK  <Lowers enemy's ATK by 10% for 3 turns>  
+"PS name": Broadened Knowledge
+"PS description": Recover 30% of damage dealt as health
+"Link skill": [[Brainiacs]] - [[Demonic Ways]] - [[Majin]] - [[Metamorphosis]] - [[Nightmare]] - [[The Wall Standing Tall]] - [[Formidable Enemy]]
+"Category": [[Majin Buu Saga]] - [[Transformation Boost]] - [[Artificial Life Forms]] - [[Majin Power]] - [[Power Absorption]] - [[Sworn Enemies]] - [[Worldwide Chaos]]
 },
 {
-|None 
-|None 
-|rarity: R
-|type: TEQ
-|ID: 1211
-|None 
-|None 
-|None 
-|UltraSA 
-|None 
-|None 
-|None 
-|None 
-|None 
-|None 
-|None 
-|None 
-|None 
-|None 
+"name1": Raging Dash
+"name2": Majin Buu (South Supreme Kai)
+"rarity": UR
+"type": ETEQ
+"ID": 1813
+"LS description": [[TEQ]] Type ATK & DEF +60%
+"SA name": Mighty Powerful God Shockwave
+"SA description": Causes supreme damage to enemy and greatly lowers DEF  <Lowers enemy's DEF by 50% for 3 turns>  
+"PS name": Full-Power Body
+"PS description": Ki +2 and ATK +70% when HP is 99% or below
+"Link skill": [[Majin]] - [[Brutal Beatdown]] - [[Berserker]] - [[Big Bad Bosses]] - [[Infinite Regeneration]] - [[The Wall Standing Tall]] - [[Fierce Battle]]
+"Category": [[Resurrected Warriors]] - [[Majin Buu Saga]] - [[Transformation Boost]] - [[Artificial Life Forms]] - [[Majin Power]] - [[Power Absorption]] - [[Planetary Destruction]] - [[Storied Figures]] - [[Legendary Existence]] - [[Sworn Enemies]] - [[Worldwide Chaos]]
 },
 {
-|None 
-|None 
-|rarity: R
-|type: TEQ
-|ID: 1212
-|None 
-|None 
-|None 
-|UltraSA 
-|None 
-|None 
-|None 
-|None 
-|None 
-|None 
-|None 
-|None 
-|None 
-|None 
+"name1": Relentless Onslaught
+"name2": Buu (Kid)
+"rarity": SSR
+"type": TEQ-E
+"ID": 1814
+"LS description": [[TEQ]] Type ATK & DEF +50% when HP is 30% or above
+ "SA name": Vanishing Ball
+"SA description": Causes supreme damage to enemy and lowers DEF  <Lowers enemy's DEF by 40% for 3 turns>  
+"PS name": Pleasure in Battle
+"PS description": Ki +2 and ATK +60% when HP is 80% or below
+"Link skill": [[More Than Meets the Eye]] - [[Brutal Beatdown]] - [[Big Bad Bosses]] - [[Majin]] - [[Infinite Regeneration]] - [[The Wall Standing Tall]]
+"Category": [[Resurrected Warriors]] - [[Majin Buu Saga]] - [[Transformation Boost]] - [[Artificial Life Forms]] - [[Majin Power]] - [[Planetary Destruction]] - [[Storied Figures]] - [[Legendary Existence]] - [[Sworn Enemies]] - [[Worldwide Chaos]]
 },
 {
-|None 
-|None 
-|rarity: SR
-|type: AGL
-|ID: 1301
-|None 
-|None 
-|None 
-|UltraSA 
-|None 
-|None 
-|None 
-|None 
-|None 
-|None 
-|None 
-|None 
-|None 
-|None 
+"name1": Renewed Determination
+"name2": Ultimate Gohan
+"rarity": SR
+"type": AGL-S
+"ID": 11201
+"LS description": [[AGL]] Type Ki +1; [[Super AGL]] Type HP, ATK & DEF +20%
+ "SA name": Super Kamehameha
+"SA description": Raises ATK  <Raises ATK by 30% for 99 turns >   and causes extreme damage to enemy
+"PS name": See The Wall That Must Be Passed
+"PS description": ATK +40%; Ki +3 when HP is 50% or above
+"Link skill": [[Saiyan Warrior Race]] - [[Infighter]] - [[Shocking Speed]] - [[Power Bestowed by God]] - [[Kamehameha]] - [[Tournament of Power]]
+"Category": [[Hybrid Saiyans]] - [[Universe Survival Saga]] - [[Representatives of Universe 7]] - [[Goku's Family]] - [[Siblings' Bond]] - [[Kamehameha]] - [[Bond of Master and Disciple]] - [[Battle of Wits]] - [[Mastered Evolution]] - [[Bond of Parent and Child]]
 },
 {
-|name1: Dashing Light
-|name2: Super Saiyan Goku (GT)
-|rarity: SSR
-|type: AGL-S
-|ID: 1302
-|LS description: All Types HP & ATK +20%
-|SA name: Kamehameha
-|SA description: Causes extreme damage to enemy
-|UltraSA 
-|None 
-|PS name: Meeting the Enemy
-|PS description: ATK +40% at start of turn
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: All in the Family, The Saiyan Lineage, Super Saiyan, Kamehameha, GT
-|Category: Pure Saiyans, Goku's Family, Turtle School, GT Heroes, Bond of Friendship, Bond of Parent and Child
+"name1": Revived Emperor
+"name2": Golden Frieza (Angel)
+"rarity": SSR
+"type": INT-E
+"ID": 11202
+"LS description": [[Resurrected Warriors]] Category Ki +2, HP +100% and ATK & DEF +140%;or [[ INT]] Type Ki +2 and HP, ATK & DEF +40%
+ "SA name": Emperor's Death Beam
+"SA description": Causes immense damage to enemy and greatly lowers DEF  <Lowers enemy's DEF by 50% for 3 turns>  
+"PS name": Unwavering Evil
+"PS description": ATK +120% and DEF +40%; Super Class allies' and enemies' ATK -10%
+"Link skill": [[Prodigies]] - [[Universe's Most Malevolent]] - [[Revival]] - [[Strongest Clan in Space]] - [[Brutal Beatdown]] - [[Tournament of Power]]
+"Category": [[Resurrected Warriors]] - [[Universe Survival Saga]] - [[Full Power]] - [[Representatives of Universe 7]] - [[Transformation Boost]] - [[Wicked Bloodline]] - [[Otherworld Warriors]] - [[Gifted Warriors]] - [[Time Limit]] - [[Mastered Evolution]] - [[Sworn Enemies]]
 },
 {
-|name1: Quintessential Saiyan
-|name2: Super Saiyan 2 Goku (GT)
-|rarity: SSR
-|type: PHY-S
-|ID: 1303
-|LS description: All Types HP and ATK +20%
-|SA name: Super Dragon Fist
-|SA description: Causes supreme damage to enemy
-|UltraSA 
-|None 
-|PS name: Maxed-Out Power
-|PS description: Ki +3 & ATK +7000 when Ki is 9 or above
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Golden Warrior, The Saiyan Lineage, Super Saiyan, All in the Family, GT, Prepared for Battle
-|Category: Pure Saiyans, Goku's Family, Super Saiyan 2, Turtle School, GT Heroes, Bond of Friendship, Accelerated Battle, Power Beyond Super Saiyan, Bond of Parent and Child
+"name1": Emperor's True Splendor
+"name2": Golden Frieza (Angel)
+"rarity": UR
+"type": EINT
+"ID": 11203
+"LS description": [[Resurrected Warriors]] Category Ki +3, HP +130% and ATK & DEF +170%;or [[ INT]] Type Ki +3 and HP, ATK & DEF +50%
+ "SA name": Great Death Beam
+"SA description": Causes immense damage to enemy and greatly lowers DEF  <Lowers enemy's DEF by 50% for 3 turns>  
+"PS name": Proof of True Evil
+"PS description": ATK +150% and DEF +50%; Super Class allies' and enemies' ATK -15%
+"Link skill": [[Prodigies]] - [[Universe's Most Malevolent]] - [[Revival]] - [[Strongest Clan in Space]] - [[Brutal Beatdown]] - [[Tournament of Power]] - [[Fierce Battle]]
+"Category": [[Resurrected Warriors]] - [[Universe Survival Saga]] - [[Full Power]] - [[Representatives of Universe 7]] - [[Transformation Boost]] - [[Wicked Bloodline]] - [[Otherworld Warriors]] - [[Gifted Warriors]] - [[Time Limit]] - [[Mastered Evolution]] - [[Sworn Enemies]]
 },
 {
-|name1: Focused on Victory
-|name2: Super Saiyan 3 Goku (GT)
-|rarity: SSR
-|type: AGL-S
-|ID: 1304
-|LS description: All Types HP, ATK & DEF +20%
-|SA name: Super Kamehameha
-|SA description: Causes supreme damage to enemy
-|UltraSA 
-|None 
-|PS name: Battlefield Concentration
-|PS description: ATK +70% when facing 3 or less enemies
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Golden Warrior, Super Saiyan, Limit-Breaking Form, Kamehameha, Over in a Flash, GT
-|Category: Super Saiyan 3, Pure Saiyans, Goku's Family, Kamehameha, Turtle School, GT Heroes, Bond of Friendship, Accelerated Battle, Power Beyond Super Saiyan, Bond of Parent and Child
+"name1": Defeat Is Not an Option
+"name2": Android #18
+"rarity": SSR
+"type": TEQ-S
+"ID": 11204
+"LS description": [[ TEQ]] Type Ki +2 and HP, ATK & DEF +50%
+ "SA name": Destructo Disc
+"SA description": Causes supreme damage and raises DEF by 30% for 6 turns
+"PS name": Loving Wife and Mom
+"PS description": ATK & DEF +50%;changes [[ PHY]] Ki Spheres to [[ TEQ]] Ki Spheres;additional ATK +12% per [[Rainbow Ki]] Ki Sphere obtained
+"Link skill": [[Android Assault]] - [[Twin Terrors]] - [[The Innocents]] - [[Battlefield Diva]] - [[Infinite Energy]] - [[Tournament of Power]]
+"Category": [[Peppy Gals]] - [[Universe Survival Saga]] - [[Androids]] - [[Representatives of Universe 7]] - [[Siblings' Bond]] - [[Worthy Rivals]] - [[Battle of Wits]] - [[Bond of Parent and Child]]
 },
 {
-|name1: Symbol of Peace
-|name2: Hercule (GT)
-|rarity: R
-|type: PHY-S
-|ID: 1306
-|LS description: Damage received reduced by 10%
-|SA name: Rolling Hercule Punch
-|SA description: Causes huge damage to enemy and lowers DEF Lowers enemy's DEF by 20% for 3 turns
-|UltraSA 
-|None 
-|PS name: Perfect Guard
-|PS description: Damage reduced by 30% upon successful guard
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: World Tournament Champion, Champion's Strength, Hero, Money Money Money, GT
-|Category: World Tournament, Earthlings, GT Heroes, Bond of Friendship, Bond of Parent and Child
+"name1": Strength of a God
+"name2": Supreme Kai
+"rarity": SSR
+"type": TEQ-S
+"ID": 11205
+"LS description": [[Realm of Gods]] Category Ki +2 and HP, ATK & DEF +30%
+ "SA name": Shock Wave
+"SA description": Causes supreme damage to enemy and raises Super Class allies' ATK by 20% for 1 turn
+"PS name": Solid Course of Action
+"PS description": Ki +1 and ATK & DEF +15% per [[Realm of Gods]] Category ally on the team
+"Link skill": [[Telekinesis]] - [[Solid Support]] - [[Cold Judgment]] - [[Master of Magic]] - [[Godly Power]] - [[Supreme Power]]
+"Category": [[Realm of Gods]] - [[Majin Buu Saga]] - [[Potara]]
 },
 {
-|name1: New Evolution
-|name2: Super Saiyan 3 Vegeta
-|rarity: SSR
-|type: STR-S
-|ID: 1307
-|LS description: STR Type ATK +60%
-|SA name: Final Flash
-|SA description: Supreme damage, high chance to stun the enemy 50% chance to stun the enemy for 2 turns
-|UltraSA 
-|None 
-|PS name: Aura of the Mighty
-|PS description: Reduce received damage by 60% for 5 turns from start of turn
-|None 
-|None 
-|None 
-|None 
-|None 
-|Link skill: Golden Warrior, Saiyan Warrior Race, Super Saiyan, Prodigies, Over in a Flash, Limit-Breaking Form
-|Category: Super Saiyan 3, Pure Saiyans, Vegeta's Family, Worthy Rivals, Crossover, Gifted Warriors, Power Beyond Super Saiyan, Bond of Parent and Child
+"name1": Engagement Promise
+"name2": Chi-Chi
+"rarity": SSR
+"type": STR-S
+"ID": 11206
+"LS description": [[PHY]] and [[STR]] Type Ki +3 and HP, ATK & DEF +50%
+ "SA name": Bansho Fan
+"SA description": Causes supreme damage to enemy and seals Super Attack
+"PS name": Sound Mind and Body
+"PS description": ATK +80% at start of turn;[[Peppy Gals]] Category allies' Ki +2 and DEF +100%
+"Link skill": [[Courage]] - [[The Innocents]] - [[Battlefield Diva]] - [[Infighter]] - [[The Incredible Adventure]] - [[Guidance of the Dragon Balls]]
+"Category": [[Peppy Gals]] - [[World Tournament]] - [[Goku's Family]] - [[Earthlings]] - [[Bond of Parent and Child]]
+},
+{
+"name1": Pure at Heart
+"name2": Chi-Chi (Youth)
+"rarity": SSR
+"type": PHY-S
+"ID": 11207
+"LS description": [[INT]] and [[PHY]] Type Ki +3 and HP, ATK & DEF +50%
+"SA name": Stay Away From Me!
+"SA description": Causes supreme damage with a medium chance of stunning the enemy  <30% chance to stun the enemy for 2 turns>  
+"PS name": Out of the Frying Pan, Into the Fire
+"PS description": ATK +180% when performing a Super Attack; ATK -60% for 3 turns after receiving attack
+"Link skill": [[Battlefield Diva]] - [[The Innocents]] - [[More Than Meets the Eye]] - [[The Incredible Adventure]] - [[Guidance of the Dragon Balls]]
+"Category": [[Youth]] - [[DB Saga]] - [[Earthlings]] - [[Bond of Parent and Child]]
+},
+{
+"name1": Curiosity Inherited from Mom
+"name2": Bulla
+"rarity": SSR
+"type": TEQ-S
+"ID": 11209
+"LS description": [[ AGL]] and [[ TEQ]] Type Ki +3 and HP, ATK & DEF +50%
+ "SA name": Dad's Galick Gun
+"SA description": Greatly raises ATK  <Raises ATK by 50% for 99 turns >   and causes supreme damage to enemy
+"PS name": Youth and Curiosity 
+"PS description": All allies' Ki +2 and ATK +30%; chance to evade enemy's attack (including Super Attack) +20% (up to 50%) per [[Peppy Gals]] Category ally on the team
+"Link skill": [[Battlefield Diva]] - [[The Innocents]] - [[Royal Lineage]] - [[Money Money Money]] - [[The Saiyan Lineage]] - [[GT]]
+"Category": [[Peppy Gals]] - [[Hybrid Saiyans]] - [[Vegeta's Family]] - [[Youth]] - [[Siblings' Bond]] - [[GT Heroes]] - [[Bond of Parent and Child]]
+},
+{
+"name1": A New Friend in Space
+"name2": Pan (GT) (Honey)
+"rarity": UR
+"type": SSTR
+"ID": 11210
+"LS description": Recovers 1500 HP per Ki Sphere of character's Type obtained
+"SA name": Maiden Burst   <Super Attack can be launched at 9 Ki starting from SA Lv.5>  
+"SA description": Causes supreme damage with a chance to stun the enemy  <25% chance to stun the enemy for 2 turns>  
+"PS name": Growing Up Strong
+"PS description": Recovers 30% of damage dealt as HP;high chance  <50% chance to reduce damage received>   to reduce damage received by 50%
+"Link skill": [[All in the Family]] - [[The Saiyan Lineage]] - [[Battlefield Diva]] - [[GT]] - [[The Innocents]] - [[More Than Meets the Eye]] - [[Shattering the Limit]]
+"Category": [[Hybrid Saiyans]] - [[Dragon Ball Seekers]] - [[Goku's Family]] - [[Youth]] - [[Space-Traveling Warriors]] - [[GT Heroes]] - [[Bond of Friendship]]
+},
+{
+"name1": Awakened as a Martial Artist
+"name2": Tien
+"rarity": SSR
+"type": AGL-S
+"ID": 11211
+"LS description": All Types ATK & DEF +50%
+ "SA name": Dodon Ray
+"SA description": Causes supreme damage with a rare chance to stun the enemy  <20% chance to stun the enemy for 2 turns>  
+"PS name": Martial Artist's Mettle
+"PS description": ATK +5000 when Ki is 8 or more, DEF +5000 when Ki is 11 or more
+"Link skill": [[Dodon Ray]] - [[Crane School]] - [[Telepathy]] - [[The Incredible Adventure]] - [[Guidance of the Dragon Balls]]
+"Category": [[World Tournament]] - [[Worthy Rivals]] - [[Earthlings]] - [[Bond of Friendship]]
+},
+{
+"name1": Journey of Training
+"name2": Tien & Chiaotzu
+"rarity": UR
+"type": SAGL
+"ID": 11212
+"LS description": All Types ATK & DEF +70%
+ "SA name": Double Dodon Ray
+"SA description": Causes supreme damage with a rare chance to stun the enemy  <20% chance to stun the enemy for 2 turns>  
+"PS name": Truth-Seeker's Mettle
+"PS description": ATK +7000 when Ki is 8 or more, DEF +7000 when Ki is 11 or more
+"Link skill": [[Crane School]] - [[Dodon Ray]] - [[Telepathy]] - [[Shattering the Limit]] - [[Guidance of the Dragon Balls]] - [[The Incredible Adventure]]
+"Category": [[World Tournament]] - [[Joined Forces]] - [[Worthy Rivals]] - [[Earthlings]] - [[Bond of Friendship]]
+},
+{
+"name1": Intensifying Battle
+"name2": Super Saiyan Goku
+"rarity": SSR
+"type": TEQ-S
+"ID": 11602
+"LS description": [[Super TEQ]] Type Ki +2 and HP, ATK & DEF +80%
+ "SA name": Kamehameha
+"SA description": Causes supreme damage to enemy
+"PS name": Adaptive Strategist
+"PS description": Ki +2 and ATK & DEF +77%; randomly changes Ki Spheres of a certain Type to [[Rainbow Ki]] Ki Spheres
+"Link skill": [[Saiyan Warrior Race]] - [[Golden Warrior]] - [[Super Saiyan]] - [[Prepared for Battle]] - [[Kamehameha]] - [[Experienced Fighters]]
+"Category": [[Pure Saiyans]] - [[Movie Heroes]] - [[Goku's Family]] - [[Turtle School]] - [[Bond of Friendship]] - [[Accelerated Battle]] - [[Bond of Parent and Child]]
+},
+{
+"name1": God's Effortless Controlling Aura
+"name2": Super Saiyan God Goku
+"rarity": UR
+"type": STEQ
+"ID": 11603
+"LS description": [[Super TEQ]] Type Ki +3 and HP, ATK & DEF +100%
+"SA name": God Bind
+"SA description": Causes supreme damage to enemy and seals Super Attack
+"PS name": Godly Fighting Style
+"PS description": Ki +3 and ATK & DEF +100%; randomly changes Ki Spheres of a certain Type to [[Rainbow Ki]] Ki Spheres; ATK +7% in addition per [[Rainbow Ki]] Ki Sphere obtained; damage received -77% when there is a [[Movie Bosses]] Category enemy
+"Link skill": [[Saiyan Warrior Race]] - [[Godly Power]] - [[Super Saiyan]] - [[Prepared for Battle]] - [[Over in a Flash]] - [[Warrior Gods]] - [[Fierce Battle]]
+"Category": [[Realm of Gods]] - [[Pure Saiyans]] - [[Movie Heroes]] - [[Goku's Family]] - [[Turtle School]] - [[Legendary Existence]] - [[Bond of Friendship]] - [[Accelerated Battle]] - [[Power Beyond Super Saiyan]] - [[Bond of Parent and Child]]
+},
+{
+"name1": Rapid Clash
+"name2": Super Saiyan Vegeta
+"rarity": SSR
+"type": STR-S
+"ID": 11604
+"LS description": [[Super STR]] Type Ki +2 and HP, ATK & DEF +80%
+ "SA name": Big Bang Attack
+"SA description": Cause supreme damage to enemy
+"PS name": Fighting Pace Adjustment
+"PS description": Ki +2 and ATK & DEF +77%; medium chance  <30% chance to receive all attacks with Type advantage>   of guarding all attacks
+"Link skill": [[Saiyan Warrior Race]] - [[Golden Warrior]] - [[Super Saiyan]] - [[Prepared for Battle]] - [[Prodigies]] - [[Royal Lineage]]
+"Category": [[Pure Saiyans]] - [[Movie Heroes]] - [[Vegeta's Family]] - [[Siblings' Bond]] - [[Worthy Rivals]] - [[Bond of Master and Disciple]] - [[Gifted Warriors]] - [[Bond of Parent and Child]]
+},
+{
+"name1": Devastating Fighting Spirit of God
+"name2": Super Saiyan God Vegeta
+"rarity": UR
+"type": SSTR
+"ID": 11605
+"LS description": [[Super STR]] Type Ki +3 and HP, ATK & DEF +100%
+ "SA name": Big Bang Attack
+"SA description": Greatly raises ATK  <Raises ATK by 50% for 99 turns >   and causes supreme damage to enemy
+"PS name": Divine Pressure
+"PS description": Ki +3 and ATK & DEF +100%; high chance  <50% chance to receive all attacks with Type advantage>   of guarding all attacks; high chance  <50% chance to stun attacked enemy for 1 turn>   of stunning the attacked enemy when there is a [[Movie Bosses]] Category enemy
+"Link skill": [[Saiyan Warrior Race]] - [[Godly Power]] - [[Super Saiyan]] - [[Over in a Flash]] - [[Prodigies]] - [[Warrior Gods]] - [[Fierce Battle]]
+"Category": [[Realm of Gods]] - [[Pure Saiyans]] - [[Movie Heroes]] - [[Vegeta's Family]] - [[Siblings' Bond]] - [[Worthy Rivals]] - [[Bond of Master and Disciple]] - [[Gifted Warriors]] - [[Power Beyond Super Saiyan]] - [[Bond of Parent and Child]]
+},
+{
+"name1": Warrior in Exile
+"name2": Broly
+"rarity": SSR
+"type": AGL-E
+"ID": 11606
+"LS description": [[Extreme AGL]] Type Ki +2 and HP, ATK & DEF +80%
+"SA name": Meteor Crush
+"SA description": Raises ATK for 3 turns  <Raises  by 30% for 3 turns>   and causes supreme damage to enemy
+"PS name": Fight and Learn
+"PS description": ATK & DEF +50%; plus an additional DEF +15% with each attack performed (up to 60%); plus an additional ATK +15% with each attack received (up to 60%)
+"Link skill": [[Saiyan Warrior Race]] - [[The Saiyan Lineage]] - [[Prodigies]] - [[Berserker]] - [[Shocking Speed]] - [[Prepared for Battle]]
+"Category": [[Movie Bosses]] - [[Pure Saiyans]] - [[Gifted Warriors]]
+},
+{
+"name1": Vengeful Survivor
+"name2": Paragus
+"rarity": SSR
+"type": INT-E
+"ID": 11607
+"LS description": [[Extreme INT]] Type Ki +2 and HP, ATK & DEF +80%
+"SA name": Shot Remover
+"SA description": Causes supreme damage to enemy and lowers ATK  <Lowers enemy's ATK by 20% for 3 turns>  
+"PS name": Collision between Saiyans
+"PS description": [[Pure Saiyans]] Category allies' Ki +1 and ATK & DEF +30%; ATK +90% when there is a [[Pure Saiyans]] Category enemy
+"Link skill": [[Saiyan Warrior Race]] - [[The Saiyan Lineage]] - [[Hardened Grudge]] - [[Cold Judgment]] - [[Brutal Beatdown]] - [[Prepared for Battle]]
+"Category": [[Pure Saiyans]]
+},
+{
+"name1": Troublesome Father and Son
+"name2": Paragus & Broly
+"rarity": UR
+"type": EINT
+"ID": 11608
+"LS description": [[Extreme INT]] Type Ki +3 and HP, ATK & DEF +100%
+"SA name": Command of Revenge
+"SA description": Causes supreme damage to enemy and lowers ATK  <Lowers enemy's ATK by 20% for 3 turns>  
+"PS name": Clash between Saiyans
+"PS description": [[Pure Saiyans]] or [[Joined Forces]] Category allies' Ki +2 and ATK & DEF +40%; ATK +130% when there is a [[Pure Saiyans]] Category enemy
+"Link skill": [[Saiyan Warrior Race]] - [[The Saiyan Lineage]] - [[Hardened Grudge]] - [[Cold Judgment]] - [[Brutal Beatdown]] - [[Prepared for Battle]] - [[Fierce Battle]]
+"Category": [[Pure Saiyans]] - [[Joined Forces]]
+},
+{
+"name1": Low-Class Warrior Exiled to Earth
+"name2": Goku
+"rarity": SSR
+"type": AGL-S
+"ID": 11609
+"LS description": [[Movie Heroes]] Category Ki +1 and HP, ATK & DEF +30%
+ "SA name": Kamehameha
+"SA description": Raises ATK for 1 turn  <Raises  by 30% for 1 turn>   and causes supreme damage to enemy
+"PS name": A Saiyan Raised on Earth
+"PS description": ATK & DEF +40%; Ki +2 and plus an additional DEF +30% when there is a [[Movie Bosses]] Category enemy
+"Link skill": [[Saiyan Warrior Race]] - [[All in the Family]] - [[Kamehameha]] - [[Experienced Fighters]] - [[Shocking Speed]] - [[Prepared for Battle]]
+"Category": [[Pure Saiyans]] - [[Movie Heroes]] - [[Goku's Family]] - [[Kamehameha]] - [[Turtle School]] - [[Bond of Friendship]] - [[Accelerated Battle]] - [[Bond of Parent and Child]]
+},
+{
+"name1": Becoming a Furious God
+"name2": Super Saiyan God SS Goku
+"rarity": UR
+"type": SAGL
+"ID": 11610
+"LS description": [[Movie Heroes]] Category Ki +2 and HP, ATK & DEF +50%
+ "SA name": God Kamehameha
+"SA description": Raises ATK for 1 turn  <Raises  by 30% for 1 turn>   and causes supreme damage to enemy
+"PS name": A Saiyan Protecting Earth
+"PS description": ATK & DEF +50%; Ki +3 and plus an additional DEF +40% when there is a [[Movie Bosses]] Category enemy
+"Link skill": [[Saiyan Warrior Race]] - [[Super Saiyan]] - [[Kamehameha]] - [[Experienced Fighters]] - [[Warrior Gods]] - [[Prepared for Battle]] - [[Shattering the Limit]]
+"Category": [[Realm of Gods]] - [[Pure Saiyans]] - [[Movie Heroes]] - [[Goku's Family]] - [[Kamehameha]] - [[Turtle School]] - [[Mastered Evolution]] - [[Bond of Friendship]] - [[Accelerated Battle]] - [[Power Beyond Super Saiyan]] - [[Bond of Parent and Child]]
+},
+{
+"name1": Prince of the Lost Planet
+"name2": Vegeta
+"rarity": SSR
+"type": TEQ-S
+"ID": 11611
+"LS description": [[Movie Heroes]] Category Ki +1 and HP, ATK & DEF +30%
+ "SA name": Big Bang Attack
+"SA description": Raises DEF for 1 turn  <Raises DEF by 30% for 1 turn>   and causes supreme damage to enemy
+"PS name": A Saiyan Living on Earth
+"PS description": ATK & DEF +40%; Ki +2 and plus an additional ATK +30% when there is a [[Movie Bosses]] Category enemy
+"Link skill": [[Saiyan Warrior Race]] - [[Royal Lineage]] - [[Prodigies]] - [[Saiyan Pride]] - [[Shocking Speed]] - [[Prepared for Battle]]
+"Category": [[Pure Saiyans]] - [[Movie Heroes]] - [[Vegeta's Family]] - [[Siblings' Bond]] - [[Worthy Rivals]] - [[Bond of Master and Disciple]] - [[Gifted Warriors]] - [[Bond of Parent and Child]]
+},
+{
+"name1": The Power of a God Unleashed
+"name2": Super Saiyan God SS Vegeta
+"rarity": UR
+"type": STEQ
+"ID": 11612
+"LS description": [[Movie Heroes]] Category Ki +2 and HP, ATK & DEF +50%
+ "SA name": Final Flash
+"SA description": Raises DEF for 1 turn  <Raises DEF by 30% for 1 turn>   and causes supreme damage to enemy
+"PS name": A Saiyan Fighting on Earth
+"PS description": ATK & DEF +50%; Ki +3 and plus an additional ATK +40% when there is a [[Movie Bosses]] Category enemy
+"Link skill": [[Saiyan Warrior Race]] - [[Royal Lineage]] - [[Prodigies]] - [[Super Saiyan]] - [[Warrior Gods]] - [[Prepared for Battle]] - [[Shattering the Limit]]
+"Category": [[Realm of Gods]] - [[Pure Saiyans]] - [[Movie Heroes]] - [[Vegeta's Family]] - [[Siblings' Bond]] - [[Worthy Rivals]] - [[Bond of Master and Disciple]] - [[Gifted Warriors]] - [[Mastered Evolution]] - [[Power Beyond Super Saiyan]] - [[Bond of Parent and Child]]
+},
+{
+"name1": Light to Protect Peace
+"name2": Toppo (Pride Troopers)
+"rarity": UR
+"type": SINT
+"ID": 12001
+"LS description": [[Universe 11]] or [[Special Pose]] Category Ki +3 and HP, ATK & DEF +120%
+"SA name": Justice Formation
+"SA description": Causes supreme damage to enemy and lowers ATK & DEF  <Lowers enemy's ATK & DEF by 20% for 3 turns>  
+"PS name": Light to Smite Evil
+"PS description": ATK & DEF +110%; plus an additional ATK & DEF +110% when there are 3 or more [[Universe 11]] Category allies on the team; guards all attacks when there is another [[Universe 11]] Category ally attacking in the same turn; [[Universe 11]] Category allies' Ki +3 and ATK & DEF +30%
+"Link skill": [[Supreme Warrior]] - [[Signature Pose]] - [[Tough as Nails]] - [[Hero of Justice]] - [[Shocking Speed]] - [[Tournament of Power]] - [[Shattering the Limit]]
+"Category": [[Universe Survival Saga]] - [[Joined Forces]] - [[Special Pose]] - [[Universe 11]] - [[Space-Traveling Warriors]] - [[Defenders of Justice]]
+},
+{
+"name1": A Veteran's Ingenuity and Perseverance
+"name2": Krillin
+"rarity": SSR
+"type": AGL-S
+"ID": 12002
+"LS description": [[Representatives of Universe 7]] Category Ki +2 and HP, ATK & DEF +100%
+"SA name": Destructo Disc
+"SA description": Causes supreme damage to enemy and lowers ATK  <Lowers enemy's ATK by 20% for 3 turns>  
+"PS name": Training With Android #18
+"PS description": ATK & DEF +120% and medium chance  <30% chance to evade enemy's attack>   of evading enemy's attack (including Super Attack); plus an additional ATK & DEF +80% when your team has [[Android #18]] attacking in the same turn
+"Link skill": [[Experienced Fighters]] - [[Turtle School]] - [[Solid Support]] - [[Brainiacs]] - [[Courage]] - [[Tournament of Power]]
+"Category": [[Universe Survival Saga]] - [[Representatives of Universe 7]] - [[Earthlings]] - [[Battle of Wits]] - [[Turtle School]] - [[Defenders of Justice]] - [[Bond of Friendship]] - [[Bond of Parent and Child]]
+},
+{
+"name1": Trustworthy Skill and Experience
+"name2": Krillin
+"rarity": UR
+"type": SAGL
+"ID": 12003
+"LS description": [[Representatives of Universe 7]] Category Ki +3 and HP, ATK & DEF +120%
+"SA name": Solar Flare x100
+"SA description": Causes supreme damage and lowers ATK  <Lowers enemy's ATK by 20% for 3 turns>   with a high chance of stunning the enemy  <50% chance to stun the enemy for 2 turns>  
+"PS name": Teaming Up With Android #18
+"PS description": ATK & DEF +180% and medium chance  <30% chance to evade enemy's attack>   of evading enemy's attack (including Super Attack); Ki +2 plus an additional ATK & DEF +120% when your team has [[Android #18]] attacking in the same turn; attacks effective against all Types when the target enemy is stunned
+"Link skill": [[Experienced Fighters]] - [[Turtle School]] - [[Solid Support]] - [[Brainiacs]] - [[Courage]] - [[Tournament of Power]] - [[Fierce Battle]]
+"Category": [[Universe Survival Saga]] - [[Representatives of Universe 7]] - [[Earthlings]] - [[Battle of Wits]] - [[Turtle School]] - [[Defenders of Justice]] - [[Bond of Friendship]] - [[Bond of Parent and Child]]
+},
+{
+"name1": Full-Power Breakthrough
+"name2": Jackie Chun (Max Power)
+"rarity": UR
+"type": SPHY
+"ID": 12004
+"LS description": [[PHY]] Type Ki +2 and HP, ATK & DEF +70%
+ "SA name": Kamehameha
+"SA description": Greatly raises ATK for 1 turn  <Raises  by 50% for 1 turn>  , causes supreme damage to enemy and greatly lowers DEF  <Lowers enemy's DEF by 50% for 3 turns>  
+"PS name":	Disturbance-Curbing Energy
+"PS description": Ki +1 (up to +3) and ATK & DEF +20% (up to 80%) at start of each turn; ATK & DEF +150% when performing a Super Attack; [[Kamehameha]] Category allies' Ki +3 and ATK +30%
+"Link skill": [[Supreme Warrior]] - [[World Tournament Champion]] - [[Guidance of the Dragon Balls]] - [[The Incredible Adventure]] - [[Brainiacs]] - [[Kamehameha]] - [[Shattering the Limit]]
+"Category": [[World Tournament]] - [[Full Power]] - [[DB Saga]] - [[Kamehameha]] - [[Earthlings]] - [[Battle of Wits]] - [[Planetary Destruction]]
+},
+{
+"name1": Collision With Disaster
+"name2": Great Saiyaman (SS2)
+"rarity": UR
+"type": SSTR
+"ID": 12005
+"LS description": [[STR]] Type Ki +2 and HP, ATK & DEF +70%
+"SA name": Explosive Demon Flash
+"SA description": Greatly raises ATK & DEF for 1 turn  <Raises  and DEF by 50% for 1 turn>   and causes supreme damage to enemy
+"PS name": Together in Strength
+"PS description": ATK & DEF +70%; plus an additional ATK & DEF +10% with each attack performed (up to 58%); Super Class allies' Ki +3 and ATK & DEF +30%; plus an additional Ki +3 and ATK & DEF +58% when there is an Extreme Class enemy; Extreme Class enemies' DEF -58%
+"Link skill": [[Golden Warrior]] - [[Super Saiyan]] - [[Shocking Speed]] - [[Hero of Justice]] - [[Prepared for Battle]] - [[The Saiyan Lineage]] - [[Shattering the Limit]]
+"Category": [[World Tournament]] - [[Hybrid Saiyans]] - [[Majin Buu Saga]] - [[Goku's Family]] - [[Siblings' Bond]] - [[Kamehameha]] - [[Super Saiyan 2]] - [[Exploding Rage]] - [[Special Pose]] - [[Defenders of Justice]] - [[Power Beyond Super Saiyan]] - [[Bond of Parent and Child]]
+},
+{
+"name1": Keeper of the Magical Furnace
+"name2": Annin
+"rarity": SSR
+"type": INT-S
+"ID": 12006
+"LS description": [[INT]] Type Ki +3 and HP, ATK & DEF +50%
+"SA type": W "SA name": Divine Wild Dance
+"SA description": Raises DEF for 1 turn  <Raises DEF by 30% for 1 turn>  , causes supreme damage to enemy and lowers ATK  <Lowers enemy's ATK by 20% for 3 turns>  
+"PS name": Tajoro's Power
+"PS description": ATK & DEF +120%; Ki +2 plus an additional ATK & DEF +60% when HP is 60% or more; [[Peppy Gals]] Category allies' ATK +20% and DEF +10%; [[Realm of Gods]] Category allies' ATK +20% and DEF +10%; recovers 6% HP at start of turn
+"Link skill": [[The Innocents]] - [[More Than Meets the Eye]] - [[Infighter]] - [[Battlefield Diva]] - [[The Incredible Adventure]] - [[Guidance of the Dragon Balls]]
+"Category": [[Peppy Gals]] - [[Realm of Gods]]
+},
+{
+"name1": Mischief-Makers' True Might
+"name2": Mighty Mask
+"rarity": UR
+"type": SPHY
+"ID": 12007
+"LS description": [[PHY]] Type Ki +3 and HP, ATK & DEF +70%
+ "SA name": Final Cannon
+"SA description": Greatly raises ATK & DEF for 1 turn  <Raises  and DEF by 50% for 1 turn>   and causes supreme damage to enemy
+"PS name": Puzzling Rhythm
+"PS description": ATK & DEF +150%; plus an additional ATK & DEF +150% when facing only 1 enemy; evades enemy's attack (including Super Attack) for 1 turn when HP is 50% or less (once only), and after that turn, high chance  <50% chance to evade enemy's attack>   of evading enemy's attack (including Super Attack) when HP is 50% or less; evades enemy's attack (including Super Attack) for 1 turn when HP is 30% or less
+"Link skill": [[Super Saiyan]] - [[World Tournament Reborn]] - [[More Than Meets the Eye]] - [[The Innocents]] - [[Shocking Speed]] - [[Flee]] - [[Shattering the Limit]]
+"Category": [[World Tournament]] - [[Majin Buu Saga]]
+},
+{
+"name1": Legendary Z-Sword
+"name2": Gohan (Teen)
+"rarity": SSR
+"type": TEQ-S
+"ID": 12008
+"LS description": [[Saviors]] or [[Hybrid Saiyans]] Category Ki +2, HP +100% and ATK & DEF +140%
+"SA name": Z-Sword Slash
+"SA description": Raises ATK & DEF  <Raises ATK & DEF by 20% for 99 turns >   and causes immense damage to enemy
+"PS name": Sacred Realm's Mightiest Sword
+"PS description": ATK & DEF +120%; Ki +1 at start of each turn (up to +2); guards all attacks
+"Link skill": [[Brainiacs]] - [[All in the Family]] - [[The Saiyan Lineage]] - [[Cold Judgment]] - [[Revival]] - [[Power Bestowed by God]]
+"Category": [[Hybrid Saiyans]] - [[Resurrected Warriors]] - [[Majin Buu Saga]] - [[Goku's Family]] - [[Siblings' Bond]] - [[Saviors]] - [[Defenders of Justice]] - [[Entrusted Will]] - [[Bond of Parent and Child]]
+},
+{
+"name1": Power Beyond the Extremes
+"name2": Ultimate Gohan
+"rarity": UR
+"type": STEQ
+"ID": 42010
+"LS description": [[Saviors]] or [[Hybrid Saiyans]] Category Ki +3, HP +130% and ATK & DEF +170%
+"SA name": Burst Rush
+"SA description": Greatly raises ATK for 1 turn  <Raises  by 50% for 1 turn>   and causes immense damage with a medium chance of stunning the enemy  <30% chance to stun the enemy for 2 turns>  
+"PS name": Elder Kai's Power-Up
+"PS description": Ki +3 and ATK & DEF +158%; guards all attacks; plus an additional ATK +58% for the rest of battle when guard is activated; attacks effective against all Types when facing only 1 enemy, whose HP is 58% or more, or when there is a [[Majin Buu Saga]] Category enemy
+"Transform type": Boost
+"Link skill": <i>[[Infighter]]</i> - [[All in the Family]] - <i>[[Saiyan Warrior Race]]</i> - [[Cold Judgment]] - <i>[[Shocking Speed]]</i> - [[Power Bestowed by God]] - [[Fierce Battle]]
+"Category": [[Hybrid Saiyans]] - [[Resurrected Warriors]] - [[Majin Buu Saga]] - [[Goku's Family]] - [[Siblings' Bond]] - [[Revenge]] - [[Rapid Growth]] - [[Saviors]] - [[Powerful Comeback]] - [[Defenders of Justice]] - [[Entrusted Will]] - [[Bond of Parent and Child]]
+},
+{
+"name1": Duty to Maintain Peace
+"name2": West Supreme Kai
+"rarity": UR
+"type": SAGL
+"ID": 12011
+"LS description": [[Realm of Gods]] Category Ki +4 and HP, ATK & DEF +100%
+ "SA name": Sacred Light Bullet
+"SA description": Greatly raises ATK & DEF for 1 turn  <Raises  and DEF by 50% for 1 turn>   and causes supreme damage to enemy
+"PS name": Divine Endeavor
+"PS description": ATK & DEF +100%; guards all attacks within the same turn after receiving attack; [[Realm of Gods]] Category allies' ATK & DEF +40% and chance of performing a critical hit +10%
+"Link skill": [[Battlefield Diva]] - [[The Innocents]] - [[Courage]] - [[Shocking Speed]] - [[Godly Power]] - [[Supreme Power]] - [[Fierce Battle]]
+"Category": [[Realm of Gods]] - [[Majin Buu Saga]] - [[Potara]] - [[Storied Figures]]
+},
+{
+"name1": Supreme God's Role
+"name2": Supreme Kai
+"rarity": SSR
+"type": INT-S
+"ID": 12012
+"LS description": [[Potara]] Category Ki +4 and HP, ATK & DEF +80%
+"SA name": Shock Wave
+"SA description": Raises DEF for 1 turn  <Raises DEF by 30% for 1 turn>   and causes supreme damage with a medium chance of stunning the enemy  <30% chance to stun the enemy for 2 turns>  
+"PS name": Mortal-World Inspection
+"PS description": ATK & DEF +100%; attacked enemy's ATK & DEF -20% for 2 turns; medium chance  <30% chance to evade enemy's attack>   of evading enemy's attack (including Super Attack); recovers 8% HP at the end of turn
+"Link skill": [[Telekinesis]] - [[Solid Support]] - [[Cold Judgment]] - [[Master of Magic]] - [[Godly Power]] - [[Supreme Power]]
+"Category": [[Realm of Gods]] - [[Majin Buu Saga]] - [[Potara]]
+},
+{
+"name1": Formidable Reputation
+"name2": Vegeta (Kid)
+"rarity": UR
+"type": EAGL
+"ID": 12401
+"LS description": [[AGL]] Type Ki +3 and HP, ATK & DEF +30%
+"SA name": Giga Blaster
+"SA description": Causes supreme damage with a medium chance to stun the enemy  <30% chance to stun the enemy for 2 turns>  
+"PS name": Proven Prodigy
+"PS description": ATK & DEF +60% when performing a Super Attack; plus an additional ATK & DEF +20% with each attack performed (up to 60%); plus an additional ATK +20% with each Super Attack performed (up to 60%); plus an additional DEF +30% when there is another [[Youth]] Category ally attacking in the same turn; plus an additional DEF +30% when there is another [[Gifted Warriors]] Category ally attacking in the same turn
+"Link skill": [[Saiyan Warrior Race]] - [[Prodigies]] - [[The Saiyan Lineage]] - [[Royal Lineage]] - [[Super Strike]] - [[Bombardment]] - [[Shattering the Limit]]
+"Category": [[Pure Saiyans]] - [[Vegeta's Family]] - [[Youth]] - [[Terrifying Conquerors]] - [[Space-Traveling Warriors]] - [[Gifted Warriors]]
+},
+{
+"name1": Treasured Battle Device
+"name2": Android #16
+"rarity": UR
+"type": EINT
+"ID": 12402
+"LS description": [[INT]] Type Ki +3 and HP, ATK & DEF +30%
+"SA type": "SA name": Hell Flash
+"SA description": Causes supreme damage to enemy and lowers ATK  <Lowers enemy's ATK by 20% for 3 turns>  
+"PS name": Robotic Body
+"PS description": ATK & DEF +120%; medium chance of guarding all attacks  <30% chance to receive all attacks with Type advantage>   when all allies attacking in the same turn are [[Androids/Cell Saga]] characters; reduces damage received by 55% when guard is activated
+"Link skill": [[Android Assault]] - [[Mechanical Menaces]] - [[Gentleman]] - [[Tough as Nails]] - [[Soul vs Soul]] - [[Super Strike]] - [[Shattering the Limit]]
+"Category": [[Androids]] - [[Artificial Life Forms]] - [[Androids/Cell Saga]] - [[Target: Goku]] - [[Saviors]] - [[Connected Hope]]
+},
+{
+"name1": Dignity of the Strongest Clan
+"name2": King Cold
+"rarity": UR
+"type": EPHY
+"ID": 12404
+"LS description":  [[PHY]] & [[STR]] Type Ki +3 and HP, ATK & DEF +30%
+ "SA name": Full Power Death Beam
+"SA description": Causes supreme damage to enemy and lowers ATK & DEF  <Lowers enemy's ATK & DEF by 20% for 3 turns>  
+"PS name": The Power to Subdue
+"PS description": ATK & DEF +80%; plus an additional ATK & DEF +40% and [[Wicked Bloodline]] Category allies' ATK +20% when HP is 50% or more; all enemies ATK -25%
+"Link skill": [[Brutal Beatdown]] - [[Tough as Nails]] - [[Bombardment]] - [[Strongest Clan in Space]] - [[Universe's Most Malevolent]] -  [[Super Strike]] - [[Shattering the Limit]]
+"Category": [[Wicked Bloodline]] - [[Androids/Cell Saga]] - [[Terrifying Conquerors]] - [[Target: Goku]]
+},
+{
+"name1": Cunning Threat
+"name2": Raditz
+"rarity": SSR
+"type": PHY-E
+"ID": 12405
+"LS description": [[Saiyan Saga]] or [[Pure Saiyans]] Category Ki +2 and HP, ATK & DEF +130%;plus an additional HP, ATK & DEF +10% for characters who also belong to the [[Space-Traveling Warriors]] Category
+"SA name": Weekend
+"SA description": Raises ATK & DEF for 1 turn  <Raises  & DEF by 30% for 1 turn>   and causes supreme damage to enemy
+"PS name": Raditz's Demand
+"PS description": ATK & DEF +100%; plus an additional ATK & DEF +50% when performing a Super Attack if facing only 1 enemy and if that enemy's HP is 50% or less when the character performs a Super Attack, plus an additional ATK +50% and medium chance  <30% chance to perform a critical hit>   of performing a critical hit; plus an additional DEF +100% when facing 2 or more enemies
+"Link skill": [[The Saiyan Lineage]] - [[Saiyan Warrior Race]] - [[Coward]] - [[Brutal Beatdown]] - [[Nightmare]] - [[Prepared for Battle]]
+"Category": [[Low-Class Warrior]] - [[Pure Saiyans]] - [[Goku's Family]] - [[Terrifying Conquerors]] - [[Space-Traveling Warriors]] - [[Saiyan Saga]]
+},
+{
+"name1": Unveiling of Power
+"name2": Raditz
+"rarity": UR
+"type": EPHY
+"ID": 12406
+"LS description": [[Saiyan Saga]] or [[Pure Saiyans]] Category Ki +3 and HP, ATK & DEF +170%;plus an additional HP, ATK & DEF +30% for characters who also belong to the [[Space-Traveling Warriors]] Category
+"SA name": Weekend
+"SA description": Greatly raises ATK & DEF for 1 turn  <Raises  & DEF by 50% for 1 turn>   and causes supreme damage to all enemies
+"PS name": Raditz's Enforcement
+"PS description": ATK & DEF +150%; plus an additional ATK & DEF +50% when performing a Super Attack if facing only 1 enemy and if that enemy's HP is 50% or less when the character performs a Super Attack, plus an additional ATK +100% and high chance  <50% chance to perform a critical hit>   of performing a critical hit; performs a critical hit within the same turn after receiving an attack plus an additional DEF +150% when facing 2 or more enemies; Ki +2 for the rest of battle after delivering a final blow
+"Link skill": [[The Saiyan Lineage]] - [[Saiyan Warrior Race]] - [[Coward]] - [[Brutal Beatdown]] - [[Nightmare]] - [[Prepared for Battle]] - [[Fierce Battle]]
+"Category": [[Low-Class Warrior]] - [[Pure Saiyans]] - [[Goku's Family]] - [[Terrifying Conquerors]] - [[Space-Traveling Warriors]] - [[Saiyan Saga]]
+},
+{
+"name1": Overwhelming Invasion
+"name2": Nappa
+"rarity": SSR
+"type": STR-E
+"ID": 12407
+"LS description": [[Saiyan Saga]] Category Ki +2 and HP, ATK & DEF +100%
+ "SA name": Arm Crash
+"SA description": Greatly raises DEF for 1 turn  <Raises DEF by 50% for 1 turn>   and causes supreme damage to enemy
+"PS name": Unusual Aura
+"PS description": ATK +78%; raises DEF by up to 378% (the more HP remaining, the greater the stats boost); [[Saiyan Saga]] Category allies Ki +2 and ATK & DEF +30%; [[Saiyan Saga]] Category allies ATK +7% and DEF +8% per existing Super Class enemy
+"Link skill": [[Brutal Beatdown]] - [[Saiyan Warrior Race]] - [[Infighter]] - [[Berserker]] - [[Tough as Nails]] - [[Shocking Speed]]
+"Category": [[Pure Saiyans]] - [[Terrifying Conquerors]] - [[Space-Traveling Warriors]] - [[Saiyan Saga]]
+},
+{
+"name1": Cruel Pursuit
+"name2": Nappa
+"rarity": UR
+"type": ESTR
+"ID": 12408
+"LS description": [[Saiyan Saga]] Category Ki +3 and HP, ATK & DEF +130%
+"SA name": Blazing Storm
+"SA description": Greatly raises DEF for 1 turn  <Raises DEF by 50% for 1 turn>   and causes supreme damage to enemy
+"PS name": Overwhelming Intensity
+"PS description": ATK +178%; raises DEF by up to 780% (the more HP remaining, the greater the stats boost); ATK +78% when facing only one enemy; [[Saiyan Saga]] Category allies Ki +2 and ATK & DEF +30%; plus an additional ATK +7% and DEF +8% for [[Saiyan Saga]] Category allies per existing Super Class enemy
+"Link skill": [[Brutal Beatdown]] - [[Saiyan Warrior Race]] - [[Infighter]] - [[Berserker]] - [[Tough as Nails]] - [[Shocking Speed]] - [[Fierce Battle]]
+"Category": [[Pure Saiyans]] - [[Terrifying Conquerors]] - [[Space-Traveling Warriors]] - [[Saiyan Saga]]
+},
+{
+"name1": Inheritable Techniques
+"name2": Grandpa Gohan
+"rarity": UR
+"type": SSTR
+"ID": 12409
+"LS description": [[STR]] Type Ki +3 and HP, ATK & DEF +30%
+ "SA name": Turtle School Style
+"SA description": Causes supreme damage to enemy and lowers ATK  <Lowers enemy's ATK by 20% for 3 turns>  
+"PS name": Seriousness Within the Mask
+"PS description": Ki +3 and ATK & DEF +60%; all allies' ATK & DEF +10% when there is another [[Goku's Family]] Category ally on the team; all allies' ATK & DEF +10% in addition when your team has an ally whose name includes [[Goku (disambiguation)#Goku (Youth)"Goku (Youth)]] attacking in the same turn
+"Link skill": [[All in the Family]] - [[Turtle School]] - [[Bombardment]] - [[The Incredible Adventure]] - [[Guidance of the Dragon Balls]] - [[Super Strike]] - [[Shattering the Limit]]
+"Category": [[Goku's Family]] - [[DB Saga]] - [[Bond of Master and Disciple]] - [[Otherworld Warriors]] - [[Earthlings]] - [[Turtle School]] - [[Time Limit]] - [[Bond of Parent and Child]]
+},
+{
+"name1": Suspicious Undercover Activity
+"name2": Para Para Brothers
+"rarity": SSR
+"type": PHY-E
+"ID": 12410
+"LS description": [[Special Pose]] Category Ki +2 and HP, ATK & DEF +30%
+"SA name": Dancing Para Para Attack
+"SA description": Greatly raises DEF for 1 turn  <Raise DEF by 50% for 1 turn>  , causes supreme damage to enemy and raises allies' ATK by 20% for 1 turn (self excluded)
+"PS name": Strange Dance
+"PS description": DEF +80%; Ki +1 and all allies' (self excluded) ATK +20% when the character is the 1st or 2nd to obtain Ki Spheres in a turn; plus an additional DEF +80% and all allies' Ki +1 and DEF +20% when the character is the 3rd to obtain Ki Spheres in a turn
+"Link skill": [[Flee]] - [[Telekinesis]] - [[More Than Meets the Eye]] - [[Coward]] - [[Solid Support]] - [[GT]]
+"Category": [[Dragon Ball Seekers]] - [[Joined Forces]] - [[Special Pose]]
+},
+{
+"name1": Captivating Dance
+"name2": Para Para Brothers
+"rarity": UR
+"type": EPHY
+"ID": 12411
+"LS description": [[Special Pose]] Category Ki +3 and HP, ATK & DEF +50%
+"SA name": Dancing Para Para Attack
+"SA description": Greatly raises DEF for 3 turns  <Raise DEF by 50% for 3 turns>  , causes supreme damage to enemy and raises allies' ATK by 25% for 1 turn (self excluded)
+"PS name": Cheerful Dance
+"PS description": Ki +1 and DEF +120%; all allies' ATK & DEF +25% (self excluded); plus an additional Ki +2 and all allies' (self excluded) ATK +25% when the character is the 1st or 2nd to obtain Ki Spheres in a turn; plus an additional DEF +120% and all allies' Ki +2 and DEF +25% when the character is the 3rd to obtain Ki Spheres in a turn; high chance  <50% chance of sealing all enemies>   of sealing all enemies' Super Attacks at start of turn when there is a [[GT Heroes]] Category enemy
+"Link skill": [[Flee]] - [[Telekinesis]] - [[More Than Meets the Eye]] - [[Coward]] - [[Solid Support]] - [[GT]] - [[Shattering the Limit]]
+"Category": [[Dragon Ball Seekers]] - [[Joined Forces]] - [[Special Pose]]
+},
+{
+"name1": Strongest Pair on Earth
+"name2": Goku & Piccolo
+"rarity": SSR
+"type": PHY-S
+"ID": 12412
+"LS description": [[Saiyan Saga]] Category Ki +2 and HP, ATK & DEF +100%
+ "SA name": Dragon Tiger Whirlwind Dance
+"SA description": Raises ATK  <Raises ATK by 30% for 99 turns>   and causes supreme damage to enemy
+"PS name": Current Best Course of Action
+"PS description": ATK & DEF +80%; plus an additional DEF +100% when HP is 50% or more; launches an additional Super Attack within the same turn after receiving an attack as the 1st attacker in a turn
+"Link skill": [[Infighter]] - [[Shocking Speed]] - [[Tough as Nails]] - [[Experienced Fighters]] - [[Solid Support]]
+"Category": [[Joined Forces]] - [[All-Out Struggle]] - [[Saiyan Saga]]
 },
