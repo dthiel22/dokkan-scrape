@@ -1,10 +1,9 @@
 from bs4 import BeautifulSoup
 import io
-import os
 import requests
 
 
-URL2 = ("https://dbz-dokkanbattle.fandom.com/wiki/Fusion_with_the_Big_Gete_Star_Metal_Cooler?action=edit")
+URL2 = ("https://dbz-dokkanbattle.fandom.com/wiki/Rising_Wickedness_Janembu?action=edit")
 print(URL2)
 
 print("main card page ======================")
@@ -21,9 +20,9 @@ rQuote = textBoxEl.replace('"',"")
 # print(rQuote)
 
 # specified/prepping content ============
-rSAType = rQuote.replace('|SA type = Ki',"").replace('|SA type =  Ki',"").replace('|SA Type = Ki',"").replace('|SA type = M',"").replace('|SA type = W',"").replace('|SA type =',"").replace('|UltraSA type = Ki',"").replace('|UltraSA type =  K:',"").replace('|UltraSA type = M',"").replace('|UltraSA type = W',"").replace('|UltraSA type =',"").replace('|SA type Active = Ki',"").replace('|SA type Active = M',"").replace('|SA type Active = W',"").replace('|SA type Active =',"")
+rSAType = rQuote.replace('|SA type = Kies',"").replace('|SA type = Ki',"").replace('|SA type =  Ki',"").replace('|SA Type = Ki',"").replace('|SA type = M',"").replace('|SA type = W',"").replace('|SA type =',"").replace('|UltraSA type = Ki',"").replace('|UltraSA type =  K:',"").replace('|UltraSA type = M',"").replace('|UltraSA type = W',"").replace('|UltraSA type =',"").replace('|SA type Active = Ki',"").replace('|SA type Active = M',"").replace('|SA type Active = W',"").replace('|SA type Active =',"").replace('|KiBlast = ',"")
 rPettan = rSAType.replace('|Pettan = yes',"")
-rMoveASCond = rPettan.replace('|Active skill condition','\n|Active skill condition')
+rMoveASCond = rPettan.replace('|Active skill condition','\n|Active skill condition').replace('|Active skill name','\n|Active skill name')
 rTube = rMoveASCond.replace('|','"')
 rEqualSign = rTube.replace(" =",'":')
 rLineBreak = rEqualSign.replace('<br>',"").replace('</br>',"")
@@ -48,16 +47,16 @@ rSphereExclude = rESphereFile.replace('icon.png"30px',"")
 
 rStackAtt = rSphereExclude.replace('([[Stack Attack"How does it work?]])',"").replace('Super Attack Multipliers"SA Multiplier',"")
 
-rName1 = rStackAtt.replace(' name="[1]"',"").replace('name=[1]',"").replace('name": [1]',"")
-rName2 = rName1.replace(' name="[2]"',"").replace(' name=[2]',"")
-rName3 = rName2.replace(' name="[3]"',"").replace(' name=[3]',"")
-rName4 = rName3.replace(' name="[4]"',"").replace(' name=[4]',"")
-rName5 = rName4.replace(' name="[5]"',"").replace(' name=[5]',"")
-rName6 = rName5.replace(' name="[6]"',"").replace(' name=[6]',"")
-rName7 = rName6.replace(' name="[7]"',"").replace(' name=[7]',"")
-rName8 = rName7.replace(' name="[8]"',"").replace(' name=[8]',"")
-rName9 = rName8.replace(' name="[9]"',"").replace(' name=[9]',"")
-rName10 = rName9.replace(' name=[10]',"").replace(' name=[10]',"")
+rName1 = rStackAtt.replace(' name="[1]"',"").replace('name=[1]',"").replace('name": [1]',"").replace('name":[1]',"")
+rName2 = rName1.replace(' name="[2]"',"").replace(' name=[2]',"").replace('name": [2]',"").replace('name":[2]',"")
+rName3 = rName2.replace(' name="[3]"',"").replace(' name=[3]',"").replace('name": [3]',"").replace('name":[3]',"")
+rName4 = rName3.replace(' name="[4]"',"").replace(' name=[4]',"").replace('name": [4]',"").replace('name":[4]',"")
+rName5 = rName4.replace(' name="[5]"',"").replace(' name=[5]',"").replace('name": [5]',"").replace('name":[5]',"")
+rName6 = rName5.replace(' name="[6]"',"").replace(' name=[6]',"").replace('name": [6]',"").replace('name":[6]',"")
+rName7 = rName6.replace(' name="[7]"',"").replace(' name=[7]',"").replace('name": [7]',"").replace('name":[7]',"")
+rName8 = rName7.replace(' name="[8]"',"").replace(' name=[8]',"").replace('name": [8]',"").replace('name":[8]',"")
+rName9 = rName8.replace(' name="[9]"',"").replace(' name=[9]',"").replace('name": [9]',"").replace('name":[9]',"")
+rName10 = rName9.replace(' name=[10]',"").replace(' name=[10]',"").replace('name": [10]',"").replace('name":[10]',"")
 
 rIFrame = rName10.replace('<i>',"").replace('</i>',"")
 rRef = rIFrame.replace('<ref>',"  <").replace('<ref >',"  <")
@@ -67,7 +66,7 @@ rLB = rDash.replace('[[',"")
 rRB = rLB.replace(']]',"")
 
 # ======= this is POST-EDITING print =======
-# print(rRB)
+print(rRB)
 test = io.StringIO(rRB)
 myline = test.readline()
 
@@ -160,6 +159,7 @@ if charLinkSkills == []:
 
 
 results = [extraSpace1, charSourceLink, charName1, charName2, charRarity, charType, charID[0], charLS, charSaName[0], charSaDesc[0], charUltraName[0], charUltraDesc[0], charPsName[0], charPsDesc[0], charASName, charAS, charASCond, charTransformType, charTransformCond[0], charLinkSkills[0], charCategories, extraSpace2]
+
 if charLinkSkills[0] == "" or charLinkSkills[0] == "None":
     results = []
 if charCategories == []:

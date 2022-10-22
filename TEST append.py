@@ -3,25 +3,28 @@ from bs4 import BeautifulSoup
 import io
 
 # loops through pages of cards x < 2600 ========
-x = 1
+x = 2401
 while x < 2600:
     x += 100
     print()
     cardPage = f"https://dbz-dokkanbattle.fandom.com/wiki/All_Cards:_(1){x}_to_(1){x+99}"
     print(cardPage)
     print("=========")
+    
     # grabbing main part of dokkan page ========
     URL = cardPage
     page = requests.get(URL)
     soup = BeautifulSoup(page.content, "html.parser")
     results = soup.find(id="content")
-    # selecting the character links ============
+
+    # selecting the character URLs ============
     characterListIdEl = results.find("table")
     characterTbody = results.findAll("tr")
     numOfCharacters = len(characterTbody)
-    print(numOfCharacters)
+
     i = 0
     # needs to be <= 99 in order to loop through all of it ===== <= numOfCharacters-2
+    # on Baby Youth error on 2401-2500 change i = 29
     while i <= numOfCharacters-2:
         i += 1
         characterTdEl = characterListIdEl.select("tr")[i]
@@ -42,13 +45,14 @@ while x < 2600:
         # global edits to text =====================
         print('')
         rQuote = textBoxEl.replace('"',"")
+
         # check before global edits =============
         # print(rQuote)
 
         # specified/prepping content ============
-        rSAType = rQuote.replace('|SA type = Ki',"").replace('|SA type =  Ki',"").replace('|SA Type = Ki',"").replace('|SA type = M',"").replace('|SA type = W',"").replace('|SA type =',"").replace('|UltraSA type = Ki',"").replace('|UltraSA type =  K:',"").replace('|UltraSA type = M',"").replace('|UltraSA type = W',"").replace('|UltraSA type =',"").replace('|SA type Active = Ki',"").replace('|SA type Active = M',"").replace('|SA type Active = W',"").replace('|SA type Active =',"")
+        rSAType = rQuote.replace('|SA type = Kies',"").replace('|SA type = Ki',"").replace('|SA type =  Ki',"").replace('|SA Type = Ki',"").replace('|SA type = M',"").replace('|SA type = W',"").replace('|SA type =',"").replace('|UltraSA type = Ki',"").replace('|UltraSA type =  K:',"").replace('|UltraSA type = M',"").replace('|UltraSA type = W',"").replace('|UltraSA type =',"").replace('|SA type Active = Ki',"").replace('|SA type Active = M',"").replace('|SA type Active = W',"").replace('|SA type Active =',"").replace('|KiBlast = ',"")
         rPettan = rSAType.replace('|Pettan = yes',"")
-        rMoveASCond = rPettan.replace('|Active skill condition','\n|Active skill condition')
+        rMoveASCond = rPettan.replace('|Active skill condition','\n|Active skill condition').replace('|Active skill name','\n|Active skill name')
         rTube = rMoveASCond.replace('|','"')
         rEqualSign = rTube.replace(" =",'":')
         rLineBreak = rEqualSign.replace('<br>',"").replace('</br>',"")
@@ -61,7 +65,7 @@ while x < 2600:
 
         rExtraCatInLink = rServerIcon.replace('Androids-Cell Saga"',"").replace('Kamehameha (Category)"',"").replace('Otherworld Warriors (Link Skill)"',"").replace('Turtle School (Link Skill)"',"").replace('Namekians (Link Skill)"',"").replace('Team Bardock (Link Skill)"',"").replace(':Category:Extreme Class"',"").replace(':Category:Super Class"',"").replace('Fusion (Link Skill)"',"")
 
-        rExtraDisambig = rExtraCatInLink.replace('Goku (disambiguation)"',"").replace('Goku (disambiguation)#Goku"',"").replace('Goku (disambiguation)#Goku (Angel)"',"").replace('Goku (disambiguation)#Goku (Youth)"',"").replace('Caulifla (disambiguation)"',"").replace('Cooler (disambiguation)"',"").replace('Trunks (disambiguation)"',"").replace('Bardock (disambiguation)"',"").replace('Android 18 (disambiguation)#Android #18"',"").replace('(disambiguation)#Ribrianne"',"").replace('Rozie (disambiguation)"',"").replace('Kakunsa (disambiguation)"',"").replace('Kale (disambiguation)"',"").replace('Tapion (disambiguation)"',"").replace('Gohan (disambiguation)#Gohan (Kid)"',"").replace('Frieza (disambiguation)"',"").replace('Vegeta (disambiguation)"',"").replace('Cooler (disambiguation)#Metal Cooler"',"").replace('Giru (disambiguation)"',"").replace('Cell (disambiguation)"',"").replace('Boujack (disambiguation)"',"").replace('Gohan (disambiguation)#Gohan (Teen)"',"").replace('Gohan (disambiguation)#Ultimate Gohan"',"").replace('Gohan (disambiguation)#Great Saiyaman"',"").replace('Trunks (disambiguation)#Trunks (Kid)"',"").replace('Trunks (disambiguation)#Trunks (Teen)"',"").replace('Goten (disambiguation)#Goten (Kid)"',"").replace('Piccolo (disambiguation)#Piccolo"',"").replace('Cell (disambiguation)#Cell (Perfect Form)"',"").replace('Cell (disambiguation)#Perfect Cell"',"").replace('Gohan (disambiguation)#Super Saiyan Gohan (Youth)"',"").replace('Gohan (disambiguation)#Super Saiyan 2 Gohan (Youth)"',"").replace('Android 14 (disambiguation)#Androids #14 & #15"',"").replace('Android 16 (disambiguation)"',"").replace('Android 17 (disambiguation)#Android #17"',"").replace('Android 18 (disambiguation)#Android #18 (Future)"',"").replace('Android 17 (disambiguation)#Android #17 (Future)"',"").replace('Ginyu (disambiguation)"',"").replace('Android 13 (disambiguation)#Android #13"',"").replace('Android 13 (disambiguation)#Fusion Android #13"',"").replace('Zamasu (disambiguation)#Zamasu"',"").replace('Zamasu (disambiguation)#Goku Black"',"").replace('Trunks (disambiguation)#Trunks (Teen) (Future)"',"").replace('Mai (disambiguation)#Mai (Future)"',"").replace('Beerus (disambiguation)"',"").replace('Krillin (disambiguation)#Krillin"',"").replace('Krillin (disambiguation)#Krillin"',"")
+        rExtraDisambig = rExtraCatInLink.replace('Goku (disambiguation)"',"").replace('Goku (disambiguation)#Goku"',"").replace('Goku (disambiguation)#Goku (Angel)"',"").replace('Goku (disambiguation)#Goku (Youth)"',"").replace('Caulifla (disambiguation)"',"").replace('Cooler (disambiguation)"',"").replace('Trunks (disambiguation)"',"").replace('Bardock (disambiguation)"',"").replace('Android 18 (disambiguation)#Android #18"',"").replace('(disambiguation)#Ribrianne"',"").replace('Rozie (disambiguation)"',"").replace('Kakunsa (disambiguation)"',"").replace('Kale (disambiguation)"',"").replace('Tapion (disambiguation)"',"").replace('Gohan (disambiguation)#Gohan (Kid)"',"").replace('Frieza (disambiguation)"',"").replace('Vegeta (disambiguation)"',"").replace('Cooler (disambiguation)#Metal Cooler"',"").replace('Giru (disambiguation)"',"").replace('Cell (disambiguation)"',"").replace('Boujack (disambiguation)"',"").replace('Gohan (disambiguation)#Gohan (Teen)"',"").replace('Gohan (disambiguation)#Ultimate Gohan"',"").replace('Gohan (disambiguation)#Gohan (Future)"',"").replace('Gohan (disambiguation)#Great Saiyaman"',"").replace('Trunks (disambiguation)#Trunks (Kid)"',"").replace('Trunks (disambiguation)#Trunks (Teen)"',"").replace('Goten (disambiguation)#Goten (Kid)"',"").replace('Piccolo (disambiguation)#Piccolo"',"").replace('Cell (disambiguation)#Cell (Perfect Form)"',"").replace('Cell (disambiguation)#Perfect Cell"',"").replace('Gohan (disambiguation)#Super Saiyan Gohan (Youth)"',"").replace('Gohan (disambiguation)#Super Saiyan 2 Gohan (Youth)"',"").replace('Android 14 (disambiguation)#Androids #14 & #15"',"").replace('Android 16 (disambiguation)"',"").replace('Android 17 (disambiguation)#Android #17"',"").replace('Android 18 (disambiguation)#Android #18 (Future)"',"").replace('Android 17 (disambiguation)#Android #17 (Future)"',"").replace('Ginyu (disambiguation)"',"").replace('Android 13 (disambiguation)#Android #13"',"").replace('Android 13 (disambiguation)#Fusion Android #13"',"").replace('Zamasu (disambiguation)#Zamasu"',"").replace('Zamasu (disambiguation)#Goku Black"',"").replace('Trunks (disambiguation)#Trunks (Teen) (Future)"',"").replace('Mai (disambiguation)#Mai (Future)"',"").replace('Beerus (disambiguation)"',"").replace('Krillin (disambiguation)#Krillin"',"").replace('Krillin (disambiguation)#Krillin"',"")
 
         rSphereFile = rExtraDisambig.replace('File:Rainbow icon.png"30px"link=',"").replace('File:Rainbow icon.png"30px','Rainbow').replace('File:AGL icon.png"30px"link=Category:',"").replace('File:AGL  icon.png"30px"link=Category:',"").replace('File:TEQ icon.png"30px"link=Category:',"").replace('File:INT icon.png"30px"link=Category:',"").replace('File: INT icon.png"30px"link=Category:',"").replace('File:STR icon.png"30px"link=Category:',"").replace('File:PHY icon.png"30px"link=Category:',"")
 
@@ -73,16 +77,16 @@ while x < 2600:
 
         rStackAtt = rSphereExclude.replace('([[Stack Attack"How does it work?]])',"").replace('Super Attack Multipliers"SA Multiplier',"")
 
-        rName1 = rStackAtt.replace(' name="[1]"',"").replace('name=[1]',"").replace('name": [1]',"")
-        rName2 = rName1.replace(' name="[2]"',"").replace(' name=[2]',"")
-        rName3 = rName2.replace(' name="[3]"',"").replace(' name=[3]',"")
-        rName4 = rName3.replace(' name="[4]"',"").replace(' name=[4]',"")
-        rName5 = rName4.replace(' name="[5]"',"").replace(' name=[5]',"")
-        rName6 = rName5.replace(' name="[6]"',"").replace(' name=[6]',"")
-        rName7 = rName6.replace(' name="[7]"',"").replace(' name=[7]',"")
-        rName8 = rName7.replace(' name="[8]"',"").replace(' name=[8]',"")
-        rName9 = rName8.replace(' name="[9]"',"").replace(' name=[9]',"")
-        rName10 = rName9.replace(' name=[10]',"").replace(' name=[10]',"")
+        rName1 = rStackAtt.replace(' name="[1]"',"").replace('name=[1]',"").replace('name": [1]',"").replace('name":[1]',"")
+        rName2 = rName1.replace(' name="[2]"',"").replace(' name=[2]',"").replace('name": [2]',"").replace('name":[2]',"")
+        rName3 = rName2.replace(' name="[3]"',"").replace(' name=[3]',"").replace('name": [3]',"").replace('name":[3]',"")
+        rName4 = rName3.replace(' name="[4]"',"").replace(' name=[4]',"").replace('name": [4]',"").replace('name":[4]',"")
+        rName5 = rName4.replace(' name="[5]"',"").replace(' name=[5]',"").replace('name": [5]',"").replace('name":[5]',"")
+        rName6 = rName5.replace(' name="[6]"',"").replace(' name=[6]',"").replace('name": [6]',"").replace('name":[6]',"")
+        rName7 = rName6.replace(' name="[7]"',"").replace(' name=[7]',"").replace('name": [7]',"").replace('name":[7]',"")
+        rName8 = rName7.replace(' name="[8]"',"").replace(' name=[8]',"").replace('name": [8]',"").replace('name":[8]',"")
+        rName9 = rName8.replace(' name="[9]"',"").replace(' name=[9]',"").replace('name": [9]',"").replace('name":[9]',"")
+        rName10 = rName9.replace(' name=[10]',"").replace(' name=[10]',"").replace('name": [10]',"").replace('name":[10]',"")
 
         rIFrame = rName10.replace('<i>',"").replace('</i>',"")
         rRef = rIFrame.replace('<ref>',"  <").replace('<ref >',"  <")
@@ -183,11 +187,14 @@ while x < 2600:
         if charLinkSkills == []:
             charLinkSkills = [""]
 
-
+        # results placed in array to ensure proper 
         results = [extraSpace1, charSourceLink, charName1, charName2, charRarity, charType, charID[0], charLS, charSaName[0], charSaDesc[0], charUltraName[0], charUltraDesc[0], charPsName[0], charPsDesc[0], charASName, charAS, charASCond, charTransformType, charTransformCond[0], charLinkSkills[0], charCategories, extraSpace2]
-        if charLinkSkills[0] == "" or charLinkSkills[0] == "None":
+
+        if charLinkSkills[0] == "" or '"None"' in charLinkSkills[0]:
             results = []
         if charCategories == []:
+            results = []
+        if '"N"' in charRarity:
             results = []
         if '"R"' in charRarity:
             results = []
