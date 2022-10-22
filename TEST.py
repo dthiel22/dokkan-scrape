@@ -1,68 +1,83 @@
-from cgitb import text
-from dataclasses import replace
-from operator import contains
-from turtle import right
 import requests
 from bs4 import BeautifulSoup
 import io
 
 # loops through pages of cards x < 2600 ========
-x = 2200
-while x < 2300:
-    x += 1
+x = 1401
+while x < 2600:
+    x += 100
     print()
     cardPage = f"https://dbz-dokkanbattle.fandom.com/wiki/All_Cards:_(1){x}_to_(1){x+99}"
     print(cardPage)
     print("=========")
+    # grabbing main part of dokkan page ========
+    URL = cardPage
+    page = requests.get(URL)
+    soup = BeautifulSoup(page.content, "html.parser")
+    results = soup.find(id="content")
+    # selecting the character links ============
+    characterListIdEl = results.find("table")
+    characterTbody = results.findAll("tr")
+    numOfCharacters = len(characterTbody)
+    print(numOfCharacters)
     i = 0
-    # iteration needs to be i <= 99 in order to loop through all of it
-    while i <= 99:
+    # needs to be <= 99 in order to loop through all of it
+    while i <= numOfCharacters-2:
         i += 1
-        URL = cardPage
-        page = requests.get(URL)
-
-        # grabbing main part of dokkan page ========
-        soup = BeautifulSoup(page.content, "html.parser")
-        results = soup.find(id="content")
-
-        # selecting the character links ============
-        characterListIdEl = results.find("table")
         characterTdEl = characterListIdEl.select("tr")[i]
         characterSelectEl = (characterTdEl).select("a")[1]["href"]
-        linkUsed = (f"https://dbz-dokkanbattle.fandom.com{characterSelectEl}?action=edit")
-        print(linkUsed)
+
+        # copy all below for single test format ================
+
+        URL2 = (f"https://dbz-dokkanbattle.fandom.com{characterSelectEl}?action=edit")
+        print(URL2)
+
         print("main card page ======================")
-        page = requests.get(linkUsed)
-
+        linkUsed = requests.get(URL2)
+        # print(linkUsed)
         # grabbing main part of dokkan page + text box ========
-        main = BeautifulSoup(page.content, "html.parser")
+        main = BeautifulSoup(linkUsed.content, "html.parser")
+        # print(main)
         content = main.find(id="mw-content-text")
+        # print(content)
         textBoxEl = content.find(id='wpTextbox1').text
-        # this will print the PRE-EDIT RESULTS
-        # print(results)
-
-        # all page formatting =====================
+        print(textBoxEl)
+                
+        # global edits to text =====================
         print('')
         addLineToTop = textBoxEl.replace("{{", "----\n{{")
         rQuote = addLineToTop.replace('"',"")
-        moveSAName = rQuote.replace("|SA name:","\n")
-        rPettan = moveSAName.replace('|Pettan = yes',"")
-        rTube = rPettan.replace('|','"')
+
+        # check post global edits =============
+        print(rQuote)
+
+        rSAType = rQuote.replace('|SA type = Ki',"").replace('|SA type =  Ki',"").replace('|SA Type = Ki',"").replace('|SA type = M',"").replace('|SA type = W',"").replace('|SA type =',"").replace('|UltraSA type = Ki',"").replace('|UltraSA type =  K:',"").replace('|UltraSA type = M',"").replace('|UltraSA type = W',"").replace('|UltraSA type =',"").replace('|SA type Active = Ki',"").replace('|SA type Active = M',"").replace('|SA type Active = W',"").replace('|SA type Active =',"")
+        rPettan = rSAType.replace('|Pettan = yes',"")
+        rMoveASCond = rPettan.replace('|Active skill condition','\n|Active skill condition')
+        rTube = rMoveASCond.replace('|','"')
         rEqualSign = rTube.replace(" =",'":')
         rLineBreak = rEqualSign.replace('<br>',"").replace('</br>',"")
 
+        # prints all pre-edit material...GREAT for finding what needs to be edited for specific cases =====
+        # print(rLineBreak)
+
         rServerIcon = rLineBreak.replace('File:Japan server.png"20px',"").replace('File:Global server.png"20px',"")
 
-        rExtraCatInLink = rServerIcon.replace('Androids-Cell Saga"',"").replace('Kamehameha (Category)"',"").replace('Otherworld Warriors (Link Skill)"',"").replace('Turtle School (Link Skill)"',"").replace('[[Namekians (Link Skill)"',"").replace('Team Bardock (Link Skill)"',"").replace('[[:Category:Extreme Class"',"").replace('[[:Category:Super Class"',"").replace('Fusion (Link Skill)"',"")
+        rExtraCatInLink = rServerIcon.replace('Androids-Cell Saga"',"").replace('Kamehameha (Category)"',"").replace('Otherworld Warriors (Link Skill)"',"").replace('Turtle School (Link Skill)"',"").replace('Namekians (Link Skill)"',"").replace('Team Bardock (Link Skill)"',"").replace(':Category:Extreme Class"',"").replace(':Category:Super Class"',"").replace('Fusion (Link Skill)"',"")
 
-        rExtraDisambig = rExtraCatInLink.replace('[[Goku (disambiguation)"',"").replace('[[Goku (disambiguation)#Goku (Youth)"',"").replace('Caulifla (disambiguation)"',"").replace('[[Cooler (disambiguation)"',"").replace('[[Trunks (disambiguation)"',"").replace('[[Bardock (disambiguation)',"").replace('Android 18 (disambiguation)#Android #18"',"").replace('(disambiguation)#Ribrianne"',"").replace('Rozie (disambiguation)"',"").replace('Kakunsa (disambiguation)"',"").replace('Kale (disambiguation)"',"").replace('Tapion (disambiguation)"',"").replace('Gohan (disambiguation)#Gohan (Kid)"',"").replace('Frieza (disambiguation)"',"").('(disambiguation)"Vegeta (Kid, Jr., etc. excluded)',"")
+        rExtraDisambig = rExtraCatInLink.replace('Goku (disambiguation)"',"").replace('Goku (disambiguation)#Goku"',"").replace('Goku (disambiguation)#Goku (Youth)"',"").replace('Caulifla (disambiguation)"',"").replace('Cooler (disambiguation)"',"").replace('Trunks (disambiguation)"',"").replace('Bardock (disambiguation)"',"").replace('Android 18 (disambiguation)#Android #18"',"").replace('(disambiguation)#Ribrianne"',"").replace('Rozie (disambiguation)"',"").replace('Kakunsa (disambiguation)"',"").replace('Kale (disambiguation)"',"").replace('Tapion (disambiguation)"',"").replace('Gohan (disambiguation)#Gohan (Kid)"',"").replace('Frieza (disambiguation)"',"").replace('Vegeta (disambiguation)"',"").replace('Cooler (disambiguation)#Metal Cooler"',"").replace('Giru (disambiguation)"',"").replace('Cell (disambiguation)"',"").replace('Boujack (disambiguation)"',"").replace('Gohan (disambiguation)#Gohan (Teen)"',"").replace('Gohan (disambiguation)#Ultimate Gohan"',"").replace('Gohan (disambiguation)#Great Saiyaman"',"").replace('Trunks (disambiguation)#Trunks (Kid)"',"").replace('Goten (disambiguation)#Goten (Kid)"',"")
 
-        rSAType = rExtraDisambig.replace('"SA type": Ki',"").replace('"SA type": M',"").replace('"SA type": W',"").replace('"SA Type:"',"").replace('"UltraSA type" "Ki:',"").replace('"UltraSA type": "M',"")
-        rSphereFile = rSAType.replace('File:Rainbow icon.png"30px"link=',"").replace('File:AGL icon.png"30px"link=Category:',"").replace('File:AGL  icon.png"30px"link=Category:',"").replace('File:TEQ icon.png"30px"link=Category:',"").replace('File:INT icon.png"30px"link=Category:',"").replace('File: INT icon.png"30px"link=Category:',"").replace('File:STR icon.png"30px"link=Category:',"").replace('File:PHY icon.png"30px"link=Category:',"")
+        rSphereFile = rExtraDisambig.replace('File:Rainbow icon.png"30px"link=',"").replace('File:Rainbow icon.png"30px','Rainbow').replace('File:AGL icon.png"30px"link=Category:',"").replace('File:AGL  icon.png"30px"link=Category:',"").replace('File:TEQ icon.png"30px"link=Category:',"").replace('File:INT icon.png"30px"link=Category:',"").replace('File: INT icon.png"30px"link=Category:',"").replace('File:STR icon.png"30px"link=Category:',"").replace('File:PHY icon.png"30px"link=Category:',"")
+
         rSSphereFile = rSphereFile.replace('File:SAGL icon.png"30px"link=Category:',"").replace('File:STEQ icon.png"30px"link=Category:',"").replace('File:SINT icon.png"30px"link=Category:',"").replace('File:SSTR icon.png"30px"link=Category:',"").replace('File:SPHY icon.png"30px"link=Category:',"")
+
         rESphereFile = rSSphereFile.replace('File:EAGL icon.png"30px"link=Category:',"").replace('File:ETEQ icon.png"30px"link=Category:',"").replace('File:EINT icon.png"30px"link=Category:',"").replace('File:ESTR icon.png"30px"link=Category:',"").replace('File:EPHY icon.png"30px"link=Category:',"")
-        rStackAtt = rESphereFile.replace('([[Stack Attack"How does it work?]])',"").replace('[[Super Attack Multipliers"SA Multiplier]]',"")
-        rName1 = rStackAtt.replace(' name="[1]"',"").replace('name=[1]',"")
+
+        rSphereExclude = rESphereFile.replace('icon.png"30px',"")
+
+        rStackAtt = rSphereExclude.replace('([[Stack Attack"How does it work?]])',"").replace('Super Attack Multipliers"SA Multiplier',"")
+
+        rName1 = rStackAtt.replace(' name="[1]"',"").replace('name=[1]',"").replace('name": [1]',"")
         rName2 = rName1.replace(' name="[2]"',"").replace(' name=[2]',"")
         rName3 = rName2.replace(' name="[3]"',"").replace(' name=[3]',"")
         rName4 = rName3.replace(' name="[4]"',"").replace(' name=[4]',"")
@@ -81,7 +96,7 @@ while x < 2300:
         rRB = rLB.replace(']]',"")
 
         # ======= this is POST-EDITING print =======
-        print(rRB)
+        # print(rRB)
         test = io.StringIO(rRB)
         myline = test.readline()
 
@@ -135,29 +150,37 @@ while x < 2300:
                 charPsName = myline.replace(': ',': "',1).replace('\n','",\n')
             if '"PS description":' in myline:
                 charPsDesc = myline.replace(': ',': "',1).replace('\n','",\n')
-            if '"Active Skill name":' in myline:
+            if '"Active skill name":' in myline:
                 charASName = myline.replace(': ',': "',1).replace('\n','",\n')
-            if '"Active Skill":' in myline:
+            if '"Active skill":' in myline:
                 charAS = myline.replace(': ',': "',1).replace('\n','",\n')
-            if '"Active Skill condition":' in myline:
+            if '"Active skill condition":' in myline:
                 charASCond = myline.replace(': ',': "',1).replace('\n','",\n')
             if '"Transform type":' in myline:
                 charTransformType = myline.replace(': ',': "',1).replace('\n','",\n')
             if '"Transform condition":' in myline:
                 charTransformCond = myline.replace(': ',': ["',1).replace('\n','"],\n')
             if '"Link skill":' in myline:
-                charLinkSkills = myline.replace(",",'","').replace('" ','"').replace(': ',': ["').replace('\n','"],\n')
+                charLinkSkills = myline.replace(",",'","').replace('" ','"').replace(': ',': ["',1).replace('\n','"],\n')
             if '"Category":' in myline:
                 charCategories = myline.replace(",",'","').replace('" ','"').replace(': ',': ["',1).replace('\n','"]\n')
 
-            if charLS == "":
-                results =[]
-            if charCategories == "":
-                results =[]
-            if "SSR" in charRarity:
-                results =[]
-            else:
-                results = [extraSpace1, charName1, charName2, charRarity, charType, charID, charLS, charSaType, charSaDesc, charUltra, charUltraDesc, charPsName, charPsDesc, charASName, charAS, charASCond, charTransformType, charTransformCond, charLinkSkills, charCategories, extraSpace2]
-        
-        with open('out.json', 'a', encoding='utf-8') as output:
+        charSourceLink = (f'"charLinkTo": "{URL2}",\n')
+
+        results = [extraSpace1, charSourceLink, charName1, charName2, charRarity, charType, charID, charLS, charSaType, charSaDesc, charUltra, charUltraDesc, charPsName, charPsDesc, charASName, charAS, charASCond, charTransformType, charTransformCond, charLinkSkills, charCategories, extraSpace2]
+        if charLS == "":
+            results = []
+        if charCategories == []:
+            results = ""
+        if '"R"' in charRarity:
+            results = []
+        if '"SR"' in charRarity:
+            results = []
+        if '"SSR"' in charRarity:
+            results = []
+
+        # this prints everything selected and edited elements, what is put in js file =========
+        # print(results)
+
+        with open('out.json', 'a') as output:
             output.writelines(results)
