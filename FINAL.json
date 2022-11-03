@@ -22681,7 +22681,7 @@
     "SA name": "Double Mission 8+17",
     "SA description": "Raises ATK for 1 turn  <Raises  by 30% for 1 turn>   and causes supreme damage with a medium chance to stun the enemy  <30% chance to stun the enemy for 2 turns>  ",
     "PS name": "Friendly Androids",
-    "PS description": "ATK & DEF +80%; plus an additional ATK +80%, chance of performing a critical hit +17% and reduces damage received by 17% when HP is 80% or less; guards all attacks for 8 turns from start of turn; plus an additional ATK & DEF +80% for 8 turns after receiving attack; recovers HP with candy",
+    "PS description": "ATK & DEF +80%; plus an additional ATK +80%, chance of performing a critical hit +17% and reduces damage received by 17% when HP is 80% or less; guards all attacks for 8 turns from start of turn; plus an additional ATK & DEF +80% for 8 turns after receiving attack; recovers HP with candy  <Recovers 5000 HP per candy>  ",
     "Link skill": [
       "Android Assault",
       "Infighter",
@@ -24987,7 +24987,7 @@
     "UltraSA name": "Holy Wrath",
     "UltraSA description": "Greatly raises ATK & DEF for 1 turn  <>  , causes mega-colossal damage to enemy and greatly lowers ATK  <Lower enemy's ATK by 30% for 3 turns>  ",
     "PS name": "Zamasu is the Power of the Universe",
-    "PS description": "Activates the Entrance Animation (once only), Ki +1 per Ki Sphere obtained for 5 turns from start of turn when there is another Potara Category ally attacking in the same turn; randomly changes Ki Spheres of a certain Type (INT excluded) to INT Ki Spheres; ATK & DEF +100% and reduces damage received by 20%; plus an additional ATK & DEF +50% when performing a Super Attack; launches an additional Super Attack when performing an Ultra Super Attack; attacks effective against all types when Ki is 24; plus an additional damage reduction of 2% within the same turn with each attack received (up to 10%); Ki +1 each time the character receives an attack 5 or more times during battle (up to +5); recovers 10% HP at the end of turn in which the character receives an attack 5 or more times during battle; great chance  <70% chance of evading and countering enemy's Unarmed Super Attack>   of evading enemy's Unarmed Super Attack and countering with tremendous power",
+    "PS description": "Activates the Entrance Animation (once only), Ki +1 per Ki Sphere obtained for 5 turns from start of turn when there is another Potara Category ally attacking in the same turn; randomly changes Ki Spheres of a certain Type (INT excluded) to INT Ki Spheres; ATK & DEF +100% and reduces damage received by 20%; plus an additional ATK & DEF +50% when performing a Super Attack; launches an additional Super Attack when performing an Ultra Super Attack; attacks effective against all types when Ki is 24; plus an additional damage reduction of 2% within the same turn with each attack received (up to 10%); Ki +1 each time the character receives an attack 5 or more times during battle (up to +5); recovers 10% HP at the end of turn in which the character receives an attack 5 or more times during battle; great chance  <70% chance of evading and countering Unarmed Super Attack>   of evading Unarmed Super Attacks directed at the character and countering with tremendous power",
     "Active skill name": "Absolute Lightning",
     "Active skill": "Massively raises ATK temporarily  <Raises Ultimate damage multiplier by 100% during attack>  , causes ultimate damage and stuns the enemy for 1 turn",
     "Active skill condition": "Can be activated after performing 5 or more Super Attacks during battle (once only)",
@@ -25205,7 +25205,7 @@
     "PS description": "Activates the Entrance Animation (once only) and launches an additional attack that has a medium chance  <30% chance for additional attack to become a Super Attack>   of becoming a Super Attack for 3 turns when there is another Terrifying Conquerors Category ally on the team at start of character's attacking turn; Ki +5 and ATK & DEF +100%; plus an additional Ki +1 (up to +5) and ATK & DEF +10% (up to 100%) with each attack performed; launches 2 additional attacks, each of which has a medium chance  <30% chance for each additional attack to become a Super Attack>   of becoming a Super Attack; launches an additional Super Attack starting from the turn in which the character performs the 10th attack in battle",
     "Active skill name": "Supernova",
     "Active skill": "Greatly raises ATK temporarily  <Raises ultimate damage multiplier by 50% during attack>   and causes ultimate damage to enemy; disables enemy's action once within the turn",
-    "Active skill condition": "Can be activated upon performing 8 attacks during battle (once only)",
+    "Active skill condition": "Can be activated upon performing 8 or more attacks during battle (once only)",
     "Link skill": [
       "Metamorphosis",
       "Big Bad Bosses",
@@ -25984,8 +25984,8 @@
     ]
   },
   {
-    "charLinkTo": "https://dbz-dokkanbattle.fandom.com/wiki/Calm_and_Collected_Hero_Gamma_1?action=edit",
-    "name1": "Calm and Collected Hero",
+    "charLinkTo": "https://dbz-dokkanbattle.fandom.com/wiki/Imperturbable_Hero_Gamma_1?action=edit",
+    "name1": "Imperturbable Hero",
     "name2": "Gamma 1",
     "rarity": "UR",
     "type": "SSTR",
@@ -25993,8 +25993,8 @@
     "LS description": "Movie Heroes or Artificial Life Forms Category Ki +3 and HP, ATK & DEF +170%;plus an additional HP, ATK & DEF +30% for characters who also belong to the Accelerated Battle or Worthy Rivals Category",
     "SA name": "Gamma Blaster",
     "SA description": "Raises ATK & DEF for 1 turn  <Raises  and DEF by 30% for 1 turn>   and causes immense damage to enemy",
-    "PS name": "A Hero's Duty",
-    "PS description": "Activates the Entrance Animation upon entry (once only), ATK +50% and guards all attacks for 4 turns from start of turn; ATK & DEF +150%; plus an additional ATK +100% when performing a Super Attack; plus an additional ATK & DEF +20% (up to 100%) and reduces damage received by 10% (up to 50%) with each attack received; medium chance  <30% chance of performing a critical hit>   of performing a critical hit for the rest of battle starting from the turn in which the character receives an attack 5 or more times during battle; all allies' Ki +1 and DEF +30%; great chance  <70% chance of evading and countering enemy's Unarmed Super Attack>   of evading enemy's Unarmed Super Attack and countering with tremendous power",
+    "PS name": "Mission of a Super Hero",
+    "PS description": "Activates the Entrance Animation upon entry (once only); ATK +50% and guards all attacks for 4 turns from start of turn; ATK & DEF +150%; plus an additional ATK +100% when performing a Super Attack; plus an additional ATK & DEF +20% (up to 100%) and reduces damage received by 10% (up to 50%) with each attack received; medium chance  <30% chance of performing a critical hit>   of performing a critical hit starting from the turn in which the character receives the 5th attack in battle; all allies' Ki +1 and DEF +30%; great chance  <70% chance of evading and countering Unarmed Super Attack>   of evading Unarmed Super Attacks directed at the character and countering with tremendous power",
     "Link skill": [
       "Android Assault",
       "Cold Judgment",
@@ -26011,8 +26011,8 @@
       "Worthy Rivals",
       "Special Pose",
       "Defenders of Justice",
-      "Accelerated Battle",
-      "Super Hero"
+      "Accelerated Battle<div style=display: none;>",
+      "Super Hero</div>"
     ]
   },
   {
@@ -26025,8 +26025,8 @@
     "LS description": "Movie Heroes, Androids or Special Pose Category Ki +3 and HP, ATK & DEF +170%;plus an additional HP, ATK & DEF +30% for characters who also belong to the Accelerated Battle or Worthy Rivals Category",
     "SA name": "Gamma Blaster",
     "SA description": "Raises ATK & DEF for 1 turn  <Raises  and DEF by 30% for 1 turn>   and causes immense damage to enemy",
-    "PS name": "Proof of a Hero",
-    "PS description": "Activates the Entrance Animation upon entry (once only), DEF +50% and launches 2 additional attacks, each of which has a medium chance  <30% chance for each additional attack to become a Super Attack>   of becoming a Super Attack for 4 turns from start of turn; ATK & DEF +150%; plus an additional ATK +100% when performing a Super Attack; plus an additional ATK & DEF +20% (up to 100%) and chance of performing a critical hit 10% (up to 50%) with each attack performed; launches an additional attack that has a great chance  <70% chance for additional attack to become a Super Attack>   of becoming a Super Attack starting from the turn in which the character performs the 5th attack in battle; all allies' Ki +2 and ATK +30%; high chance  <50% chance to nullify enemy's Ki Blast Super Attack>   of nullifying Ki Blast Super Attacks directed at the character",
+    "PS name": "Proof of a Super Hero",
+    "PS description": "Activates the Entrance Animation upon entry (once only); DEF +50% and launches 2 additional attacks, each of which has a medium chance  <30% chance for each additional attack to become a Super Attack>   of becoming a Super Attack for 4 turns from start of turn; ATK & DEF +150%; plus an additional ATK +100% when performing a Super Attack; plus an additional ATK & DEF +20% (up to 100%) and chance of performing a critical hit 10% (up to 50%) with each attack performed; launches an additional attack that has a great chance  <70% chance for additional attack to become a Super Attack>   of becoming a Super Attack starting from the turn in which the character performs the 5th attack in battle; all allies' Ki +2 and ATK +30%; high chance  <50% chance to nullify enemy's Ki Blast Super Attack>   of nullifying Ki Blast Super Attacks directed at the character",
     "Link skill": [
       "The Innocents",
       "Android Assault",
