@@ -1,0 +1,135 @@
+       extraSpace1 = '{\n'
+        charSourceLink = (f'"char_link": "{URL2}",\n').replace(
+            '?action=edit', "")
+        charName1 = '"title": null,\n'
+        charName2 = '"name": null,\n'
+        charRarity = '"rarity": null,\n'
+        charType = '"type": null,\n'
+        charCost = '"cost": null,\n'
+        charID = ['"dokkan_id": null,\n']
+        charLS = '"ls_description": null,\n'
+        charLSEza = '"ls_description_eza": null,\n'
+        charSaType = '"sa_type": null,\n'
+        charSaName = ['"sa_name": null,\n']
+        charSaDesc = ['"sa_description": null,\n']
+        charSaDescEza = ['"sa_description_eza": null,\n']
+        charUltraName = ['"ultra_sa_name": null,\n']
+        charUltraDesc = ['"ultra_sa_description": null,\n']
+        charUltraDescEza = ['"ultra_sa_description_eza": null,\n']
+        charPsName = ['"ps_name": null,\n']
+        charPsDesc = ['"ps_description": null,\n']
+        charPsDescEza = ['"ps_description_eza": null,\n']
+        charASType = '"sa_type_active": null,\n'
+        charASName = ['"active_skill_name": null,\n']
+        charAS = ['"active_skill": null,\n']
+        charASCond = ['"active_skill_condition": null,\n']
+        charASCondEza = ['"active_skill_condition_eza": null,\n']
+        charTransformType = ['"transform_type": null,\n']
+        charTransformCond = ['"transform_condition": null,\n']
+        charTransformCondEza = ['"transform_condition_eza": null,\n']
+        charLinkSkills = ['"link_skill": null,\n']
+        charCategories = '"category": null,\n'
+        charJPDate = '"jp_date": null,\n'
+        charGLBDate = '"glb_date": null,\n'
+        charJPDateEza = '"jp_date_eza": null,\n'
+        charGLBDateEza = '"glb_date_eza": null\n'
+        extraSpace2 = '},\n'
+
+         while myline:
+            myline = test.readline()
+            if '|name1": ' in myline:
+                charName1 = myline.replace('|', '"').replace("name1", "title").replace(
+                    ': ', ': "', 1).replace('\n', '",\n')
+            if '|name2":' in myline:
+                charName2 = myline.replace('|', '"').replace("name2", "name").replace(
+                    ': ', ': "', 1).replace('\n', '",\n')
+            if '|rarity":' in myline:
+                charRarity = myline.replace('|', '"').replace(
+                    ': ', ': "', 1).replace('\n', '",\n')
+            if '|type":' in myline:
+                charType = myline.replace('|', '"').replace(
+                    ': ', ': "', 1).replace('\n', '",\n')
+            if '|cost":' in myline:
+                charCost = myline.replace('|', '"').replace(
+                    ': ', ': "', 1).replace('\n', '",\n')
+            if '|ID":' in myline:
+                charID.append(myline.replace('|', '"').replace('ID', 'dokkan_id').replace(
+                    ': ', ': "', 1).replace('\n', '",\n'))
+            if '|LS description":' in myline:
+                charLS = myline.replace('|', '"').replace("LS description", "ls_description").replace(
+                    ': ', ': "', 1).replace('\n', '",\n')
+            if '|LS description Z":' in myline:
+                charLSEza = myline.replace('|', '"').replace("LS description Z", "ls_description_eza").replace(
+                    ': ', ': "', 1).replace('\n', '",\n')
+            if '|SA type":' in myline:
+                charSaType = myline.replace('|', '"').replace('SA type', 'sa_type').replace(
+                    ': ', ': "', 1).replace('\n', '",\n')
+            if '|SA name":' in myline:
+                charSaName.append(myline.replace('|', '"').replace('SA name', 'sa_name').replace(
+                    ': ', ': "', 1).replace('\n', '",\n'))
+            if '|SA description":' in myline:
+                charSaDesc.append(myline.replace('|', '"').replace('SA description', 'sa_description').replace(
+                    ': ', ': "', 1).replace('\n', '",\n'))
+            if '|SA description Z":' in myline:
+                charSaDescEza.append(myline.replace('|', '"').replace('SA description Z', 'sa_description_eza').replace(
+                    ': ', ': "', 1).replace('\n', '",\n'))
+            if '|UltraSA name":' in myline:
+                charUltraName.append(myline.replace('|', '"').replace('UltraSA name', 'ultra_sa_name').replace(
+                    ': ', ': "', 1).replace('\n', '",\n'))
+            if '|UltraSA description":' in myline:
+                charUltraDesc.append(myline.replace('|', '"').replace('UltraSA description', 'ultra_sa_description').replace(
+                    ': ', ': "', 1).replace('\n', '",\n'))
+            if '|UltraSA description Z":' in myline:
+                charUltraDescEza.append(myline.replace('|', '"').replace('UltraSA description Z', 'ultra_sa_description_eza').replace(
+                    ': ', ': "', 1).replace('\n', '",\n'))
+            if '|PS name":' in myline:
+                charPsName.append(myline.replace('|', '"').replace('PS name', 'ps_name').replace(
+                    ': ', ': "', 1).replace('\n', '",\n'))
+            if '|PS description":' in myline:
+                charPsDesc.append(myline.replace('|', '"').replace('PS description', 'ps_description').replace(
+                    ': ', ': "', 1).replace('\n', '",\n'))
+            if '|PS description Z":' in myline:
+                charPsDescEza.append(myline.replace('|', '"').replace('PS description Z', 'ps_description_eza').replace(
+                    ': ', ': "', 1).replace('\n', '",\n'))
+            if '|SA type Active":' in myline:
+                charASType = myline.replace('|', '"').replace('SA type Active', 'sa_type_active').replace(
+                    ': ', ': "', 1).replace('\n', '",\n')
+            if '|Active skill name":' in myline:
+                charASName.append(myline.replace('|', '"').replace('Active skill name', 'active_skill_name').replace(
+                    ': ', ': "', 1).replace('\n', '",\n'))
+            if '|Active skill":' in myline:
+                charAS.append(myline.replace('|', '"').replace('Active skill', 'active_skill').replace(
+                    ': ', ': "', 1).replace('\n', '",\n'))
+            if '|Active skill condition":' in myline:
+                charASCond.append(myline.replace('|', '"').replace('Active skill condition', 'active_skill_condition').replace(
+                    ': ', ': "', 1).replace('\n', '",\n'))
+            if '|Active skill condition Z":' in myline:
+                charASCondEza.append(myline.replace('|', '"').replace('Active skill condition Z', 'active_skill_condition_eza').replace(
+                    ': ', ': "', 1).replace('\n', '",\n'))
+            if '|Transform type":' in myline:
+                charTransformType.append(myline.replace('|', '"').replace('Transform type', 'transform_type').replace(
+                    ': ', ': "', 1).replace('\n', '",\n'))
+            if '|Transform condition":' in myline:
+                charTransformCond.append(myline.replace('|', '"').replace('Transform condition', 'transform_condition').replace(
+                    ': ', ': "', 1).replace('\n', '",\n'))
+            if '|Transform condition Z":' in myline:
+                charTransformCondEza.append(myline.replace('|', '"').replace('Transform condition Z', 'transform_condition_eza').replace(
+                    ': ', ': "', 1).replace('\n', '",\n'))
+            if '|Link skill":' in myline:
+                charLinkSkills.append(myline.replace('|', '"').replace('Link skill', 'link_skill').replace(",", '","').replace(
+                    '" ', '"').replace(': ', ': ["', 1).replace('\n', '"],\n'))
+            if '|Category":' in myline:
+                charCategories = myline.replace('|', '"').replace('Category', 'category').replace(",", '","').replace(
+                    '" ', '"').replace(': ', ': ["', 1).replace('\n', '"],\n')
+            if '|JPdate": ' in myline:
+                charJPDate = myline.replace('|', '"').replace('JPdate', 'jp_date').replace(
+                    ': ', ': "', 1).replace('\n', '",\n')
+            if '|GLBdate": ' in myline:
+                charGLBDate = myline.replace('|', '"').replace('GLBdate', 'glb_date').replace(
+                    ': ', ': "', 1).replace('\n', '",\n')
+            if '|JPdateEZA": ' in myline:
+                charJPDateEza = myline.replace('|', '"').replace('JPdateEZA', 'jp_date_eza').replace(
+                    ': ', ': "', 1).replace('\n', '",\n')
+            if '|GLBdateEZA": ' in myline:
+                charGLBDateEza = myline.replace('|', '"').replace('GLBdateEZA', 'glb_date_eza').replace(
+                    ': ', ': "', 1).replace('\n', '"\n')
