@@ -1,0 +1,1333 @@
+[[File:SelectCategory.png|right|link=Category:Category]]
+The Category system separates characters into different groups. Some characters may not belong to any Categories.
+<br><br><br>
+<tabber>
+Chronological=
+{| style= "padding: 1px;background: #F7F7F7;border: 2px solid #414141;border-radius: 7px;-moz-border-radius: 7px;-webkit-border-radius: 7px; box-shadow:0 0 4px #414141;" border=2 width="100%" align="center"
+|- style="background:#dfdbdb"
+! style="width:5px"|ID
+![[File:Global server.png]] Global
+![[File:Japan server.png]] Japan
+!Description
+|- align="center"
+| style="width:40px"|#1
+!{{Categories|Fusion
+!{{Categories|Fusion|JP
+|Consists of Fusion Dance and EX-Fusion characters.
+|- align="center"
+|#2
+!{{Categories|Shadow Dragon Saga
+!{{Categories|Shadow Dragon Saga|JP
+|Consists of characters from the Shadow Dragon Saga.
+|- align="center"
+|#3
+!{{Categories|World Tournament
+!{{Categories|World Tournament|JP
+|Consists of characters who have participated in the World Tournament.
+|- align="center"
+|#4
+!{{Categories|Peppy Gals
+!{{Categories|Peppy Gals|JP
+|Consists of high-spirited female characters.
+|- align="center"
+|#5
+!{{Categories|Hybrid Saiyans
+!{{Categories|Hybrid Saiyans|JP
+|Consists of characters who are part Saiyan by birth.
+|- align="center"
+|#6
+!{{Categories|Universe Survival Saga
+!{{Categories|Universe Survival Saga|JP
+|Consists of characters from the Universe Survival Saga.
+|- align="center"
+|#7
+!{{Categories|Resurrected Warriors
+!{{Categories|Resurrected Warriors|JP
+|Consists of characters that have been revived, in some way or another.
+|- align="center"
+|#8
+!{{Categories|Realm of Gods
+!{{Categories|Realm of Gods|JP
+|Consists of characters with the power of gods.
+|- align="center"
+|#9
+!{{Categories|Majin Buu Saga
+!{{Categories|Majin Buu Saga|JP
+|Consists of characters from the Majin Buu Saga.
+|- align="center"
+|#10
+!{{Categories|Potara
+!{{Categories|Potara|JP
+|Consists of characters who wear the Potara earrings.
+|- align="center"
+|#11
+!{{Categories|Low-Class Warrior
+!{{Categories|Low-Class Warrior|JP
+|Consists of characters who are low-class Saiyans.
+|- align="center"
+|#12
+!{{Categories|Super Saiyan 3
+!{{Categories|Super Saiyan 3|JP
+|Consists of characters who have achieved Super Saiyan 3.
+|- align="center"
+|#13
+!{{Categories|Giant Form
+!{{Categories|Giant Form|JP
+|Consists of characters who transform into a Giant.
+|- align="center"
+|#14
+!{{Categories|Planet Namek Saga
+!{{Categories|Planet Namek Saga|JP
+|Consists of characters from the Planet Namek Saga.
+|- align="center"
+|#15
+!{{Categories|Ginyu Force
+!{{Categories|Ginyu Force|JP
+|Consists of members of the Ginyu Force.
+|- align="center"
+|#16
+!{{Categories|Movie Bosses
+!{{Categories|Movie Bosses|JP
+|Consists of the main antagonists from the movies.
+|- align="center"
+|#17
+!{{Categories|Pure Saiyans
+!{{Categories|Pure Saiyans|JP
+|Consists of characters who are pure Saiyan by birth.
+|- align="center"
+|#18
+!{{Categories|Namekians
+!{{Categories|Namekians|JP
+|Consists of characters who are from the Namekian race.
+|- align="center"
+|#19
+!{{Categories|Future Saga
+!{{Categories|Future Saga|JP
+|Consists of characters involved in the Dismal Future.
+|- align="center"
+|#20
+!{{Categories|Full Power
+!{{Categories|Full Power|JP
+|Consists of characters unleashing their full power.
+|- align="center"
+|#21
+!{{Categories|Androids
+!{{Categories|Androids|JP
+|Consists of mechanical and bio-mechanical beings.
+|- align="center"
+|#22
+!{{Categories|Representatives of Universe 7
+!{{Categories|Representatives of Universe 7|JP
+|Consists of Universe 7 fighters who participated in universal tournaments.
+|- align="center"
+|#23
+!{{Categories|Transformation Boost
+!{{Categories|Transformation Boost|JP
+|Consists of characters who reached a new form and cards that can transform in battle.
+|- align="center"
+|#24
+!{{Categories|Wicked Bloodline
+!{{Categories|Wicked Bloodline|JP
+|Consists of characters related to Frieza.
+|- align="center"
+|#25
+!{{Categories|Dragon Ball Seekers
+!{{Categories|Dragon Ball Seekers|JP
+|Consists of characters who wanted to find and collect the Dragon Balls.
+|- align="center"
+|#26
+!{{Categories|Time Travelers
+!{{Categories|Time Travelers|JP
+|Consists of characters who traveled through time or were revived from the past.
+|- align="center"
+|#27
+!{{Categories|Universe 6
+!{{Categories|Universe 6|JP
+|Consists of characters from Universe 6.
+|- align="center"
+|#28
+!{{Categories|Joined Forces
+!{{Categories|Joined Forces|JP
+|Consists of cards with multiple characters.
+|- align="center"
+|#29
+!{{Categories|Movie Heroes
+!{{Categories|Movie Heroes|JP
+|Consists of the main protagonists from the movies.
+|- align="center"
+|#30
+!{{Categories|Goku's Family
+!{{Categories|Goku's Family|JP
+|Consists of characters related to Goku.
+|- align="center"
+|#31
+!{{Categories|Vegeta's Family
+!{{Categories|Vegeta's Family|JP
+|Consists of characters related to Vegeta.
+|- align="center"
+|#32
+!{{Categories|Artificial Life Forms
+!{{Categories|Artificial Life Forms|JP
+|Consists of characters who have been artificially created.
+|- align="center"
+|#33
+!{{Categories|Youth
+!{{Categories|Youth|JP
+|Consists of characters who are still kids.
+|- align="center"
+|#34
+!{{Categories|DB Saga
+!{{Categories|DB Saga|JP
+|Consists of characters from Goku's childhood.
+|- align="center"
+|#35
+!{{Categories|Siblings' Bond
+!{{Categories|Siblings' Bond|JP
+|Consists of characters who have a bond with their siblings.
+|- align="center"
+|#36
+!{{Categories|Super Saiyans
+!{{Categories|Super Saiyans|JP
+|Consists of Super Saiyan 1 characters.
+|- align="center"
+|#37
+!{{Categories|Worthy Rivals
+!{{Categories|Worthy Rivals|JP
+|Consists of characters who were once enemies but are now allies.
+|- align="center"
+|#38
+!{{Categories|Androids-Cell Saga
+!{{Categories|Androids-Cell Saga|JP
+|Consists of characters from both the Androids Saga and the Cell Saga.
+|- align="center"
+|#39
+!{{Categories|Kamehameha
+!{{Categories|Kamehameha|JP
+|Consists of characters whose Super Attack has "Kamehameha" in its name.
+|- align="center"
+|#40
+!{{Categories|Bond of Master and Disciple
+!{{Categories|Bond of Master and Disciple|JP
+|Consists of masters and students who share a bond with each other.
+|- align="center"
+|#41
+!{{Categories|Terrifying Conquerors
+!{{Categories|Terrifying Conquerors|JP
+|Consists of characters who seek to conquer through fear.
+|- align="center"
+|#42
+!{{Categories|Dragon Ball Heroes
+!{{Categories|Dragon Ball Heroes|JP
+|Consists of "Dragon Ball Heroes" characters.
+|- align="center"
+|#43
+!{{Categories|Target Goku
+!{{Categories|Target Goku|JP
+|Consists of characters whose main goal was to eliminate Goku.
+|- align="center"
+|#44
+!{{Categories|Otherworld Warriors
+!{{Categories|Otherworld Warriors|JP
+|Consists of characters from the Otherworld.
+|- align="center"
+|#45
+!{{Categories|Super Saiyan 2
+!{{Categories|Super Saiyan 2|JP
+|Consists of characters who have achieved Super Saiyan 2.
+|- align="center"
+|#46
+!{{Categories|Final Trump Card
+!{{Categories|Final Trump Card|JP
+|Consists of characters and techniques that were used as a last resort.
+|- align="center"
+|#47
+!{{Categories|Exploding Rage
+!{{Categories|Exploding Rage|JP
+|Consists of characters who unleashed all of their anger.
+|- align="center"
+|#48
+!{{Categories|Revenge
+!{{Categories|Revenge|JP
+|Consists of characters who sought revenge.
+|- align="center"
+|#49
+!{{Categories|Team Bardock
+!{{Categories|Team Bardock|JP
+|Consists of members of Team Bardock's crew.
+|- align="center"
+|#50
+!{{Categories|Inhuman Deeds
+!{{Categories|Inhuman Deeds|JP
+|Consists of characters who have killed at least one of their allies.
+|- align="center"
+|#51
+!{{Categories|Earthlings
+!{{Categories|Earthlings|JP
+|Consists of humans and anthropomorphs from planet Earth.
+|- align="center"
+|#52
+!{{Categories|Special Pose
+!{{Categories|Special Pose|JP
+|Consists of characters boasting special fighting poses.
+|- align="center"
+|#53
+!{{Categories|Majin Power
+!{{Categories|Majin Power|JP
+|Consists of characters possessing the powers of the Majin race.
+|- align="center"
+|#54
+!{{Categories|Rapid Growth
+!{{Categories|Rapid Growth|JP
+|Consists of characters who were able to rapidly grow as fighters.
+|- align="center"
+|#55
+!{{Categories|All-Out Struggle
+!{{Categories|All-Out Struggle|JP
+|Consists of characters engaging in an all-out desperate struggle.
+|- align="center"
+|#56
+!{{Categories|Universe 11
+!{{Categories|Universe 11|JP
+|Consists of characters from Universe 11.
+|- align="center"
+|#57
+!{{Categories|Saviors
+!{{Categories|Saviors|JP
+|Consists of characters who saved the day in a crucial moment.
+|- align="center"
+|#58
+!{{Categories|Battle of Wits
+!{{Categories|Battle of Wits|JP
+|Consists of characters who fight by making great use of their intelligence.
+|- align="center"
+|#59
+!{{Categories|Power Absorption
+!{{Categories|Power Absorption|JP
+|Consists of characters who have absorbed power from others.
+|- align="center"
+|#60
+!{{Categories|Giant Ape Power
+!{{Categories|Giant Ape Power|JP
+|Consists of characters with the power of Giant Apes.
+|- align="center"
+|#61
+!{{Categories|Crossover
+!{{Categories|Crossover|JP
+|Consists of characters crossing over from various collaborations.
+|- align="center"
+|#62
+!{{Categories|Space-Traveling Warriors
+!{{Categories|Space-Traveling Warriors|JP
+|Consists of warriors who have regularly traveled through outer space.
+|- align="center"
+|#63
+!{{Categories|Connected Hope
+!{{Categories|Connected Hope|JP
+|Consists of characters who represented someone's last hope.
+|- align="center"
+|#64
+!{{Categories|Corroded Body and Mind
+!{{Categories|Corroded Body and Mind|JP
+|Consists of characters whose minds and/or bodies have been afflicted by conditions such as possession or switching.
+|- align="center"
+|#65
+!{{Categories|Turtle School
+!{{Categories|Turtle School|JP
+|Consists of members of the Turtle School.
+|- align="center"
+|#66
+!{{Categories|Miraculous Awakening
+!{{Categories|Miraculous Awakening|JP
+|Consists of characters who awakened an incredible power due to critical circumstances.
+|- align="center"
+|#67
+!{{Categories|Powerful Comeback
+!{{Categories|Powerful Comeback|JP
+|Consists of characters who returned to the heat of battle with even greater power than before.
+|- align="center"
+|#68
+!{{Categories|Gifted Warriors
+!{{Categories|Gifted Warriors|JP
+|Consists of warriors who can be considered prodigies.
+|- align="center"
+|#69
+!{{Categories|Planetary Destruction
+!{{Categories|Planetary Destruction|JP
+|Consists of characters responsible for the destruction of a planet or moon.
+|- align="center"
+|#70
+!{{Categories|Defenders of Justice
+!{{Categories|Defenders of Justice|JP
+|Consists of characters who fight for justice.
+|- align="center"
+|#71
+!{{Categories|Storied Figures
+!{{Categories|Storied Figures|JP
+|Consists of warriors who died or were sealed in the past.
+|- align="center"
+|#72
+!{{Categories|GT Heroes
+!{{Categories|GT Heroes|JP
+|Consists of major protagonists from Dragon Ball GT.
+|- align="center"
+|#73
+!{{Categories|GT Bosses
+!{{Categories|GT Bosses|JP
+|Consists of major antagonists from Dragon Ball GT.
+|- align="center"
+|#74
+!{{Categories|Heavenly Events
+!{{Categories|Heavenly Events|JP
+|Consists of characters who have fought or trained on Kami's Lookout.
+|- align="center"
+|#75
+!{{Categories|Time Limit
+!{{Categories|Time Limit|JP
+|Consists of characters restricted to a certain time limit.
+|- align="center"
+|#76
+!{{Categories|Mastered Evolution
+!{{Categories|Mastered Evolution|JP
+|Consists of characters who obtained a new form through training.
+|- align="center"
+|#77
+!{{Categories|Legendary Existence
+!{{Categories|Legendary Existence|JP
+|Consists of characters or forms that were revered as legends.
+|- align="center"
+|#78
+!{{Categories|Sworn Enemies
+!{{Categories|Sworn Enemies|JP
+|Consists of characters that first appeared in ''Dragon Ball'' or ''Dragon Ball Z'' as main antagonists and never stopped being evil.
+|- align="center"
+|#79
+!{{Categories|Bond of Friendship
+!{{Categories|Bond of Friendship|JP
+|Consists of characters that share a deep friendship bond.
+|- align="center"
+|#80
+!{{Categories|Accelerated Battle
+!{{Categories|Accelerated Battle|JP
+|Consists of characters that displayed an astounding speed.
+|- align="center"
+|#81
+!{{Categories|Entrusted Will
+!{{Categories|Entrusted Will|JP
+|Consists of characters whose will has been entrusted by another person.
+|- align="center"
+|#82
+!{{Categories|Worldwide Chaos
+!{{Categories|Worldwide Chaos|JP
+|Consists of characters whose brought chaos and destruction on a global scale.
+|- align="center"
+|#83
+!{{Categories|Battle of Fate
+!{{Categories|Battle of Fate|JP
+|Consists of characters whose participated in the climatic battle of their respective sagas.
+|- align="center"
+|#84
+!{{Categories|Power Beyond Super Saiyan
+!{{Categories|Power Beyond Super Saiyan|JP
+|Consists of characters that surpassed Super Saiyan and attained a higher transformation.
+|- align="center"
+|#85
+!{{Categories|Fused Fighters
+!{{Categories|Fused Fighters|JP
+|Consists of characters who fused in any way.
+|- align="center"
+|#86
+!{{Categories|Saiyan Saga
+!{{Categories|Saiyan Saga|JP
+|Consists of characters from the Saiyan Saga.
+|- align="center"
+|#87
+!{{Categories|Bond of Parent and Child
+!{{Categories|Bond of Parent and Child|JP
+|Consists of parents and children who share a strong family bond with each other.
+|}
+|-|Ingame=
+{| style= "padding: 1px;background: #F7F7F7;border: 2px solid #414141;border-radius: 7px;-moz-border-radius: 7px;-webkit-border-radius: 7px; box-shadow:0 0 4px #414141;" border=2 width="100%" align="center"
+|- style="background:#dfdbdb"
+![[File:Global server.png]] Global
+![[File:Japan server.png]] Japan
+!Description
+|- align="center"
+|style="background:#dfdbdb" colspan="3"|'''Sagas'''
+|- align="center" style="background:#ff6600"
+!{{Categories|DB Saga
+!{{Categories|DB Saga|JP
+|Consists of characters from Goku's childhood.
+|- align="center" style="background:#ff6600"
+!{{Categories|Saiyan Saga
+!{{Categories|Saiyan Saga|JP
+|Consists of characters from the Saiyan Saga.
+|- align="center" style="background:#ff6600"
+!{{Categories|Planet Namek Saga
+!{{Categories|Planet Namek Saga|JP
+|Consists of characters from the Planet Namek Saga.
+|- align="center" style="background:#ff6600"
+!{{Categories|Androids-Cell Saga
+!{{Categories|Androids-Cell Saga|JP
+|Consists of characters from both the Androids Saga and the Cell Saga.
+|- align="center" style="background:#ff6600"
+!{{Categories|Majin Buu Saga
+!{{Categories|Majin Buu Saga|JP
+|Consists of characters from the Majin Buu Saga.
+|- align="center" style="background:#ff6600"
+!{{Categories|Future Saga
+!{{Categories|Future Saga|JP
+|Consists of characters involved in the Dismal Future.
+|- align="center" style="background:#ff6600"
+!{{Categories|Universe Survival Saga
+!{{Categories|Universe Survival Saga|JP
+|Consists of characters from the Universe Survival Saga.
+|- align="center" style="background:#ff6600"
+!{{Categories|Shadow Dragon Saga
+!{{Categories|Shadow Dragon Saga|JP
+|Consists of characters from the Shadow Dragon Saga.
+|- align="center"
+|style="background:#dfdbdb" colspan="3"|'''Races'''
+|- align="center" style="background:#77dd11"
+!{{Categories|Pure Saiyans
+!{{Categories|Pure Saiyans|JP
+|Consists of characters who are pure Saiyan by birth.
+|- align="center" style="background:#77dd11"
+!{{Categories|Hybrid Saiyans
+!{{Categories|Hybrid Saiyans|JP
+|Consists of characters who are part Saiyan by birth.
+|- align="center" style="background:#77dd11"
+!{{Categories|Earthlings
+!{{Categories|Earthlings|JP
+|Consists of characters who are pure humans.
+|- align="center" style="background:#77dd11"
+!{{Categories|Namekians
+!{{Categories|Namekians|JP
+|Consists of characters who are from the Namekian race.
+|- align="center" style="background:#77dd11"
+!{{Categories|Androids
+!{{Categories|Androids|JP
+|Consists of mechanical and bio-mechanical beings.
+|- align="center" style="background:#77dd11"
+!{{Categories|Artificial Life Forms
+!{{Categories|Artificial Life Forms|JP
+|Consists of characters who have been artificially created.
+|- align="center" style="background:#77dd11"
+!{{Categories|Goku's Family
+!{{Categories|Goku's Family|JP
+|Consists of characters related to Goku.
+|- align="center" style="background:#77dd11"
+!{{Categories|Vegeta's Family
+!{{Categories|Vegeta's Family|JP
+|Consists of characters related to Vegeta.
+|- align="center" style="background:#77dd11"
+!{{Categories|Wicked Bloodline
+!{{Categories|Wicked Bloodline|JP
+|Consists of characters related to Frieza.
+|- align="center" style="background:#77dd11"
+!{{Categories|Youth
+!{{Categories|Youth|JP
+|Consists of characters who are still kids.
+|- align="center" style="background:#77dd11"
+!{{Categories|Peppy Gals
+!{{Categories|Peppy Gals|JP
+|Consists of high-spirited female characters.
+|- align="center"
+|style="background:#dfdbdb" colspan="3"|'''Forms'''
+|- align="center" style="background:#eeee33"
+!{{Categories|Super Saiyans
+!{{Categories|Super Saiyans|JP
+|Consists of Super Saiyan 1 characters.
+|- align="center" style="background:#eeee33"
+!{{Categories|Super Saiyan 2
+!{{Categories|Super Saiyan 2|JP
+|Consists of characters who have achieved Super Saiyan 2.
+|- align="center" style="background:#eeee33"
+!{{Categories|Super Saiyan 3
+!{{Categories|Super Saiyan 3|JP
+|Consists of characters who have achieved Super Saiyan 3.
+|- align="center" style="background:#eeee33"
+!{{Categories|Power Beyond Super Saiyan
+!{{Categories|Power Beyond Super Saiyan|JP
+|Consists of characters that surpassed Super Saiyan and attained a higher transformation.
+|- align="center" style="background:#eeee33"
+!{{Categories|Fusion
+!{{Categories|Fusion|JP
+|Consists of Fusion Dance and EX-Fusion characters.
+|- align="center" style="background:#eeee33"
+!{{Categories|Potara
+!{{Categories|Potara|JP
+|Consists of characters who wear the Potara earrings.
+|- align="center" style="background:#eeee33"
+!{{Categories|Fused Fighters
+!{{Categories|Fused Fighters|JP
+|Consists of characters who fused in any way.
+|- align="center" style="background:#eeee33"
+!{{Categories|Giant Form
+!{{Categories|Giant Form|JP
+|Consists of characters who transform into a Giant.
+|- align="center" style="background:#eeee33"
+!{{Categories|Transformation Boost
+!{{Categories|Transformation Boost|JP
+|Consists of characters who reached a new form and cards that can transform in battle.
+|- align="center" style="background:#eeee33"
+!{{Categories|Power Absorption
+!{{Categories|Power Absorption|JP
+|Consists of characters who have absorbed power from others.
+|- align="center" style="background:#eeee33"
+!{{Categories|Kamehameha
+!{{Categories|Kamehameha|JP
+|Consists of characters whose Super Attack has "Kamehameha" in its name.
+|- align="center"
+|style="background:#dfdbdb" colspan="3"|'''Powers'''
+|- align="center" style="background:#00dddd"
+!{{Categories|Realm of Gods
+!{{Categories|Realm of Gods|JP
+|Consists of characters with the power of gods.
+|- align="center" style="background:#00dddd"
+!{{Categories|Full Power
+!{{Categories|Full Power|JP
+|Consists of characters unleashing their full power.
+|- align="center" style="background:#00dddd"
+!{{Categories|Giant Ape Power
+!{{Categories|Giant Ape Power|JP
+|Consists of characters with the power of Giant Apes.
+|- align="center" style="background:#00dddd"
+!{{Categories|Majin Power
+!{{Categories|Majin Power|JP
+|Consists of characters possessing the powers of the Majin race.
+|- align="center" style="background:#00dddd"
+!{{Categories|Powerful Comeback
+!{{Categories|Powerful Comeback|JP
+|Consists of characters who returned to the heat of battle with even greater power than before.
+|- align="center" style="background:#00dddd"
+!{{Categories|Miraculous Awakening
+!{{Categories|Miraculous Awakening|JP
+|Consists of characters who awakened an incredible power due to critical circumstances.
+|- align="center" style="background:#00dddd"
+!{{Categories|Corroded Body and Mind
+!{{Categories|Corroded Body and Mind|JP
+|Consists of characters whose minds and/or bodies have been afflicted by conditions such as possession or switching.
+|- align="center" style="background:#00dddd"
+!{{Categories|Rapid Growth
+!{{Categories|Rapid Growth|JP
+|Consists of characters who were able to rapidly grow as fighters.
+|- align="center" style="background:#00dddd"
+!{{Categories|Mastered Evolution
+!{{Categories|Mastered Evolution|JP
+|Consists of characters who obtained a new form through training.
+|- align="center" style="background:#00dddd"
+!{{Categories|Time Limit
+!{{Categories|Time Limit|JP
+|Consists of characters restricted to a certain time limit.
+|- align="center" style="background:#00dddd"
+!{{Categories|Final Trump Card
+!{{Categories|Final Trump Card|JP
+|Consists of characters and techniques that were used as a last resort.
+|- align="center"
+|style="background:#dfdbdb" colspan="3"|'''Relationships'''
+|- align="center" style="background:#09abff"
+!{{Categories|Worthy Rivals
+!{{Categories|Worthy Rivals|JP
+|Consists of characters who were once enemies but are now allies.
+|- align="center" style="background:#09abff"
+!{{Categories|Sworn Enemies|
+!{{Categories|Sworn Enemies|JP
+|Consists of characters that first appeared in ''Dragon Ball'' or ''Dragon Ball Z'' as main antagonists and never stopped being evil.
+|- align="center" style="background:#09abff"
+!{{Categories|Joined Forces
+!{{Categories|Joined Forces|JP
+|Consists of cards with multiple characters.
+|- align="center" style="background:#09abff"
+!{{Categories|Bond of Parent and Child
+!{{Categories|Bond of Parent and Child|JP
+|Consists of parents and children who share a strong family bond with each other.
+|- align="center" style="background:#09abff"
+!{{Categories|Siblings' Bond
+!{{Categories|Siblings' Bond|JP
+|Consists of characters who have a bond with their siblings.
+|- align="center" style="background:#09abff"
+!{{Categories|Bond of Friendship|
+!{{Categories|Bond of Friendship|JP
+|Consists of characters that share a deep friendship with others.
+|- align="center" style="background:#09abff"
+!{{Categories|Bond of Master and Disciple
+!{{Categories|Bond of Master and Disciple|JP
+|Consists of masters and students who share a bond with each other.
+|- align="center"
+|style="background:#dfdbdb" colspan="3"|'''Associations'''
+|- align="center" style="background:#bb77ee"
+!{{Categories|Ginyu Force
+!{{Categories|Ginyu Force|JP
+|Consists of members of the Ginyu Force.
+|- align="center" style="background:#bb77ee"
+!{{Categories|Team Bardock
+!{{Categories|Team Bardock|JP
+|Consists of members of Team Bardock's crew.
+|- align="center" style="background:#bb77ee"
+!{{Categories|Universe 6
+!{{Categories|Universe 6|JP
+|Consists of characters from Universe 6.
+|- align="center" style="background:#bb77ee"
+!{{Categories|Representatives of Universe 7
+!{{Categories|Representatives of Universe 7|JP
+|Consists of Universe 7 fighters who participated in universal tournaments.
+|- align="center" style="background:#bb77ee"
+!{{Categories|Universe 11
+!{{Categories|Universe 11|JP
+|Consists of characters from Universe 11.
+|- align="center" style="background:#bb77ee"
+!{{Categories|GT Heroes
+!{{Categories|GT Heroes|JP
+|Consists of major protagonists from Dragon Ball GT.
+|- align="center" style="background:#bb77ee"
+!{{Categories|GT Bosses
+!{{Categories|GT Bosses|JP
+|Consists of major antagonists from Dragon Ball GT.
+|- align="center" style="background:#bb77ee"
+!{{Categories|Movie Heroes
+!{{Categories|Movie Heroes|JP
+|Consists of the main protagonists from the movies.
+|- align="center" style="background:#bb77ee"
+!{{Categories|Movie Bosses
+!{{Categories|Movie Bosses|JP
+|Consists of the main antagonists from the movies.
+|- align="center" style="background:#bb77ee"
+!{{Categories|Turtle School
+!{{Categories|Turtle School|JP
+|Consists of members of the Turtle School.
+|- align="center" style="background:#bb77ee"
+!{{Categories|World Tournament
+!{{Categories|World Tournament|JP
+|Consists of characters who have participated in the World Tournament.
+|- align="center"
+|style="background:#dfdbdb" colspan="3"|'''Characters'''
+|- align="center" style="background:#ff5588"
+!{{Categories|Low-Class Warrior
+!{{Categories|Low-Class Warrior|JP
+|Consists of characters who are low-class Saiyans.
+|- align="center" style="background:#ff5588"
+!{{Categories|Gifted Warriors
+!{{Categories|Gifted Warriors|JP
+|Consists of warriors who can be considered prodigies.
+|- align="center" style="background:#ff5588"
+!{{Categories|Otherworld Warriors
+!{{Categories|Otherworld Warriors|JP
+|Consists of characters from the Otherworld.
+|- align="center" style="background:#ff5588"
+!{{Categories|Resurrected Warriors
+!{{Categories|Resurrected Warriors|JP
+|Consists of characters that have been revived, in some way or another.
+|- align="center" style="background:#ff5588"
+!{{Categories|Space-Traveling Warriors
+!{{Categories|Space-Traveling Warriors|JP
+|Consists of warriors who have regularly traveled through outer space.
+|- align="center" style="background:#ff5588"
+!{{Categories|Time Travelers
+!{{Categories|Time Travelers|JP
+|Consists of characters who traveled through time or were revived from the past.
+|- align="center" style="background:#ff5588"
+!{{Categories|Dragon Ball Seekers
+!{{Categories|Dragon Ball Seekers|JP
+|Consists of characters who wanted to find and collect the Dragon Balls.
+|- align="center" style="background:#ff5588"
+!{{Categories|Storied Figures
+!{{Categories|Storied Figures|JP
+|Consists of warriors who died or were sealed in the past.
+|- align="center" style="background:#ff5588"
+!{{Categories|Legendary Existence|
+!{{Categories|Legendary Existence|JP
+|Consists of characters or forms that were revered as legends.
+|- align="center" style="background:#ff5588"
+!{{Categories|Saviors
+!{{Categories|Saviors|JP
+|Consists of characters who saved the day in a crucial moment.
+|- align="center" style="background:#ff5588"
+!{{Categories|Defenders of Justice
+!{{Categories|Defenders of Justice|JP
+|Consists of characters who fight for justice.
+|- align="center"
+|style="background:#dfdbdb" colspan="3"|'''Moments'''
+|- align="center" style="background:#00bc89"
+!{{Categories|Revenge
+!{{Categories|Revenge|JP
+|Consists of characters who sought revenge.
+|- align="center" style="background:#00bc89"
+!{{Categories|Target Goku
+!{{Categories|Target Goku|JP
+|Consists of characters whose main goal was to eliminate Goku.
+|- align="center" style="background:#00bc89"
+!{{Categories|Terrifying Conquerors
+!{{Categories|Terrifying Conquerors|JP
+|Consists of characters who seek to conquer through fear.
+|- align="center" style="background:#00bc89"
+!{{Categories|Inhuman Deeds
+!{{Categories|Inhuman Deeds|JP
+|Consists of characters who have killed at least one of their allies.
+|- align="center" style="background:#00bc89"
+!{{Categories|Planetary Destruction
+!{{Categories|Planetary Destruction|JP
+|Consists of characters responsible for the destruction of a planet or moon.
+|- align="center" style="background:#00bc89"
+!{{Categories|Exploding Rage
+!{{Categories|Exploding Rage|JP
+|Consists of characters who unleashed all of their anger.
+|- align="center" style="background:#00bc89"
+!{{Categories|Connected Hope
+!{{Categories|Connected Hope|JP
+|Consists of characters who represented someone's last hope.
+|- align="center" style="background:#00bc89"
+!{{Categories|Entrusted Will|
+!{{Categories|Entrusted Will|JP
+|Consists of characters whose will has been entrusted by another person.
+|- align="center" style="background:#00bc89"
+!{{Categories|All-Out Struggle
+!{{Categories|All-Out Struggle|JP
+|Consists of characters engaging in an all-out desperate struggle.
+|- align="center" style="background:#00bc89"
+!{{Categories|Battle of Wits
+!{{Categories|Battle of Wits|JP
+|Consists of characters who fight by making great use of their intelligence.
+|- align="center" style="background:#00bc89"
+!{{Categories|Accelerated Battle|
+!{{Categories|Accelerated Battle|JP
+|Consists of characters that displayed an astounding speed.
+|- align="center" style="background:#00bc89"
+!{{Categories|Battle of Fate|
+!{{Categories|Battle of Fate|JP
+|Consists of characters whose participated in the climatic battle of their respective sagas.
+|- align="center" style="background:#00bc89"
+!{{Categories|Heavenly Events
+!{{Categories|Heavenly Events|JP
+|Consists of characters who have fought or trained on Kami's Lookout.
+|- align="center" style="background:#00bc89"
+!{{Categories|Special Pose
+!{{Categories|Special Pose|JP
+|Consists of characters boasting special fighting poses.
+|- align="center" style="background:#00bc89"
+!{{Categories|Worldwide Chaos|
+!{{Categories|Worldwide Chaos|JP
+|Consists of characters whose brought chaos and destruction on a global scale.
+|- align="center"
+|style="background:#dfdbdb" colspan="3"|'''Collaborations'''
+|- align="center" style="background:#3355aa"
+!{{Categories|Crossover
+!{{Categories|Crossover|JP
+|Consists of characters crossing over from various collaborations.
+|- align="center" style="background:#3355aa"
+!{{Categories|Dragon Ball Heroes
+!{{Categories|Dragon Ball Heroes|JP
+|Consists of "Dragon Ball Heroes" characters.
+|}
+|-|Alphabetical=
+{| style= "padding: 1px;background: #F7F7F7;border: 2px solid #414141;border-radius: 7px;-moz-border-radius: 7px;-webkit-border-radius: 7px; box-shadow:0 0 4px #414141;" border=2 width="100%" align="center"
+|- style="background:#dfdbdb"
+! style="width:5px"|A-Z
+![[File:Global server.png]] Global
+![[File:Japan server.png]] Japan
+!Description
+|- align="center"
+| style="width:40px"|A
+!{{Categories|Accelerated Battle|
+!{{Categories|Accelerated Battle|JP
+|Consists of characters that displayed an astounding speed.
+|- align="center"
+|A
+!{{Categories|All-Out Struggle
+!{{Categories|All-Out Struggle|JP
+|Consists of characters engaging in an all-out desperate struggle.
+|- align="center"
+|A
+!{{Categories|Androids
+!{{Categories|Androids|JP
+|Consists of mechanical and bio-mechanical beings.
+|- align="center"
+|A
+!{{Categories|Androids-Cell Saga
+!{{Categories|Androids-Cell Saga|JP
+|Consists of characters from both the Androids Saga and the Cell Saga.
+|- align="center"
+|A
+!{{Categories|Artificial Life Forms
+!{{Categories|Artificial Life Forms|JP
+|Consists of characters who have been artificially created.
+|- align="center"
+|B
+!{{Categories|Battle of Fate|
+!{{Categories|Battle of Fate|JP
+|Consists of characters whose participated in the climatic battle of their respective sagas.
+|- align="center"
+|B
+!{{Categories|Battle of Wits
+!{{Categories|Battle of Wits|JP
+|Consists of characters who fight by making great use of their intelligence.
+|- align="center"
+|B
+!{{Categories|Power Beyond Super Saiyan
+!{{Categories|Power Beyond Super Saiyan|JP
+|Consists of characters that surpassed Super Saiyan and attained a higher transformation.
+|- align="center"
+|B
+!{{Categories|Bond of Friendship|
+!{{Categories|Bond of Friendship|JP
+|Consists of characters that share a deep friendship with others.
+|- align="center"
+|B
+!{{Categories|Bond of Master and Disciple
+!{{Categories|Bond of Master and Disciple|JP
+|Consists of masters and students who share a bond with each other.
+|- align="center"
+|B
+!{{Categories|Bond of Parent and Child
+!{{Categories|Bond of Parent and Child|JP
+|Consists of parents and children who share a strong family bond with each other.
+|- align="center"
+|C
+!{{Categories|Connected Hope
+!{{Categories|Connected Hope|JP
+|Consists of characters who represented someone's last hope.
+|- align="center"
+|C
+!{{Categories|Corroded Body and Mind
+!{{Categories|Corroded Body and Mind|JP
+|Consists of characters whose minds and/or bodies have been afflicted by conditions such as possession or switching.
+|- align="center"
+|C
+!{{Categories|Crossover
+!{{Categories|Crossover|JP
+|Consists of characters crossing over from various collaborations.
+|- align="center"
+|D
+!{{Categories|DB Saga
+!{{Categories|DB Saga|JP
+|Consists of characters from Goku's childhood.
+|- align="center"
+|D
+!{{Categories|Defenders of Justice
+!{{Categories|Defenders of Justice|JP
+|Consists of characters who fight for justice.
+|- align="center"
+|D
+!{{Categories|Dragon Ball Heroes
+!{{Categories|Dragon Ball Heroes|JP
+|Consists of "Dragon Ball Heroes" characters.
+|- align="center"
+|D
+!{{Categories|Dragon Ball Seekers
+!{{Categories|Dragon Ball Seekers|JP
+|Consists of characters who wanted to find and collect the Dragon Balls.
+|- align="center"
+|E
+!{{Categories|Earthlings
+!{{Categories|Earthlings|JP
+|Consists of characters who are pure humans.
+|- align="center"
+|E
+!{{Categories|Entrusted Will|
+!{{Categories|Entrusted Will|JP
+|Consists of characters whose will has been entrusted by another person.
+|- align="center"
+|E
+!{{Categories|Exploding Rage
+!{{Categories|Exploding Rage|JP
+|Consists of characters who unleashed all of their anger.
+|- align="center"
+|F
+!{{Categories|Final Trump Card
+!{{Categories|Final Trump Card|JP
+|Consists of characters and techniques that were used as a last resort.
+|- align="center"
+|F
+!{{Categories|Full Power
+!{{Categories|Full Power|JP
+|Consists of characters unleashing their full power.
+|- align="center"
+|F
+!{{Categories|Fused Fighters
+!{{Categories|Fused Fighters|JP
+|Consists of characters who fused in any way.
+|- align="center"
+|F
+!{{Categories|Fusion
+!{{Categories|Fusion|JP
+|Consists of Fusion Dance and EX-Fusion characters.
+|- align="center"
+|F
+!{{Categories|Future Saga
+!{{Categories|Future Saga|JP
+|Consists of characters involved in the Dismal Future.
+|- align="center"
+|G
+!{{Categories|Giant Ape Power
+!{{Categories|Giant Ape Power|JP
+|Consists of characters with the power of Giant Apes.
+|- align="center"
+|G
+!{{Categories|Giant Form
+!{{Categories|Giant Form|JP
+|Consists of characters who transform into a Giant.
+|- align="center"
+|G
+!{{Categories|Gifted Warriors
+!{{Categories|Gifted Warriors|JP
+|Consists of warriors who can be considered prodigies.
+|- align="center"
+|G
+!{{Categories|Ginyu Force
+!{{Categories|Ginyu Force|JP
+|Consists of members of the Ginyu Force.
+|- align="center"
+|G
+!{{Categories|Goku's Family
+!{{Categories|Goku's Family|JP
+|Consists of characters related to Goku.
+|- align="center"
+|G
+!{{Categories|GT Bosses
+!{{Categories|GT Bosses|JP
+|Consists of major antagonists from Dragon Ball GT.
+|- align="center"
+|G
+!{{Categories|GT Heroes
+!{{Categories|GT Heroes|JP
+|Consists of major protagonists from Dragon Ball GT.
+|- align="center"
+|H
+!{{Categories|Heavenly Events
+!{{Categories|Heavenly Events|JP
+|Consists of characters who have fought or trained on Kami's Lookout.
+|- align="center"
+|H
+!{{Categories|Hybrid Saiyans
+!{{Categories|Hybrid Saiyans|JP
+|Consists of characters who are part Saiyan by birth.
+|- align="center"
+|I
+!{{Categories|Inhuman Deeds
+!{{Categories|Inhuman Deeds|JP
+|Consists of characters who have killed at least one of their allies.
+|- align="center"
+|J
+!{{Categories|Joined Forces
+!{{Categories|Joined Forces|JP
+|Consists of cards with multiple characters.
+|- align="center"
+|K
+!{{Categories|Kamehameha
+!{{Categories|Kamehameha|JP)
+|Consists of characters whose Super Attack has "Kamehameha" in its name.
+|- align="center"
+|L
+!{{Categories|Legendary Existence|
+!{{Categories|Legendary Existence|JP
+|Consists of characters or forms that were revered as legends.
+|- align="center"
+|L
+!{{Categories|Low-Class Warrior
+!{{Categories|Low-Class Warrior|JP
+|Consists of characters who are low-class Saiyans.
+|- align="center"
+|M
+!{{Categories|Majin Buu Saga
+!{{Categories|Majin Buu Saga|JP
+|Consists of characters from the Majin Buu Saga.
+|- align="center"
+|M
+!{{Categories|Majin Power
+!{{Categories|Majin Power|JP
+|Consists of characters possessing the powers of the Majin race.
+|- align="center"
+|M
+!{{Categories|Mastered Evolution
+!{{Categories|Mastered Evolution|JP
+|Consists of characters who obtained a new form through training.
+|- align="center"
+|M
+!{{Categories|Miraculous Awakening
+!{{Categories|Miraculous Awakening|JP
+|Consists of characters who awakened an incredible power due to critical circumstances.
+|- align="center"
+|M
+!{{Categories|Movie Bosses
+!{{Categories|Movie Bosses|JP
+|Consists of the main antagonists from the movies.
+|- align="center"
+|M
+!{{Categories|Movie Heroes
+!{{Categories|Movie Heroes|JP
+|Consists of the main protagonists from the movies.
+|- align="center"
+|N
+!{{Categories|Namekians
+!{{Categories|Namekians|JP
+|Consists of characters who are from the Namekian race.
+|- align="center"
+|O
+!{{Categories|Otherworld Warriors
+!{{Categories|Otherworld Warriors|JP
+|Consists of characters from the Otherworld.
+|- align="center"
+|P
+!{{Categories|Peppy Gals
+!{{Categories|Peppy Gals|JP
+|Consists of high-spirited female characters.
+|- align="center"
+|P
+!{{Categories|Planet Namek Saga
+!{{Categories|Planet Namek Saga|JP
+|Consists of characters from the Planet Namek Saga.
+|- align="center"
+|P
+!{{Categories|Planetary Destruction
+!{{Categories|Planetary Destruction|JP
+|Consists of characters responsible for the destruction of a planet or moon.
+|- align="center"
+|P
+!{{Categories|Potara
+!{{Categories|Potara|JP
+|Consists of characters who wear the Potara earrings.
+|- align="center"
+|P
+!{{Categories|Power Absorption
+!{{Categories|Power Absorption|JP
+|Consists of characters who have absorbed power from others.
+|- align="center"
+|P
+!{{Categories|Powerful Comeback
+!{{Categories|Powerful Comeback|JP
+|Consists of characters who returned to the heat of battle with even greater power than before.
+|- align="center"
+|P
+!{{Categories|Pure Saiyans
+!{{Categories|Pure Saiyans|JP
+|Consists of characters who are pure Saiyan by birth.
+|- align="center"
+|R
+!{{Categories|Rapid Growth
+!{{Categories|Rapid Growth|JP
+|Consists of characters who were able to rapidly grow as fighters.
+|- align="center"
+|R
+!{{Categories|Realm of Gods
+!{{Categories|Realm of Gods|JP
+|Consists of characters with the power of gods.
+|- align="center"
+|R
+!{{Categories|Representatives of Universe 7
+!{{Categories|Representatives of Universe 7|JP
+|Consists of Universe 7 fighters who participated in universal tournaments.
+|- align="center"
+|R
+!{{Categories|Resurrected Warriors
+!{{Categories|Resurrected Warriors|JP
+|Consists of characters that have been revived, in some way or another.
+|- align="center"
+|R
+!{{Categories|Revenge
+!{{Categories|Revenge|JP
+|Consists of characters who sought revenge.
+|- align="center"
+|S
+!{{Categories|Saiyan Saga
+!{{Categories|Saiyan Saga|JP
+|Consists of characters from the Saiyan Saga.
+|- align="center"
+|S
+!{{Categories|Saviors
+!{{Categories|Saviors|JP
+|Consists of characters who saved the day in a crucial moment.
+|- align="center"
+|S
+!{{Categories|Shadow Dragon Saga
+!{{Categories|Shadow Dragon Saga|JP
+|Consists of characters from the Shadow Dragon Saga.
+|- align="center"
+|S
+!{{Categories|Siblings' Bond
+!{{Categories|Siblings' Bond|JP
+|Consists of characters who have a bond with their siblings.
+|- align="center"
+|S
+!{{Categories|Space-Traveling Warriors
+!{{Categories|Space-Traveling Warriors|JP
+|Consists of warriors who have regularly traveled through outer space.
+|- align="center"
+|S
+!{{Categories|Special Pose
+!{{Categories|Special Pose|JP
+|Consists of characters boasting special fighting poses.
+|- align="center"
+|S
+!{{Categories|Storied Figures
+!{{Categories|Storied Figures|JP
+|Consists of warriors who died or were sealed in the past.
+|- align="center"
+|S
+!{{Categories|Super Saiyan 2
+!{{Categories|Super Saiyan 2|JP
+|Consists of characters who have achieved Super Saiyan 2.
+|- align="center"
+|S
+!{{Categories|Super Saiyan 3
+!{{Categories|Super Saiyan 3|JP
+|Consists of characters who have achieved Super Saiyan 3.
+|- align="center"
+|S
+!{{Categories|Super Saiyans
+!{{Categories|Super Saiyans|JP
+|Consists of Super Saiyan 1 characters.
+|- align="center"
+|S
+!{{Categories|Sworn Enemies|
+!{{Categories|Sworn Enemies|JP
+|Consists of characters that first appeared in ''Dragon Ball'' or ''Dragon Ball Z'' as main antagonists and never stopped being evil.
+|- align="center"
+|T
+!{{Categories|Target Goku
+!{{Categories|Target Goku|JP
+|Consists of characters whose main goal was to eliminate Goku.
+|- align="center"
+|T
+!{{Categories|Team Bardock
+!{{Categories|Team Bardock|JP
+|Consists of members of Team Bardock's crew.
+|- align="center"
+|T
+!{{Categories|Terrifying Conquerors
+!{{Categories|Terrifying Conquerors|JP
+|Consists of characters who seek to conquer through fear.
+|- align="center"
+|T
+!{{Categories|Time Limit
+!{{Categories|Time Limit|JP
+|Consists of characters restricted to a certain time limit.
+|- align="center"
+|T
+!{{Categories|Time Travelers
+!{{Categories|Time Travelers|JP
+|Consists of characters who traveled through time or were revived from the past.
+|- align="center"
+|T
+!{{Categories|Transformation Boost
+!{{Categories|Transformation Boost|JP
+|Consists of characters who reached a new form and cards that can transform in battle.
+|- align="center"
+|T
+!{{Categories|Turtle School
+!{{Categories|Turtle School|JP
+|Consists of members of the Turtle School.
+|- align="center"
+|U
+!{{Categories|Universe 6
+!{{Categories|Universe 6|JP
+|Consists of characters from Universe 6.
+|- align="center"
+|U
+!{{Categories|Universe 11
+!{{Categories|Universe 11|JP
+|Consists of characters from Universe 11.
+|- align="center"
+|U
+!{{Categories|Universe Survival Saga
+!{{Categories|Universe Survival Saga|JP
+|Consists of characters from the Universe Survival Saga.
+|- align="center"
+|V
+!{{Categories|Vegeta's Family
+!{{Categories|Vegeta's Family|JP
+|Consists of characters related to Vegeta.
+|- align="center"
+|W
+!{{Categories|Wicked Bloodline
+!{{Categories|Wicked Bloodline|JP
+|Consists of characters related to Frieza.
+|- align="center"
+|W
+!{{Categories|World Tournament
+!{{Categories|World Tournament|JP
+|Consists of characters who have participated in the World Tournament.
+|- align="center"
+|W
+!{{Categories|Worldwide Chaos|
+!{{Categories|Worldwide Chaos|JP
+|Consists of characters whose brought chaos and destruction on a global scale.
+|- align="center"
+|W
+!{{Categories|Worthy Rivals
+!{{Categories|Worthy Rivals|JP
+|Consists of characters who were once enemies but are now allies.
+|- align="center"
+|Y
+!{{Categories|Youth
+!{{Categories|Youth|JP
+|Consists of characters who are still kids.
+|}
+</tabber>
+----
+{| style= "padding: 1px;background: #F7F7F7;border: 2px solid #414141;border-radius: 7px;-moz-border-radius: 7px;-webkit-border-radius: 7px; box-shadow:0 0 4px #414141;" border=2 width="100%" align="center"
+|- style="background:#dfdbdb"
+!
+===Category Bonus===
+|-
+|
+*Building your team with characters in the same Category triggers Special Effects in certain stages or battles. The activated Special Effects differ between Categories.
+*Each member of a team contributes a percentage bonus chance according to their ''base'' rarity, which is unaffected by Z-Awakening the character to higher rarities.
+*If the total bonus is 100% then a bonus drop is guaranteed. Any percentage amount after 100% determines the chance of a second bonus drop.
+|}
+{| style= "padding: 1px;background: #F7F7F7;border: 2px solid #414141;border-radius: 7px;-moz-border-radius: 7px;-webkit-border-radius: 7px; box-shadow:0 0 4px #414141;" border=2 width="100%" align="center"
+|- style="background:#dfdbdb"
+!Base Rarity
+!Bonus %
+|-
+|[[File:N icon.png|25px|link=Category:N]]
+| +3%
+|-
+|[[File:R icon.png|25px|link=Category:R]]
+| +5%
+|-
+|[[File:SR icon.png|40px|link=Category:SR]]
+| +10%
+|-
+|[[File:SSR icon.png|45px|link=Category:SSR]]
+| +15%
+|-
+|[[File:UR icon.png|40px|link=Category:UR]]
+| +25%
+|-
+|{{ThumbLR|LR icon|45
+|
++35%
+|}
+<br />
+{| style="padding: 1px;background: #F7F7F7;border: 2px solid #414141;border-radius: 7px;-moz-border-radius: 7px;-webkit-border-radius: 7px; box-shadow:0 0 4px #414141;" border="2" width="100%" align="center"
+|- style="background:#dfdbdb"
+!Support Memory
+|-
+!Add an additional Bonus rewards Drop Rate at the start of the stage when using the Support Memory
+|}
+{| style= "padding: 1px;background: #F7F7F7;border: 2px solid #414141;border-radius: 7px;-moz-border-radius: 7px;-webkit-border-radius: 7px; box-shadow:0 0 4px #414141;" border=2 width="100%" align="center"
+|- style="background:#dfdbdb"
+! style="width:80px" |Icon
+! style="width:200px" |Name
+! style="width:50px" |Bonus%
+! style="width:50px" |Required Film
+|-
+![[File:Support memory large 10001.png|80px|link=Support Memory: Oolong's Wish]]
+!Oolong's Wish
+!+50%
+![[File:Support memory film original.png|50px]]<br>x70
+|-
+![[File:Support memory large 30003.png|80px|link=Support Memory: Bulla Is Shopping]]
+!Bulla Is Shopping
+!+85%
+![[File:Support memory film gt.png|50px]]<br>x120
+|}
+
+
+----
+{| style= "padding: 1px;background: #F7F7F7;border: 2px solid #414141;border-radius: 7px;-moz-border-radius: 7px;-webkit-border-radius: 7px; box-shadow:0 0 4px #414141;" border=2 width="100%" align="center"
+![[Ki Boost Category|All Characters with Category Leader Skills]]
+|[[File:Category tab.png|100px|centre|link=Ki Boost Category]]
+|}
+[[Category:Guide]]
+[[Category:Lists]]
+[[Category:Category]]

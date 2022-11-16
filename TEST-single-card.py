@@ -126,11 +126,13 @@ charTransformCond = []
 charTransformCondEza = []
 charLinkSkills = []
 charCategories = []
-charJPDate = ""
-charGLBDate = ""
-charJPDateEza = ""
-charGLBDateEza = ""
+charJPDate = []
+charGLBDate = []
+charJPDateEza = []
+charGLBDateEza = []
 extraSpace2 = '},\n'
+
+linkAPI = ''
 
 while myline:
     myline = test.readline()
@@ -152,6 +154,7 @@ while myline:
     if '|ID":' in myline:
         charID.append(myline.replace('|', '"').replace('ID', 'dokkan_id').replace(
             ': ', ': "', 1).replace('\n', '",\n'))
+        charAPI = myline.replace('|ID": ', '')
     if '|LS description":' in myline:
         charLS.append(myline.replace('|', '"').replace("LS description", "ls_description").replace(
             ': ', ': "', 1).replace('\n', '",\n'))
@@ -215,21 +218,22 @@ while myline:
     if '|Link skill":' in myline:
         charLinkSkills.append(myline.replace('|', '"').replace('Link skill', 'link_skill').replace(",", '","').replace(
             '" ', '"').replace(': ', ': ["', 1).replace('\n', '"],\n'))
+        linkAPI = myline.replace('|Link skill": ', '')
     if '|Category":' in myline:
         charCategories.append(myline.replace('|', '"').replace('Category', 'category').replace(",", '","').replace(
             '" ', '"').replace(': ', ': ["', 1).replace('\n', '"],\n'))
     if '|JPdate": ' in myline:
-        charJPDate = myline.replace('|', '"').replace('JPdate', 'jp_date').replace(
-            ': ', ': "', 1).replace('\n', '",\n')
+        charJPDate.append(myline.replace('|', '"').replace('JPdate', 'jp_date').replace(
+            ': ', ': "', 1).replace('\n', '",\n'))
     if '|GLBdate": ' in myline:
-        charGLBDate = myline.replace('|', '"').replace('GLBdate', 'glb_date').replace(
-            ': ', ': "', 1).replace('\n', '",\n')
+        charGLBDate.append(myline.replace('|', '"').replace('GLBdate', 'glb_date').replace(
+            ': ', ': "', 1).replace('\n', '",\n'))
     if '|JPdateEZA": ' in myline:
-        charJPDateEza = myline.replace('|', '"').replace('JPdateEZA', 'jp_date_eza').replace(
-            ': ', ': "', 1).replace('\n', '",\n')
+        charJPDateEza.append(myline.replace('|', '"').replace('JPdateEZA', 'jp_date_eza').replace(
+            ': ', ': "', 1).replace('\n', '",\n'))
     if '|GLBdateEZA": ' in myline:
-        charGLBDateEza = myline.replace('|', '"').replace('GLBdateEZA', 'glb_date_eza').replace(
-            ': ', ': "', 1).replace('\n', '"\n')
+        charGLBDateEza.append(myline.replace('|', '"').replace('GLBdateEZA', 'glb_date_eza').replace(
+            ': ', ': "', 1).replace('\n', '"\n'))
 
 if charName1 == []:
     charName1 = ['"title": null,\n']
@@ -290,14 +294,14 @@ if charLinkSkills == []:
     charLinkSkills = ['"link_skill": null,\n']
 if charCategories == []:
     charCategories = ['"category": null,\n']
-if charJPDate == "":
-    charJPDate = '"jp_date": null,\n'
-if charGLBDate == "":
-    charGLBDate = '"glb_date": null,\n'
-if charJPDateEza == "":
-    charJPDateEza = '"jp_date_eza": null,\n'
-if charGLBDateEza == "":
-    charGLBDateEza = '"glb_date_eza": null\n'
+if charJPDate == []:
+    charJPDate = ['"jp_date": null,\n']
+if charGLBDate == []:
+    charGLBDate = ['"glb_date": null,\n']
+if charJPDateEza == []:
+    charJPDateEza = ['"jp_date_eza": null,\n']
+if charGLBDateEza == []:
+    charGLBDateEza = ['"glb_date_eza": null\n']
 
 results = [extraSpace1, charSourceLink, charName1[0], charName2[0], charRarity[0], charType[0], charCost[0], charID[0], charLS[0], charLSEza[0], charSaType[0], charSaName[0], charSaDesc[0], charSaDescEza[0], charUltraName[0],
            charUltraDesc[0], charUltraDescEza[0], charPsName[0], charPsDesc[0], charPsDescEza[0], charASType[0], charASName[0], charAS[0], charASCond[0], charASCondEza[0], charTransformType[0], charTransformCond[0], charTransformCondEza[0], charLinkSkills[0], charCategories[0], charJPDate, charGLBDate, charJPDateEza, charGLBDateEza, extraSpace2]
@@ -319,5 +323,18 @@ if '"SSR"' in charRarity[0]:
 if '"ItemSSR"' in charRarity[0]:
     results = []
 
-with open('out.json', 'a', encoding="utf-8") as output:
-    output.writelines(results)
+# with open('out.json', 'a', encoding="utf-8") as output:
+#     output.writelines(results)
+
+print(linkAPI)
+categoryArr = linkAPI.split(',')
+print(categoryArr)
+categoryTEST = []
+for singleCategory in categoryArr:
+    categoryTEST.append('{\n')
+    categoryTEST.append('character_id: '+'"'+charAPI.replace('\n', '')+'"\n')
+    categoryTEST.append('category_id: '+'"'+singleCategory+'"')
+    categoryTEST.append('\n},\n')
+
+with open('out.json', 'w', encoding="utf-8") as output:
+    output.writelines(categoryTEST)
