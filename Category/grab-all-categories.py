@@ -54,7 +54,7 @@ for oneChar in allCategories:
         stringCatID = str(categoryID)
         seen.add(oneChar)
         finalCategories.append('{\n')
-        finalCategories.append('id: '+stringCatID+'\n')
+        finalCategories.append('id: '+stringCatID+',\n')
         finalCategories.append('name: '+'"'+oneChar.replace('\n', '')+'"')
         finalCategories.append('\n},\n')
 
