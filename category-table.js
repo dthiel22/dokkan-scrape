@@ -148,7 +148,7 @@ name: "Worthy Rivals"
 },
 {
 id: 38,
-name: "Androids-Cell Saga"
+name: "Androids/Cell Saga"
 },
 {
 id: 39,
@@ -168,7 +168,7 @@ name: "Dragon Ball Heroes"
 },
 {
 id: 43,
-name: "Target Goku"
+name: "Target: Goku"
 },
 {
 id: 44,

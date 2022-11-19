@@ -25,11 +25,10 @@ test = io.StringIO(textBoxEl)
 stringedScrape = textBoxEl.replace(
     '}}  ', '').replace('}} ', '').replace('}}', '').replace(' style="width:220px"|', '')
 
-with open('/Users/alexthiel/code/dokkan-scrape/Category/category-list.txt', 'w', encoding="utf-8") as output:
+with open('category-list.txt', 'w', encoding="utf-8") as output:
     output.writelines(stringedScrape)
 
-readFile = open(
-    "/Users/alexthiel/code/dokkan-scrape/Category/category-list.txt").readlines()
+readFile = open("category-list.txt").readlines()
 allCategories = []
 parsing = False
 for line in readFile:
@@ -59,5 +58,5 @@ for oneChar in allCategories:
         finalCategories.append('\n},\n')
 
 
-with open('/Users/alexthiel/code/dokkan-scrape/Category/API-category.js', 'w', encoding="utf-8") as categoryFile:
+with open('category-table.js', 'w', encoding="utf-8") as categoryFile:
     categoryFile.writelines(finalCategories)
